@@ -1,0 +1,2882 @@
+[
+  {
+    "id": "G18-001",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "☀️🧳✈️",
+    "alt": "شمس، حقيبة سفر، طائرة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "رحلة صيفية"
+      },
+      {
+        "id": "opt2",
+        "label": "اجتماع عمل"
+      },
+      {
+        "id": "opt3",
+        "label": "درس طيران"
+      },
+      {
+        "id": "opt4",
+        "label": "معرض حقائب"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "الفصل الحارّ",
+    "tags": ["رموز", "travel"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-002",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "🌊🏖️🕶️",
+    "alt": "موجة، شاطئ، نظّارة شمسية",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "سباق سباحة"
+      },
+      {
+        "id": "opt2",
+        "label": "يوم على الشاطئ"
+      },
+      {
+        "id": "opt3",
+        "label": "صيد سمك"
+      },
+      {
+        "id": "opt4",
+        "label": "رحلة غوص"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "شيء نفعله في الصيف قرب الماء والرمل",
+    "tags": ["رموز", "travel"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-003",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "⛰️🎒🥾",
+    "alt": "جبل، حقيبة ظهر، حذاء مشي",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "نزهة في الحديقة"
+      },
+      {
+        "id": "opt2",
+        "label": "تسوّق ملابس"
+      },
+      {
+        "id": "opt3",
+        "label": "تسلّق جبل"
+      },
+      {
+        "id": "opt4",
+        "label": "معسكر صيفي"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "نشاط للمغامرين في المرتفعات",
+    "tags": ["رموز", "travel"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-004",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "🚗🗺️🧭",
+    "alt": "سيارة، خريطة، بوصلة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "درس جغرافيا"
+      },
+      {
+        "id": "opt2",
+        "label": "شراء سيارة"
+      },
+      {
+        "id": "opt3",
+        "label": "زيارة متحف"
+      },
+      {
+        "id": "opt4",
+        "label": "رحلة برّية"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "الطريق طويل والوجهة مفتوحة",
+    "tags": ["رموز", "travel"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-005",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "🏨🔑🛏️",
+    "alt": "فندق، مفتاح، سرير",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "حجز فندق"
+      },
+      {
+        "id": "opt2",
+        "label": "شراء بيت"
+      },
+      {
+        "id": "opt3",
+        "label": "تنظيف غرفة"
+      },
+      {
+        "id": "opt4",
+        "label": "قيلولة الظهيرة"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "ما تؤمّنه قبل السفر لتضمن مكان نومك",
+    "tags": ["رموز", "travel"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-006",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "🎫🚆🧳",
+    "alt": "تذكرة، قطار، حقيبة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "حفل موسيقي"
+      },
+      {
+        "id": "opt2",
+        "label": "سفر بالقطار"
+      },
+      {
+        "id": "opt3",
+        "label": "متحف السكك"
+      },
+      {
+        "id": "opt4",
+        "label": "رحلة مدرسية"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "تنقّل على السكة الحديدية",
+    "tags": ["رموز", "travel"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-007",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "🐪🏜️⛺",
+    "alt": "جمل، صحراء، خيمة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "حديقة حيوان"
+      },
+      {
+        "id": "opt2",
+        "label": "رحلة بحرية"
+      },
+      {
+        "id": "opt3",
+        "label": "مخيّم في الصحراء"
+      },
+      {
+        "id": "opt4",
+        "label": "سوق شعبي"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "ليلة تحت النجوم بين الرمال",
+    "tags": ["رموز", "travel"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-008",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "🌴🥥🏝️",
+    "alt": "نخلة، جوز هند، جزيرة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "مزرعة تمور"
+      },
+      {
+        "id": "opt2",
+        "label": "عصير طازج"
+      },
+      {
+        "id": "opt3",
+        "label": "حديقة عامة"
+      },
+      {
+        "id": "opt4",
+        "label": "جزيرة استوائية"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "يابسة محاطة بالماء وفيها نخيل",
+    "tags": ["رموز", "travel"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-009",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "📸🗼🧳",
+    "alt": "كاميرا، برج، حقيبة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "جولة سياحية"
+      },
+      {
+        "id": "opt2",
+        "label": "دورة تصوير"
+      },
+      {
+        "id": "opt3",
+        "label": "بناء برج"
+      },
+      {
+        "id": "opt4",
+        "label": "معرض صور"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "ما يفعله الزائر في مدينة جديدة",
+    "tags": ["رموز", "travel"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-010",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "⛵🌊🧭",
+    "alt": "قارب شراعي، موجة، بوصلة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "سباق جري"
+      },
+      {
+        "id": "opt2",
+        "label": "رحلة بحرية"
+      },
+      {
+        "id": "opt3",
+        "label": "درس ملاحة"
+      },
+      {
+        "id": "opt4",
+        "label": "صيد بالشبكة"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "مغامرة فوق الماء بالشراع",
+    "tags": ["رموز", "travel"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-011",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "☕🥐🌅",
+    "alt": "قهوة، معجّنات، شروق",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "عشاء متأخر"
+      },
+      {
+        "id": "opt2",
+        "label": "استراحة عمل"
+      },
+      {
+        "id": "opt3",
+        "label": "فطور الصباح"
+      },
+      {
+        "id": "opt4",
+        "label": "حفل شاي"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "أول وجبة في اليوم",
+    "tags": ["رموز", "food"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-012",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "🍅🥒🥗",
+    "alt": "طماطم، خيار، طبق سلطة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "حساء ساخن"
+      },
+      {
+        "id": "opt2",
+        "label": "مخلّل بيتي"
+      },
+      {
+        "id": "opt3",
+        "label": "عصير خضار"
+      },
+      {
+        "id": "opt4",
+        "label": "سلطة خضراء"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "طبق بارد من الخضار النيئة",
+    "tags": ["رموز", "food"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-013",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "🔥🥩🍢",
+    "alt": "نار، لحم، أسياخ",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "شواء"
+      },
+      {
+        "id": "opt2",
+        "label": "طبخ بطيء"
+      },
+      {
+        "id": "opt3",
+        "label": "قلي سريع"
+      },
+      {
+        "id": "opt4",
+        "label": "سلق لحم"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "طهي على الجمر في الهواء الطلق",
+    "tags": ["رموز", "food"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-014",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "🍋🧊🥤",
+    "alt": "ليمون، ثلج، كوب",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "شاي ساخن"
+      },
+      {
+        "id": "opt2",
+        "label": "عصير ليمون بارد"
+      },
+      {
+        "id": "opt3",
+        "label": "حلوى مثلّجة"
+      },
+      {
+        "id": "opt4",
+        "label": "ماء معدني"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "مشروب حامض يبرّد أيام الحرّ",
+    "tags": ["رموز", "food"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-015",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "🌾🥖🔥",
+    "alt": "قمح، رغيف، فرن",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "حقل قمح"
+      },
+      {
+        "id": "opt2",
+        "label": "مطعم شعبي"
+      },
+      {
+        "id": "opt3",
+        "label": "خبز طازج"
+      },
+      {
+        "id": "opt4",
+        "label": "مزرعة دواجن"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "ما يخرج من الفرن ساخناً صباحاً",
+    "tags": ["رموز", "food"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-016",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "🍯🧈🥞",
+    "alt": "عسل، زبدة، فطائر",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "كعك الأعياد"
+      },
+      {
+        "id": "opt2",
+        "label": "خبز محمّص"
+      },
+      {
+        "id": "opt3",
+        "label": "مربّى مشمش"
+      },
+      {
+        "id": "opt4",
+        "label": "فطائر بالعسل"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "طبق فطور حلو المذاق",
+    "tags": ["رموز", "food"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-017",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "🥔🔥🍟",
+    "alt": "بطاطس، نار، أصابع مقلية",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "بطاطس مقلية"
+      },
+      {
+        "id": "opt2",
+        "label": "شوربة خضار"
+      },
+      {
+        "id": "opt3",
+        "label": "بطاطس مسلوقة"
+      },
+      {
+        "id": "opt4",
+        "label": "سلطة باردة"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "ما يرافق البرغر عادةً",
+    "tags": ["رموز", "food"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-018",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "☕🌙📖",
+    "alt": "قهوة، هلال، كتاب",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "فطور مبكر"
+      },
+      {
+        "id": "opt2",
+        "label": "قهوة المساء"
+      },
+      {
+        "id": "opt3",
+        "label": "درس ليلي"
+      },
+      {
+        "id": "opt4",
+        "label": "سهرة أصدقاء"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "مشروب منبّه بعد الغروب",
+    "tags": ["رموز", "food"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-019",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "🍉🧊🌞",
+    "alt": "بطيخ، ثلج، شمس",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "حديقة فواكه"
+      },
+      {
+        "id": "opt2",
+        "label": "سوق الخضار"
+      },
+      {
+        "id": "opt3",
+        "label": "بطيخ في الصيف"
+      },
+      {
+        "id": "opt4",
+        "label": "مشروب ساخن"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "فاكهة حمراء تُبرَّد في تموز",
+    "tags": ["رموز", "food"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-020",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "🧅🍲🥄",
+    "alt": "بصل، قدر، ملعقة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "سلطة مشكّلة"
+      },
+      {
+        "id": "opt2",
+        "label": "أرز أبيض"
+      },
+      {
+        "id": "opt3",
+        "label": "عصير طازج"
+      },
+      {
+        "id": "opt4",
+        "label": "شوربة"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "طبق ساخن يُؤكل بالملعقة",
+    "tags": ["رموز", "food"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-021",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "🐔🍚🧅",
+    "alt": "دجاج، أرز، بصل",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "أرز بالدجاج"
+      },
+      {
+        "id": "opt2",
+        "label": "سمك مشوي"
+      },
+      {
+        "id": "opt3",
+        "label": "معكرونة"
+      },
+      {
+        "id": "opt4",
+        "label": "خبز بالجبن"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "وجبة غداء شهيرة في البيوت",
+    "tags": ["رموز", "food"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-022",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "🥛🍚🍬",
+    "alt": "حليب، أرز، حلوى",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "شوربة عدس"
+      },
+      {
+        "id": "opt2",
+        "label": "أرز بالحليب"
+      },
+      {
+        "id": "opt3",
+        "label": "كيك الشوكولاتة"
+      },
+      {
+        "id": "opt4",
+        "label": "مهلبية بالفستق"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "حلوى باردة تُقدَّم في كأس",
+    "tags": ["رموز", "food"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-023",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "🫖🌿🍵",
+    "alt": "إبريق، نعناع، كوب شاي",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "قهوة مضبوطة"
+      },
+      {
+        "id": "opt2",
+        "label": "عصير أخضر"
+      },
+      {
+        "id": "opt3",
+        "label": "شاي بالنعناع"
+      },
+      {
+        "id": "opt4",
+        "label": "ماء بالليمون"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "مشروب ساخن برائحة عطرة",
+    "tags": ["رموز", "food"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-024",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "🐟🍋🔥",
+    "alt": "سمك، ليمون، نار",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "مقبّلات باردة"
+      },
+      {
+        "id": "opt2",
+        "label": "صيد بالسنّارة"
+      },
+      {
+        "id": "opt3",
+        "label": "حساء بحري"
+      },
+      {
+        "id": "opt4",
+        "label": "سمك مشوي"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "ما يُطهى بعد يوم عند الماء",
+    "tags": ["رموز", "food"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-025",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "🧹🧺🧼",
+    "alt": "مكنسة، سلّة غسيل، صابون",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "تنظيف البيت"
+      },
+      {
+        "id": "opt2",
+        "label": "تجديد المطبخ"
+      },
+      {
+        "id": "opt3",
+        "label": "ترتيب المكتب"
+      },
+      {
+        "id": "opt4",
+        "label": "غسيل السيارة"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "ما نفعله قبل وصول الضيوف",
+    "tags": ["رموز", "home"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-026",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "🛒📝🥬",
+    "alt": "عربة تسوّق، ورقة، خضار",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "طبخ العشاء"
+      },
+      {
+        "id": "opt2",
+        "label": "تسوّق البقالة"
+      },
+      {
+        "id": "opt3",
+        "label": "مزرعة صغيرة"
+      },
+      {
+        "id": "opt4",
+        "label": "قائمة أمنيات"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "زيارة أسبوعية للسوق بقائمة",
+    "tags": ["رموز", "home"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-027",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "🧺💧☀️",
+    "alt": "سلّة غسيل، ماء، شمس",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "سقاية الحديقة"
+      },
+      {
+        "id": "opt2",
+        "label": "يوم مشمس"
+      },
+      {
+        "id": "opt3",
+        "label": "غسيل الملابس"
+      },
+      {
+        "id": "opt4",
+        "label": "تنظيف النوافذ"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "مهمّة تنتهي على الحبل تحت الشمس",
+    "tags": ["رموز", "home"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-028",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "🔨🪑🔧",
+    "alt": "مطرقة، كرسي، مفتاح ربط",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "شراء أثاث"
+      },
+      {
+        "id": "opt2",
+        "label": "ورشة نجارة"
+      },
+      {
+        "id": "opt3",
+        "label": "بناء بيت"
+      },
+      {
+        "id": "opt4",
+        "label": "تصليح كرسي"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "استعمال العدّة على أثاث مكسور",
+    "tags": ["رموز", "home"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-029",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "🌱💧🪴",
+    "alt": "برعم، قطرة ماء، نبتة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "سقاية النباتات"
+      },
+      {
+        "id": "opt2",
+        "label": "زراعة حقل"
+      },
+      {
+        "id": "opt3",
+        "label": "تنظيف الشرفة"
+      },
+      {
+        "id": "opt4",
+        "label": "شراء زهور"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "عناية يومية بالأخضر في البيت",
+    "tags": ["رموز", "home"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-030",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "📚🛋️🤫",
+    "alt": "كتب، أريكة، إشارة صمت",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "درس جماعي"
+      },
+      {
+        "id": "opt2",
+        "label": "قراءة هادئة"
+      },
+      {
+        "id": "opt3",
+        "label": "مكتبة عامة"
+      },
+      {
+        "id": "opt4",
+        "label": "قيلولة قصيرة"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "وقت مع كتاب بلا ضجيج",
+    "tags": ["رموز", "home"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-031",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "🛏️🌙😴",
+    "alt": "سرير، هلال، وجه نائم",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "سهرة طويلة"
+      },
+      {
+        "id": "opt2",
+        "label": "استيقاظ مبكر"
+      },
+      {
+        "id": "opt3",
+        "label": "وقت النوم"
+      },
+      {
+        "id": "opt4",
+        "label": "حلم غريب"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "نهاية اليوم تحت الغطاء",
+    "tags": ["رموز", "home"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-032",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "⏰☀️🥱",
+    "alt": "منبّه، شمس، تثاؤب",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "نوم متأخر"
+      },
+      {
+        "id": "opt2",
+        "label": "استراحة الظهر"
+      },
+      {
+        "id": "opt3",
+        "label": "رحلة فجر"
+      },
+      {
+        "id": "opt4",
+        "label": "الاستيقاظ مبكراً"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "ما يحدث حين يرنّ المنبّه فجراً",
+    "tags": ["رموز", "home"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-033",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "🚿🧴🪥",
+    "alt": "دُش، شامبو، فرشاة أسنان",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "روتين الصباح"
+      },
+      {
+        "id": "opt2",
+        "label": "تنظيف الحمّام"
+      },
+      {
+        "id": "opt3",
+        "label": "زيارة الطبيب"
+      },
+      {
+        "id": "opt4",
+        "label": "تسوّق مستلزمات"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "خطوات ثابتة قبل الخروج من البيت",
+    "tags": ["رموز", "home"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-034",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "🕯️🍽️🌹",
+    "alt": "شمعة، طبق، وردة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "عيد ميلاد"
+      },
+      {
+        "id": "opt2",
+        "label": "عشاء رومانسي"
+      },
+      {
+        "id": "opt3",
+        "label": "افتتاح مطعم"
+      },
+      {
+        "id": "opt4",
+        "label": "حفل زفاف"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "موعد للاثنين على ضوء خافت",
+    "tags": ["رموز", "home"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-035",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "celebration",
+    "depth": "light",
+    "body": "🎂🕯️🎁",
+    "alt": "كعكة، شمعة، هدية",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "حفل تخرّج"
+      },
+      {
+        "id": "opt2",
+        "label": "عشاء عائلي"
+      },
+      {
+        "id": "opt3",
+        "label": "عيد ميلاد"
+      },
+      {
+        "id": "opt4",
+        "label": "زيارة مفاجئة"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "مناسبة سنوية بالشموع",
+    "tags": ["رموز", "celebration"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-036",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "celebration",
+    "depth": "light",
+    "body": "💍💐👰",
+    "alt": "خاتم، باقة، عروس",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "عيد ميلاد"
+      },
+      {
+        "id": "opt2",
+        "label": "خطبة رسمية"
+      },
+      {
+        "id": "opt3",
+        "label": "معرض أزياء"
+      },
+      {
+        "id": "opt4",
+        "label": "حفل زفاف"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "يوم ارتداء الأبيض والخاتم",
+    "tags": ["رموز", "celebration"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-037",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "celebration",
+    "depth": "light",
+    "body": "🎉🎈🥳",
+    "alt": "قصاصات، بالون، وجه محتفل",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "حفلة"
+      },
+      {
+        "id": "opt2",
+        "label": "اجتماع عمل"
+      },
+      {
+        "id": "opt3",
+        "label": "رحلة مدرسية"
+      },
+      {
+        "id": "opt4",
+        "label": "افتتاح متجر"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "تجمّع مرح بالبالونات",
+    "tags": ["رموز", "celebration"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-038",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "celebration",
+    "depth": "light",
+    "body": "🖼️📸👨‍👩‍👧",
+    "alt": "إطار، كاميرا، عائلة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "معرض فني"
+      },
+      {
+        "id": "opt2",
+        "label": "صورة عائلية"
+      },
+      {
+        "id": "opt3",
+        "label": "ألبوم سفر"
+      },
+      {
+        "id": "opt4",
+        "label": "درس تصوير"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "ذكرى تُعلَّق على الجدار",
+    "tags": ["رموز", "celebration"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-039",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "celebration",
+    "depth": "light",
+    "body": "✉️❤️📮",
+    "alt": "رسالة، قلب، صندوق بريد",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "طرد بريدي"
+      },
+      {
+        "id": "opt2",
+        "label": "دعوة عشاء"
+      },
+      {
+        "id": "opt3",
+        "label": "رسالة حب"
+      },
+      {
+        "id": "opt4",
+        "label": "بطاقة تهنئة"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "كلمات تُرسل بالبريد للحبيب",
+    "tags": ["رموز", "celebration"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-040",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "celebration",
+    "depth": "light",
+    "body": "🎁🎀🤫",
+    "alt": "هدية، شريطة، إشارة صمت",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "تغليف متجر"
+      },
+      {
+        "id": "opt2",
+        "label": "عيد ميلاد"
+      },
+      {
+        "id": "opt3",
+        "label": "سرّ عائلي"
+      },
+      {
+        "id": "opt4",
+        "label": "هدية مفاجئة"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "شيء مغلّف يُخبَّأ قبل تقديمه",
+    "tags": ["رموز", "celebration"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-041",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "celebration",
+    "depth": "light",
+    "body": "🎓📜👏",
+    "alt": "قبّعة تخرّج، شهادة، تصفيق",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "حفل تخرّج"
+      },
+      {
+        "id": "opt2",
+        "label": "مقابلة عمل"
+      },
+      {
+        "id": "opt3",
+        "label": "درس جامعي"
+      },
+      {
+        "id": "opt4",
+        "label": "توزيع جوائز"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "نهاية سنوات الدراسة",
+    "tags": ["رموز", "celebration"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-042",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "daily",
+    "depth": "light",
+    "body": "😴💤🛋️",
+    "alt": "وجه نائم، علامة نوم، أريكة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "مشاهدة فيلم"
+      },
+      {
+        "id": "opt2",
+        "label": "قيلولة"
+      },
+      {
+        "id": "opt3",
+        "label": "سهرة أصدقاء"
+      },
+      {
+        "id": "opt4",
+        "label": "قراءة رواية"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "نوم قصير بعد الظهر",
+    "tags": ["رموز", "daily"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-043",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "daily",
+    "depth": "light",
+    "body": "😂🤣📱",
+    "alt": "ضحك، ضحك شديد، هاتف",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "مكالمة عمل"
+      },
+      {
+        "id": "opt2",
+        "label": "لعبة هاتف"
+      },
+      {
+        "id": "opt3",
+        "label": "مقطع مضحك"
+      },
+      {
+        "id": "opt4",
+        "label": "رسالة صوتية"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "ما نشاركه ليضحك الطرف الآخر",
+    "tags": ["رموز", "daily"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-044",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "daily",
+    "depth": "light",
+    "body": "🎧🎵😊",
+    "alt": "سمّاعات، نوتة، ابتسامة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "درس موسيقى"
+      },
+      {
+        "id": "opt2",
+        "label": "حفل غنائي"
+      },
+      {
+        "id": "opt3",
+        "label": "بودكاست طويل"
+      },
+      {
+        "id": "opt4",
+        "label": "أغنية محبّبة"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "ما نكرّره في السمّاعات",
+    "tags": ["رموز", "daily"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-045",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "daily",
+    "depth": "light",
+    "body": "💻⌨️📊",
+    "alt": "حاسوب، لوحة مفاتيح، رسم بياني",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "عمل على الحاسوب"
+      },
+      {
+        "id": "opt2",
+        "label": "لعبة إلكترونية"
+      },
+      {
+        "id": "opt3",
+        "label": "درس برمجة"
+      },
+      {
+        "id": "opt4",
+        "label": "تصفّح الأخبار"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "ساعات أمام الشاشة",
+    "tags": ["رموز", "daily"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-046",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "daily",
+    "depth": "light",
+    "body": "📖✏️🕐",
+    "alt": "كتاب، قلم، ساعة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "قراءة قصة"
+      },
+      {
+        "id": "opt2",
+        "label": "مذاكرة"
+      },
+      {
+        "id": "opt3",
+        "label": "كتابة رسالة"
+      },
+      {
+        "id": "opt4",
+        "label": "جدول مواعيد"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "استعداد للامتحان",
+    "tags": ["رموز", "daily"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-047",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "daily",
+    "depth": "light",
+    "body": "🗓️📌⏰",
+    "alt": "تقويم، دبّوس، منبّه",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "عطلة نهاية الأسبوع"
+      },
+      {
+        "id": "opt2",
+        "label": "قائمة مهام"
+      },
+      {
+        "id": "opt3",
+        "label": "موعد مهم"
+      },
+      {
+        "id": "opt4",
+        "label": "رحلة مخطّطة"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "شيء لا يجب نسيانه في التقويم",
+    "tags": ["رموز", "daily"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-048",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "daily",
+    "depth": "light",
+    "body": "💼🚗🌆",
+    "alt": "حقيبة عمل، سيارة، مدينة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "رحلة تسوّق"
+      },
+      {
+        "id": "opt2",
+        "label": "زيارة أقارب"
+      },
+      {
+        "id": "opt3",
+        "label": "نزهة مسائية"
+      },
+      {
+        "id": "opt4",
+        "label": "الذهاب إلى العمل"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "طريق الصباح المعتاد",
+    "tags": ["رموز", "daily"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-049",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "daily",
+    "depth": "light",
+    "body": "📞💬🗣️",
+    "alt": "هاتف، فقاعة كلام، متحدّث",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "مكالمة طويلة"
+      },
+      {
+        "id": "opt2",
+        "label": "اجتماع مصوّر"
+      },
+      {
+        "id": "opt3",
+        "label": "رسالة نصية"
+      },
+      {
+        "id": "opt4",
+        "label": "محاضرة عامة"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "حديث بالهاتف لا ينتهي",
+    "tags": ["رموز", "daily"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-050",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "daily",
+    "depth": "light",
+    "body": "🖊️📓💭",
+    "alt": "قلم، مفكّرة، فكرة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "قائمة تسوّق"
+      },
+      {
+        "id": "opt2",
+        "label": "كتابة اليوميات"
+      },
+      {
+        "id": "opt3",
+        "label": "واجب مدرسي"
+      },
+      {
+        "id": "opt4",
+        "label": "خطة سفر"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "تدوين ما حدث اليوم",
+    "tags": ["رموز", "daily"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-051",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "daily",
+    "depth": "light",
+    "body": "🔍🗂️📁",
+    "alt": "عدسة، ملفات، مجلّد",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "ترتيب المكتبة"
+      },
+      {
+        "id": "opt2",
+        "label": "تحقيق صحفي"
+      },
+      {
+        "id": "opt3",
+        "label": "البحث عن ملف"
+      },
+      {
+        "id": "opt4",
+        "label": "أرشيف صور"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "التفتيش داخل المجلّدات",
+    "tags": ["رموز", "daily"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-052",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "daily",
+    "depth": "light",
+    "body": "🧑‍🍳👩‍🍳🍳",
+    "alt": "طاهٍ، طاهية، مقلاة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "مطعم جديد"
+      },
+      {
+        "id": "opt2",
+        "label": "دورة طبخ"
+      },
+      {
+        "id": "opt3",
+        "label": "برنامج تلفزيوني"
+      },
+      {
+        "id": "opt4",
+        "label": "الطبخ معاً"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "نشاط ثنائي في المطبخ",
+    "tags": ["رموز", "daily"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-053",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "sport",
+    "depth": "light",
+    "body": "⚽🥅👟",
+    "alt": "كرة، مرمى، حذاء",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "مباراة كرة قدم"
+      },
+      {
+        "id": "opt2",
+        "label": "حصّة رياضة"
+      },
+      {
+        "id": "opt3",
+        "label": "سباق جري"
+      },
+      {
+        "id": "opt4",
+        "label": "لعبة كرة سلة"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "لعبة الملعب الأشهر",
+    "tags": ["رموز", "sport"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-054",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "sport",
+    "depth": "light",
+    "body": "🚴💨🛣️",
+    "alt": "دراجة، سرعة، طريق",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "سباق سيارات"
+      },
+      {
+        "id": "opt2",
+        "label": "ركوب الدراجة"
+      },
+      {
+        "id": "opt3",
+        "label": "مشي طويل"
+      },
+      {
+        "id": "opt4",
+        "label": "تزلّج"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "تنقّل على عجلتين",
+    "tags": ["رموز", "sport"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-055",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "sport",
+    "depth": "light",
+    "body": "🏊🌊🥽",
+    "alt": "سبّاح، موجة، نظّارة سباحة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "غوص عميق"
+      },
+      {
+        "id": "opt2",
+        "label": "قارب صغير"
+      },
+      {
+        "id": "opt3",
+        "label": "السباحة"
+      },
+      {
+        "id": "opt4",
+        "label": "لعب بالماء"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "رياضة داخل الماء",
+    "tags": ["رموز", "sport"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-056",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "sport",
+    "depth": "light",
+    "body": "🏃⏱️👟",
+    "alt": "عدّاء، ساعة إيقاف، حذاء",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "مشي هادئ"
+      },
+      {
+        "id": "opt2",
+        "label": "قفز حبل"
+      },
+      {
+        "id": "opt3",
+        "label": "درس رياضة"
+      },
+      {
+        "id": "opt4",
+        "label": "الجري"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "رياضة بالحذاء وساعة الوقت",
+    "tags": ["رموز", "sport"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-057",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "sport",
+    "depth": "light",
+    "body": "🧘🕯️🌿",
+    "alt": "جلسة تأمّل، شمعة، ورقة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "استرخاء"
+      },
+      {
+        "id": "opt2",
+        "label": "تمرين قوة"
+      },
+      {
+        "id": "opt3",
+        "label": "درس يوغا جماعي"
+      },
+      {
+        "id": "opt4",
+        "label": "جلسة تدليك"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "هدوء وتنفّس عميق",
+    "tags": ["رموز", "sport"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-058",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "sport",
+    "depth": "light",
+    "body": "🏓🏆🙌",
+    "alt": "كرة طاولة، كأس، تصفيق",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "بطولة عالمية"
+      },
+      {
+        "id": "opt2",
+        "label": "مباراة ودّية"
+      },
+      {
+        "id": "opt3",
+        "label": "درس تنس"
+      },
+      {
+        "id": "opt4",
+        "label": "معرض رياضي"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "منافسة خفيفة بلا جدّية",
+    "tags": ["رموز", "sport"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-059",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "sport",
+    "depth": "light",
+    "body": "🎣🐟🚤",
+    "alt": "سنّارة، سمكة، قارب",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "رحلة بحرية"
+      },
+      {
+        "id": "opt2",
+        "label": "مطعم بحري"
+      },
+      {
+        "id": "opt3",
+        "label": "صيد السمك"
+      },
+      {
+        "id": "opt4",
+        "label": "حوض أسماك"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "هواية تحتاج صبراً عند الماء",
+    "tags": ["رموز", "sport"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-060",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "sport",
+    "depth": "light",
+    "body": "⛺🔥🌲",
+    "alt": "خيمة، نار، شجرة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "نزهة قصيرة"
+      },
+      {
+        "id": "opt2",
+        "label": "حديقة عامة"
+      },
+      {
+        "id": "opt3",
+        "label": "رحلة صحراوية"
+      },
+      {
+        "id": "opt4",
+        "label": "تخييم في الغابة"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "ليلة بين الأشجار حول النار",
+    "tags": ["رموز", "sport"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-061",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "sport",
+    "depth": "light",
+    "body": "🌅👟🚶",
+    "alt": "شروق، حذاء، ماشٍ",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "مشي الصباح"
+      },
+      {
+        "id": "opt2",
+        "label": "جري مسائي"
+      },
+      {
+        "id": "opt3",
+        "label": "رحلة تسوّق"
+      },
+      {
+        "id": "opt4",
+        "label": "سباق ماراثون"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "خطوات مع أول ضوء",
+    "tags": ["رموز", "sport"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-062",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "nature",
+    "depth": "light",
+    "body": "🐈🧶🛋️",
+    "alt": "قطة، كبّة خيط، أريكة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "حياكة صوف"
+      },
+      {
+        "id": "opt2",
+        "label": "قطة تلعب"
+      },
+      {
+        "id": "opt3",
+        "label": "تنظيف الأريكة"
+      },
+      {
+        "id": "opt4",
+        "label": "متجر حيوانات"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "حيوان أليف مع كبّة خيط",
+    "tags": ["رموز", "nature"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-063",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "nature",
+    "depth": "light",
+    "body": "🐦🌳🎶",
+    "alt": "عصفور، شجرة، نغمة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "حفل موسيقي"
+      },
+      {
+        "id": "opt2",
+        "label": "زراعة شجرة"
+      },
+      {
+        "id": "opt3",
+        "label": "تغريد العصافير"
+      },
+      {
+        "id": "opt4",
+        "label": "حديقة حيوان"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "أصوات الصباح فوق الأشجار",
+    "tags": ["رموز", "nature"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-064",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "nature",
+    "depth": "light",
+    "body": "🌧️🌈☀️",
+    "alt": "مطر، قوس، شمس",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "عاصفة قوية"
+      },
+      {
+        "id": "opt2",
+        "label": "يوم مشمس"
+      },
+      {
+        "id": "opt3",
+        "label": "شروق الشمس"
+      },
+      {
+        "id": "opt4",
+        "label": "قوس قزح"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "ألوان تظهر بعد المطر",
+    "tags": ["رموز", "nature"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-065",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "nature",
+    "depth": "light",
+    "body": "🐝🌼🍯",
+    "alt": "نحلة، زهرة، عسل",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "نحل العسل"
+      },
+      {
+        "id": "opt2",
+        "label": "حديقة زهور"
+      },
+      {
+        "id": "opt3",
+        "label": "حلوى بالعسل"
+      },
+      {
+        "id": "opt4",
+        "label": "مزرعة فراولة"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "حشرة مجتهدة بين الزهور",
+    "tags": ["رموز", "nature"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-066",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "nature",
+    "depth": "light",
+    "body": "🌵🏜️🌞",
+    "alt": "صبّار، صحراء، شمس",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "واحة خضراء"
+      },
+      {
+        "id": "opt2",
+        "label": "صحراء حارّة"
+      },
+      {
+        "id": "opt3",
+        "label": "نبتة منزلية"
+      },
+      {
+        "id": "opt4",
+        "label": "شاطئ رملي"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "مكان جافّ بلا ماء",
+    "tags": ["رموز", "nature"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-067",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "nature",
+    "depth": "light",
+    "body": "🦋🌸🌿",
+    "alt": "فراشة، زهرة، ورقة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "مشتل نباتات"
+      },
+      {
+        "id": "opt2",
+        "label": "متحف حشرات"
+      },
+      {
+        "id": "opt3",
+        "label": "فراشة في الحديقة"
+      },
+      {
+        "id": "opt4",
+        "label": "باقة ورد"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "جناحان ملوّنان بين الزهور",
+    "tags": ["رموز", "nature"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-068",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "nature",
+    "depth": "light",
+    "body": "🐠🫧🐟",
+    "alt": "سمكة ملوّنة، فقاعات، سمكة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "غوص في البحر"
+      },
+      {
+        "id": "opt2",
+        "label": "سوق السمك"
+      },
+      {
+        "id": "opt3",
+        "label": "شاطئ هادئ"
+      },
+      {
+        "id": "opt4",
+        "label": "حوض أسماك"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "زينة زجاجية مليئة بالماء",
+    "tags": ["رموز", "nature"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-069",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "nature",
+    "depth": "light",
+    "body": "🌊🐚🏝️",
+    "alt": "موجة، صدفة، جزيرة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "جمع الأصداف"
+      },
+      {
+        "id": "opt2",
+        "label": "سباحة طويلة"
+      },
+      {
+        "id": "opt3",
+        "label": "بناء قلعة رمل"
+      },
+      {
+        "id": "opt4",
+        "label": "رحلة قارب"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "هواية على رمل البحر",
+    "tags": ["رموز", "nature"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-070",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "nature",
+    "depth": "light",
+    "body": "🌙🦉🌲",
+    "alt": "هلال، بومة، شجرة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "نزهة نهارية"
+      },
+      {
+        "id": "opt2",
+        "label": "ليل في الغابة"
+      },
+      {
+        "id": "opt3",
+        "label": "حديقة حيوان"
+      },
+      {
+        "id": "opt4",
+        "label": "تخييم صحراوي"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "ظلام بين الأشجار مع البومة",
+    "tags": ["رموز", "nature"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-071",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "nature",
+    "depth": "light",
+    "body": "❄️⛄🧤",
+    "alt": "ندفة ثلج، رجل ثلج، قفّاز",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "مطر غزير"
+      },
+      {
+        "id": "opt2",
+        "label": "رياح باردة"
+      },
+      {
+        "id": "opt3",
+        "label": "يوم ثلجي"
+      },
+      {
+        "id": "opt4",
+        "label": "صباح ضبابي"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "طقس أبيض يحتاج قفّازات",
+    "tags": ["رموز", "nature"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-072",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "weather",
+    "depth": "light",
+    "body": "🧊❄️🥶",
+    "alt": "مكعّب ثلج، ندفة، وجه بارد",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "مشروب مثلّج"
+      },
+      {
+        "id": "opt2",
+        "label": "ثلاجة معطّلة"
+      },
+      {
+        "id": "opt3",
+        "label": "رحلة شتوية"
+      },
+      {
+        "id": "opt4",
+        "label": "طقس بارد"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "حين تحتاج معطفاً سميكاً",
+    "tags": ["رموز", "weather"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-073",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "weather",
+    "depth": "light",
+    "body": "☔🌧️🌂",
+    "alt": "مظلّة، مطر، مظلّة مطوية",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "يوم ممطر"
+      },
+      {
+        "id": "opt2",
+        "label": "يوم غائم"
+      },
+      {
+        "id": "opt3",
+        "label": "عاصفة رعدية"
+      },
+      {
+        "id": "opt4",
+        "label": "رذاذ خفيف"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "طقس يحتاج مظلّة",
+    "tags": ["رموز", "weather"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-074",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "weather",
+    "depth": "light",
+    "body": "🌬️🍂🍁",
+    "alt": "رياح، ورقة يابسة، ورقة خريف",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "فصل الربيع"
+      },
+      {
+        "id": "opt2",
+        "label": "فصل الخريف"
+      },
+      {
+        "id": "opt3",
+        "label": "عاصفة رملية"
+      },
+      {
+        "id": "opt4",
+        "label": "حديقة مهملة"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "موسم تساقط الأوراق",
+    "tags": ["رموز", "weather"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-075",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "weather",
+    "depth": "light",
+    "body": "🌸🐝🌷",
+    "alt": "زهرة، نحلة، خزامى",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "فصل الصيف"
+      },
+      {
+        "id": "opt2",
+        "label": "سوق الزهور"
+      },
+      {
+        "id": "opt3",
+        "label": "فصل الربيع"
+      },
+      {
+        "id": "opt4",
+        "label": "حديقة منزلية"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "موسم تفتّح الزهور",
+    "tags": ["رموز", "weather"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-076",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "weather",
+    "depth": "light",
+    "body": "🌡️🔥🥵",
+    "alt": "ميزان حرارة، نار، وجه حارّ",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "حمّى خفيفة"
+      },
+      {
+        "id": "opt2",
+        "label": "طبخ على النار"
+      },
+      {
+        "id": "opt3",
+        "label": "صيف معتدل"
+      },
+      {
+        "id": "opt4",
+        "label": "موجة حرّ"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "أيام لا يُطاق فيها الخروج ظهراً",
+    "tags": ["رموز", "weather"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-077",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "weather",
+    "depth": "light",
+    "body": "🌙⭐🌌",
+    "alt": "هلال، نجمة، مجرّة",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "ليلة صافية"
+      },
+      {
+        "id": "opt2",
+        "label": "غروب ملوّن"
+      },
+      {
+        "id": "opt3",
+        "label": "عاصفة ليلية"
+      },
+      {
+        "id": "opt4",
+        "label": "شروق مبكر"
+      }
+    ],
+    "answer": "opt1",
+    "hint": "سماء بلا غيوم بعد الغروب",
+    "tags": ["رموز", "weather"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-078",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "weather",
+    "depth": "light",
+    "body": "⛈️⚡🏠",
+    "alt": "غيمة عاصفة، برق، بيت",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "انقطاع كهرباء"
+      },
+      {
+        "id": "opt2",
+        "label": "عاصفة رعدية"
+      },
+      {
+        "id": "opt3",
+        "label": "ليلة هادئة"
+      },
+      {
+        "id": "opt4",
+        "label": "مطر خفيف"
+      }
+    ],
+    "answer": "opt2",
+    "hint": "طقس مخيف بالصوت والضوء",
+    "tags": ["رموز", "weather"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-079",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "weather",
+    "depth": "light",
+    "body": "🌫️🚗🐌",
+    "alt": "ضباب، سيارة، حلزون",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "زحمة مرور"
+      },
+      {
+        "id": "opt2",
+        "label": "رحلة ليلية"
+      },
+      {
+        "id": "opt3",
+        "label": "قيادة بطيئة في الضباب"
+      },
+      {
+        "id": "opt4",
+        "label": "سباق سيارات"
+      }
+    ],
+    "answer": "opt3",
+    "hint": "الرؤية ضعيفة",
+    "tags": ["رموز", "weather"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G18-080",
+    "gameId": "G18",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "daily",
+    "depth": "light",
+    "body": "🗝️📦❓",
+    "alt": "مفتاح قديم، صندوق، علامة استفهام",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "مخزن قديم"
+      },
+      {
+        "id": "opt2",
+        "label": "لعبة ألغاز"
+      },
+      {
+        "id": "opt3",
+        "label": "متجر تحف"
+      },
+      {
+        "id": "opt4",
+        "label": "صندوق أسرار"
+      }
+    ],
+    "answer": "opt4",
+    "hint": "شيء مغلق يخفي شيئاً",
+    "tags": ["رموز", "daily"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05"
+  }
+]

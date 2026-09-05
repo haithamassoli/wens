@@ -17,8 +17,10 @@ import {
   hasActiveFilters,
   MINUTE_FORMS,
   pickRandom,
+  visibleGames,
 } from "@/lib/filters";
 import { GAMES, MOOD_LABEL, type Mood } from "@/lib/games";
+import { useSettings } from "@/lib/storage";
 
 const MOODS = Object.keys(MOOD_LABEL) as Mood[];
 
@@ -49,10 +51,12 @@ function DeckHero() {
 export function HomeScreen() {
   const router = useRouter();
   const [filters, setFilters] = useState<GameFilters>(EMPTY_FILTERS);
-  const shown = filterGames(GAMES, filters);
+  const { settings } = useSettings();
+  const all = visibleGames(GAMES, settings.showReligious);
+  const shown = filterGames(all, filters);
 
   const surprise = () => {
-    const pool = shown.length > 0 ? shown : GAMES;
+    const pool = shown.length > 0 ? shown : all;
     const game = pickRandom(pool);
     if (game) router.push(`/games/${game.slug}`);
   };

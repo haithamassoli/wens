@@ -62,6 +62,13 @@ export function SettingsScreen() {
             onChange={(v) => update({ trackSeen: v })}
             disabled={!hydrated}
           />
+          <Toggle
+            label="إظهار الأنشطة الدينية"
+            description="يُظهر مسابقة المعرفة الدينية في القائمة. لا نسجّل أيّ عبادة ولا نرسل تذكيرات."
+            checked={settings.showReligious}
+            onChange={(v) => update({ showReligious: v })}
+            disabled={!hydrated}
+          />
         </div>
       </section>
 
@@ -79,8 +86,9 @@ export function SettingsScreen() {
               هل تريدان مسح بيانات هذا الجهاز؟
             </legend>
             <p className="text-ink-soft">
-              سيُزيل هذا المفضّلة والإعدادات وسجل البطاقات المعروضة من هذا المتصفح فقط. لا يؤثّر على
-              مواقع أخرى، ولا يوجد لدينا نسخة لنستعيدها.
+              سيُزيل هذا المفضّلة والإعدادات وسجل البطاقات المعروضة، وكلّ ما حفظتماه داخل الأنشطة
+              (الخطط والأمنيات والذكريات والرسائل والألبوم) من هذا المتصفح فقط. لا يؤثّر على مواقع
+              أخرى، ولا يوجد لدينا نسخة لنستعيدها.
             </p>
             <div className="flex gap-2">
               <Button variant="danger" onClick={onClearAll} className="flex-1">

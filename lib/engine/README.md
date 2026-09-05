@@ -39,3 +39,13 @@ Tests: `node --test lib/engine/*.test.ts` (Node 26 strips types natively; no run
   exhausted pool sets the flag and waits — filters are never relaxed; `RESET_POOL`/`RESHUFFLE` clear `shown`).
 - `index.ts` exports everything plus `DEFINITIONS` keyed by `GameId`.
 - Tests use inline fixtures (`fixtures.ts`) and never read `content/*.json`.
+
+## R1+ games (G05–G36)
+
+- One engine file per game as above; `stub.ts` is the placeholder for games not yet built.
+- Generic events (`INPUT`, `SET`, `UNDO`, `REVEAL`, `HINT`, `CORRECT`, `WRONG`, `REPLACE`) and
+  phases (`private_view`, `input`, `playing`, `review`) cover most new games; add a new one only
+  when none fits.
+- Local persistence for list/album style games goes through `useGameData(gameId, fallback, name?)`
+  in `lib/storage.ts` (keys `game_<id>_<name>_v1`, cleared by "clear all"). Store only what the
+  ideas doc allows: titles, states, dates, text the user explicitly saved — never round answers.

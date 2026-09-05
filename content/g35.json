@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "G35-001",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "في أي مدينة وُلد النبي محمد ﷺ؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "المدينة"
+      },
+      {
+        "id": "b",
+        "label": "مكة"
+      },
+      {
+        "id": "c",
+        "label": "جدة"
+      },
+      {
+        "id": "d",
+        "label": "الطائف"
+      }
+    ],
+    "answer": "b",
+    "explanation": "وُلد النبي ﷺ في مكة في عام الفيل.",
+    "source": "السيرة النبوية لابن هشام، باب مولد رسول الله ﷺ"
+  },
+  {
+    "id": "G35-002",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "ما اسم والدة النبي ﷺ؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "فاطمة بنت أسد"
+      },
+      {
+        "id": "b",
+        "label": "أم أيمن"
+      },
+      {
+        "id": "c",
+        "label": "آمنة بنت وهب"
+      },
+      {
+        "id": "d",
+        "label": "حليمة السعدية"
+      }
+    ],
+    "answer": "c",
+    "explanation": "والدة النبي ﷺ هي آمنة بنت وهب، وتوفّيت وهو صغير.",
+    "source": "السيرة النبوية لابن هشام، باب نسب رسول الله ﷺ ومولده"
+  },
+  {
+    "id": "G35-003",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "من مرضعة النبي ﷺ في بادية بني سعد؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "فاطمة بنت أسد"
+      },
+      {
+        "id": "b",
+        "label": "الشيماء"
+      },
+      {
+        "id": "c",
+        "label": "أم أيمن"
+      },
+      {
+        "id": "d",
+        "label": "حليمة السعدية"
+      }
+    ],
+    "answer": "d",
+    "explanation": "أرضعت حليمة السعدية النبي ﷺ في بادية بني سعد كما كانت عادة قريش.",
+    "source": "السيرة النبوية لابن هشام، باب رضاعه ﷺ في بني سعد"
+  },
+  {
+    "id": "G35-004",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "من كفل النبي ﷺ بعد وفاة جدّه عبد المطلب؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "عمّه أبو طالب"
+      },
+      {
+        "id": "b",
+        "label": "عمّه حمزة"
+      },
+      {
+        "id": "c",
+        "label": "عمّه العباس"
+      },
+      {
+        "id": "d",
+        "label": "خاله"
+      }
+    ],
+    "answer": "a",
+    "explanation": "بعد وفاة عبد المطلب كفل أبو طالب ابن أخيه محمداً ﷺ ورعاه.",
+    "source": "السيرة النبوية لابن هشام، باب كفالة أبي طالب لرسول الله ﷺ"
+  },
+  {
+    "id": "G35-005",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "من أول زوجات النبي ﷺ؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "عائشة بنت أبي بكر"
+      },
+      {
+        "id": "b",
+        "label": "خديجة بنت خويلد"
+      },
+      {
+        "id": "c",
+        "label": "سودة بنت زمعة"
+      },
+      {
+        "id": "d",
+        "label": "حفصة بنت عمر"
+      }
+    ],
+    "answer": "b",
+    "explanation": "تزوّج النبي ﷺ خديجة بنت خويلد قبل البعثة، ولم يتزوّج غيرها حتى وفاتها.",
+    "source": "السيرة النبوية لابن هشام، باب تزويج رسول الله ﷺ خديجة"
+  },
+  {
+    "id": "G35-006",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "في أي غار نزل الوحي على النبي ﷺ أول مرة؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "جبل أحد"
+      },
+      {
+        "id": "b",
+        "label": "جبل الطور"
+      },
+      {
+        "id": "c",
+        "label": "غار حراء"
+      },
+      {
+        "id": "d",
+        "label": "غار ثور"
+      }
+    ],
+    "answer": "c",
+    "explanation": "كان النبي ﷺ يتعبّد في غار حراء حين جاءه الملك بأول الوحي.",
+    "source": "صحيح البخاري، كتاب بدء الوحي، حديث رقم ٣"
+  },
+  {
+    "id": "G35-007",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "كم كان عمر النبي ﷺ حين نزل عليه الوحي؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "خمسون سنة"
+      },
+      {
+        "id": "b",
+        "label": "خمس وعشرون سنة"
+      },
+      {
+        "id": "c",
+        "label": "ثلاثون سنة"
+      },
+      {
+        "id": "d",
+        "label": "أربعون سنة"
+      }
+    ],
+    "answer": "d",
+    "explanation": "نزل الوحي على النبي ﷺ وهو ابن أربعين سنة.",
+    "source": "صحيح البخاري، كتاب مناقب الأنصار، باب مبعث النبي ﷺ، حديث رقم ٣٨٥١"
+  },
+  {
+    "id": "G35-008",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "كم سنة أقام النبي ﷺ في مكة بعد البعثة قبل الهجرة؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "ثلاث عشرة سنة"
+      },
+      {
+        "id": "b",
+        "label": "ثلاث سنوات"
+      },
+      {
+        "id": "c",
+        "label": "عشرون سنة"
+      },
+      {
+        "id": "d",
+        "label": "سنة واحدة"
+      }
+    ],
+    "answer": "a",
+    "explanation": "أقام النبي ﷺ في مكة ثلاث عشرة سنة بعد البعثة ثم هاجر إلى المدينة.",
+    "source": "صحيح البخاري، كتاب مناقب الأنصار، باب مبعث النبي ﷺ، حديث رقم ٣٨٥١"
+  },
+  {
+    "id": "G35-009",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "إلى أي بلد كانت أول هجرة للمسلمين؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "الشام"
+      },
+      {
+        "id": "b",
+        "label": "الحبشة"
+      },
+      {
+        "id": "c",
+        "label": "الطائف"
+      },
+      {
+        "id": "d",
+        "label": "اليمن"
+      }
+    ],
+    "answer": "b",
+    "explanation": "هاجرت مجموعة من الصحابة إلى الحبشة فراراً بدينهم قبل الهجرة إلى المدينة.",
+    "source": "السيرة النبوية لابن هشام، باب الهجرة الأولى إلى الحبشة"
+  },
+  {
+    "id": "G35-010",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "من رافق النبي ﷺ في هجرته إلى المدينة؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "عثمان بن عفان"
+      },
+      {
+        "id": "b",
+        "label": "بلال بن رباح"
+      },
+      {
+        "id": "c",
+        "label": "أبو بكر الصديق"
+      },
+      {
+        "id": "d",
+        "label": "عمر بن الخطاب"
+      }
+    ],
+    "answer": "c",
+    "explanation": "خرج النبي ﷺ مهاجراً ومعه أبو بكر الصديق رضي الله عنه.",
+    "source": "صحيح البخاري، كتاب مناقب الأنصار، باب هجرة النبي ﷺ وأصحابه إلى المدينة، حديث رقم ٣٩٠٥"
+  },
+  {
+    "id": "G35-011",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "في أي غار اختبأ النبي ﷺ وأبو بكر في طريق الهجرة؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "وادي بدر"
+      },
+      {
+        "id": "b",
+        "label": "جبل أحد"
+      },
+      {
+        "id": "c",
+        "label": "غار حراء"
+      },
+      {
+        "id": "d",
+        "label": "غار ثور"
+      }
+    ],
+    "answer": "d",
+    "explanation": "لجأ النبي ﷺ وأبو بكر إلى غار في جبل ثور ثلاث ليالٍ قبل مواصلة الطريق.",
+    "source": "صحيح البخاري، كتاب مناقب الأنصار، باب هجرة النبي ﷺ وأصحابه إلى المدينة، حديث رقم ٣٩٠٥"
+  },
+  {
+    "id": "G35-012",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "من الصحابي الذي نام في فراش النبي ﷺ ليلة الهجرة؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "علي بن أبي طالب"
+      },
+      {
+        "id": "b",
+        "label": "أبو بكر الصديق"
+      },
+      {
+        "id": "c",
+        "label": "عمر بن الخطاب"
+      },
+      {
+        "id": "d",
+        "label": "زيد بن حارثة"
+      }
+    ],
+    "answer": "a",
+    "explanation": "بات علي بن أبي طالب في فراش النبي ﷺ ليلة الهجرة ليردّ الأمانات إلى أهلها بعده.",
+    "source": "السيرة النبوية لابن هشام، باب هجرة الرسول ﷺ، مبيت علي في فراشه"
+  },
+  {
+    "id": "G35-013",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "ما اسم المدينة التي هاجر إليها النبي ﷺ وكانت تُسمّى يثرب؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "الطائف"
+      },
+      {
+        "id": "b",
+        "label": "المدينة المنورة"
+      },
+      {
+        "id": "c",
+        "label": "تبوك"
+      },
+      {
+        "id": "d",
+        "label": "خيبر"
+      }
+    ],
+    "answer": "b",
+    "explanation": "هاجر النبي ﷺ إلى يثرب التي صارت تُعرف بالمدينة المنورة.",
+    "source": "السيرة النبوية لابن هشام، باب هجرة الرسول ﷺ"
+  },
+  {
+    "id": "G35-014",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "ما أول مسجد أسّسه النبي ﷺ عند وصوله إلى المدينة؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "المسجد الأقصى"
+      },
+      {
+        "id": "b",
+        "label": "مسجد القبلتين"
+      },
+      {
+        "id": "c",
+        "label": "مسجد قباء"
+      },
+      {
+        "id": "d",
+        "label": "المسجد النبوي"
+      }
+    ],
+    "answer": "c",
+    "explanation": "نزل النبي ﷺ في قباء عند بني عمرو بن عوف وأسّس مسجدها قبل دخول المدينة.",
+    "source": "صحيح البخاري، كتاب مناقب الأنصار، باب هجرة النبي ﷺ وأصحابه إلى المدينة، حديث رقم ٣٩٠٦"
+  },
+  {
+    "id": "G35-015",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "من أول من أذّن للصلاة في الإسلام؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "سعد بن أبي وقاص"
+      },
+      {
+        "id": "b",
+        "label": "أبو هريرة"
+      },
+      {
+        "id": "c",
+        "label": "عبد الله بن مسعود"
+      },
+      {
+        "id": "d",
+        "label": "بلال بن رباح"
+      }
+    ],
+    "answer": "d",
+    "explanation": "اختار النبي ﷺ بلال بن رباح ليكون أول مؤذّن في الإسلام.",
+    "source": "السيرة النبوية لابن هشام، باب بدء الأذان"
+  },
+  {
+    "id": "G35-016",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "في أي سنة هجرية وقعت غزوة بدر؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "السنة الثانية"
+      },
+      {
+        "id": "b",
+        "label": "السنة الأولى"
+      },
+      {
+        "id": "c",
+        "label": "السنة الخامسة"
+      },
+      {
+        "id": "d",
+        "label": "السنة الثامنة"
+      }
+    ],
+    "answer": "a",
+    "explanation": "وقعت غزوة بدر في شهر رمضان من السنة الثانية للهجرة.",
+    "source": "السيرة النبوية لابن هشام، باب غزوة بدر الكبرى"
+  },
+  {
+    "id": "G35-017",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "في أي غزوة كُسرت رَباعية النبي ﷺ وشُجّ رأسه؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "غزوة بدر"
+      },
+      {
+        "id": "b",
+        "label": "غزوة أحد"
+      },
+      {
+        "id": "c",
+        "label": "غزوة تبوك"
+      },
+      {
+        "id": "d",
+        "label": "غزوة الخندق"
+      }
+    ],
+    "answer": "b",
+    "explanation": "أُصيب النبي ﷺ يوم أحد فكُسرت رباعيته وشُجّ في رأسه.",
+    "source": "صحيح مسلم، كتاب الجهاد والسير، باب غزوة أحد، حديث رقم ١٧٩٠"
+  },
+  {
+    "id": "G35-018",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "من عمّ النبي ﷺ الذي استُشهد يوم أحد ولُقّب بأسد الله؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "أبو طالب"
+      },
+      {
+        "id": "b",
+        "label": "الحارث بن عبد المطلب"
+      },
+      {
+        "id": "c",
+        "label": "حمزة بن عبد المطلب"
+      },
+      {
+        "id": "d",
+        "label": "العباس بن عبد المطلب"
+      }
+    ],
+    "answer": "c",
+    "explanation": "استُشهد حمزة بن عبد المطلب رضي الله عنه في غزوة أحد، وهو عمّ النبي ﷺ.",
+    "source": "السيرة النبوية لابن هشام، باب غزوة أحد، مقتل حمزة"
+  },
+  {
+    "id": "G35-019",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "من الصحابي الذي أشار بحفر الخندق حول المدينة؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "معاذ بن جبل"
+      },
+      {
+        "id": "b",
+        "label": "خالد بن الوليد"
+      },
+      {
+        "id": "c",
+        "label": "أبو عبيدة بن الجراح"
+      },
+      {
+        "id": "d",
+        "label": "سلمان الفارسي"
+      }
+    ],
+    "answer": "d",
+    "explanation": "أشار سلمان الفارسي رضي الله عنه بحفر الخندق حين اجتمعت الأحزاب على المدينة.",
+    "source": "السيرة النبوية لابن هشام، باب غزوة الخندق"
+  },
+  {
+    "id": "G35-020",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "ما اسم الصلح الذي عُقد بين النبي ﷺ وقريش في السنة السادسة للهجرة؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "صلح الحديبية"
+      },
+      {
+        "id": "b",
+        "label": "صلح خيبر"
+      },
+      {
+        "id": "c",
+        "label": "عهد العقبة"
+      },
+      {
+        "id": "d",
+        "label": "بيعة الرضوان"
+      }
+    ],
+    "answer": "a",
+    "explanation": "عُقد صلح الحديبية بين النبي ﷺ وقريش سنة ست للهجرة عند الحديبية قرب مكة.",
+    "source": "صحيح البخاري، كتاب الشروط، باب الشروط في الجهاد والمصالحة، حديث رقم ٢٧٣١"
+  },
+  {
+    "id": "G35-021",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "ما اسم ناقة النبي ﷺ التي بركت عند الحديبية؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "العضباء"
+      },
+      {
+        "id": "b",
+        "label": "القصواء"
+      },
+      {
+        "id": "c",
+        "label": "الشهباء"
+      },
+      {
+        "id": "d",
+        "label": "الجدعاء"
+      }
+    ],
+    "answer": "b",
+    "explanation": "في قصة الحديبية بركت ناقة النبي ﷺ القصواء، فقال: «ما خلأت القصواء… ولكن حبسها حابس الفيل».",
+    "source": "صحيح البخاري، كتاب الشروط، باب الشروط في الجهاد والمصالحة، حديث رقم ٢٧٣١"
+  },
+  {
+    "id": "G35-022",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "في أي سنة هجرية كان فتح مكة؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "السنة الخامسة"
+      },
+      {
+        "id": "b",
+        "label": "السنة العاشرة"
+      },
+      {
+        "id": "c",
+        "label": "السنة الثامنة"
+      },
+      {
+        "id": "d",
+        "label": "السنة الثانية"
+      }
+    ],
+    "answer": "c",
+    "explanation": "فتح النبي ﷺ مكة في شهر رمضان من السنة الثامنة للهجرة.",
+    "source": "السيرة النبوية لابن هشام، باب فتح مكة"
+  },
+  {
+    "id": "G35-023",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "seerah",
+    "depth": "light",
+    "body": "ما اسم الحجّة الوحيدة التي حجّها النبي ﷺ بعد الهجرة؟",
+    "tags": ["دين", "سيرة"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "حجّة الرضوان"
+      },
+      {
+        "id": "b",
+        "label": "حجّة البيعة"
+      },
+      {
+        "id": "c",
+        "label": "حجّة الفتح"
+      },
+      {
+        "id": "d",
+        "label": "حجّة الوداع"
+      }
+    ],
+    "answer": "d",
+    "explanation": "حجّ النبي ﷺ حجّة واحدة بعد الهجرة في السنة العاشرة، عُرفت بحجّة الوداع.",
+    "source": "صحيح البخاري، كتاب الحج، باب وجوب الحج وفضله، حديث رقم ١٥١٦"
+  },
+  {
+    "id": "G35-024",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "كم عدد سور القرآن الكريم؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "١١٤ سورة"
+      },
+      {
+        "id": "b",
+        "label": "١٠٠ سورة"
+      },
+      {
+        "id": "c",
+        "label": "١٢٠ سورة"
+      },
+      {
+        "id": "d",
+        "label": "٩٩ سورة"
+      }
+    ],
+    "answer": "a",
+    "explanation": "يتكوّن القرآن الكريم من مئة وأربع عشرة سورة.",
+    "source": "المصحف الشريف، فهرس السور"
+  },
+  {
+    "id": "G35-025",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "كم عدد أجزاء القرآن الكريم؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "٢٠ جزءاً"
+      },
+      {
+        "id": "b",
+        "label": "٣٠ جزءاً"
+      },
+      {
+        "id": "c",
+        "label": "٦٠ جزءاً"
+      },
+      {
+        "id": "d",
+        "label": "٤٠ جزءاً"
+      }
+    ],
+    "answer": "b",
+    "explanation": "قُسّم القرآن الكريم إلى ثلاثين جزءاً لتيسير قراءته.",
+    "source": "المصحف الشريف، تقسيم الأجزاء"
+  },
+  {
+    "id": "G35-026",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "ما أول سورة في ترتيب المصحف؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "العلق"
+      },
+      {
+        "id": "b",
+        "label": "الناس"
+      },
+      {
+        "id": "c",
+        "label": "الفاتحة"
+      },
+      {
+        "id": "d",
+        "label": "البقرة"
+      }
+    ],
+    "answer": "c",
+    "explanation": "سورة الفاتحة هي أول سور المصحف، ولذلك تُسمّى فاتحة الكتاب.",
+    "source": "المصحف الشريف، ترتيب السور"
+  },
+  {
+    "id": "G35-027",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "ما آخر سورة في ترتيب المصحف؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "النصر"
+      },
+      {
+        "id": "b",
+        "label": "الإخلاص"
+      },
+      {
+        "id": "c",
+        "label": "الفلق"
+      },
+      {
+        "id": "d",
+        "label": "الناس"
+      }
+    ],
+    "answer": "d",
+    "explanation": "سورة الناس هي آخر سور المصحف في الترتيب.",
+    "source": "المصحف الشريف، ترتيب السور"
+  },
+  {
+    "id": "G35-028",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "ما أطول سورة في القرآن الكريم؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "البقرة"
+      },
+      {
+        "id": "b",
+        "label": "آل عمران"
+      },
+      {
+        "id": "c",
+        "label": "النساء"
+      },
+      {
+        "id": "d",
+        "label": "الأعراف"
+      }
+    ],
+    "answer": "a",
+    "explanation": "سورة البقرة أطول سور القرآن، وعدد آياتها ٢٨٦ آية.",
+    "source": "المصحف الشريف، سورة البقرة"
+  },
+  {
+    "id": "G35-029",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "ما أقصر سورة في القرآن الكريم من حيث عدد الكلمات؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "الإخلاص"
+      },
+      {
+        "id": "b",
+        "label": "الكوثر"
+      },
+      {
+        "id": "c",
+        "label": "الفيل"
+      },
+      {
+        "id": "d",
+        "label": "الفلق"
+      }
+    ],
+    "answer": "b",
+    "explanation": "سورة الكوثر أقصر سور القرآن من حيث الكلمات، وهي ثلاث آيات قصيرة.",
+    "source": "المصحف الشريف، سورة الكوثر"
+  },
+  {
+    "id": "G35-030",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "أي سورة تلي سورة الفاتحة مباشرة في ترتيب المصحف؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "يس"
+      },
+      {
+        "id": "b",
+        "label": "الكهف"
+      },
+      {
+        "id": "c",
+        "label": "البقرة"
+      },
+      {
+        "id": "d",
+        "label": "آل عمران"
+      }
+    ],
+    "answer": "c",
+    "explanation": "بعد الفاتحة تأتي سورة البقرة في ترتيب المصحف.",
+    "source": "المصحف الشريف، ترتيب السور"
+  },
+  {
+    "id": "G35-031",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "ما السورة التي لا تبدأ بالبسملة؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "الفتح"
+      },
+      {
+        "id": "b",
+        "label": "النمل"
+      },
+      {
+        "id": "c",
+        "label": "الأنفال"
+      },
+      {
+        "id": "d",
+        "label": "التوبة"
+      }
+    ],
+    "answer": "d",
+    "explanation": "سورة التوبة (براءة) هي السورة الوحيدة التي لا تبدأ بالبسملة في المصحف.",
+    "source": "المصحف الشريف، سورة التوبة"
+  },
+  {
+    "id": "G35-032",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "ما السورة التي وردت فيها البسملة مرتين؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "النمل"
+      },
+      {
+        "id": "b",
+        "label": "البقرة"
+      },
+      {
+        "id": "c",
+        "label": "الفاتحة"
+      },
+      {
+        "id": "d",
+        "label": "يوسف"
+      }
+    ],
+    "answer": "a",
+    "explanation": "في سورة النمل تأتي البسملة في أولها، ثم تتكرّر داخل الآية ٣٠ في كتاب سليمان عليه السلام.",
+    "source": "القرآن الكريم، سورة النمل: ٣٠"
+  },
+  {
+    "id": "G35-033",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "ما السورة التي سمّاها النبي ﷺ «السبع المثاني والقرآن العظيم»؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "البقرة"
+      },
+      {
+        "id": "b",
+        "label": "الفاتحة"
+      },
+      {
+        "id": "c",
+        "label": "يس"
+      },
+      {
+        "id": "d",
+        "label": "الإخلاص"
+      }
+    ],
+    "answer": "b",
+    "explanation": "وصف النبي ﷺ سورة الفاتحة بأنها السبع المثاني والقرآن العظيم.",
+    "source": "صحيح البخاري، كتاب التفسير، باب ما جاء في فاتحة الكتاب، حديث رقم ٤٤٧٤"
+  },
+  {
+    "id": "G35-034",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "ما الآية التي وصفها النبي ﷺ بأنها أعظم آية في كتاب الله؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "آية النور"
+      },
+      {
+        "id": "b",
+        "label": "آية المواريث"
+      },
+      {
+        "id": "c",
+        "label": "آية الكرسي"
+      },
+      {
+        "id": "d",
+        "label": "آية الدَّين"
+      }
+    ],
+    "answer": "c",
+    "explanation": "سأل النبي ﷺ أُبيّ بن كعب عن أعظم آية في كتاب الله، فأجاب: آية الكرسي، فأقرّه.",
+    "source": "صحيح مسلم، كتاب صلاة المسافرين وقصرها، باب فضل سورة الكهف وآية الكرسي، حديث رقم ٨١٠"
+  },
+  {
+    "id": "G35-035",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "في أي سورة توجد آية الكرسي؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "المائدة"
+      },
+      {
+        "id": "b",
+        "label": "النساء"
+      },
+      {
+        "id": "c",
+        "label": "آل عمران"
+      },
+      {
+        "id": "d",
+        "label": "البقرة"
+      }
+    ],
+    "answer": "d",
+    "explanation": "آية الكرسي هي الآية ٢٥٥ من سورة البقرة.",
+    "source": "القرآن الكريم، سورة البقرة: ٢٥٥"
+  },
+  {
+    "id": "G35-036",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "ما السورة التي جاء في الحديث أنها تعدل ثلث القرآن؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "الإخلاص"
+      },
+      {
+        "id": "b",
+        "label": "الفاتحة"
+      },
+      {
+        "id": "c",
+        "label": "الكافرون"
+      },
+      {
+        "id": "d",
+        "label": "الفلق"
+      }
+    ],
+    "answer": "a",
+    "explanation": "أخبر النبي ﷺ أن سورة «قل هو الله أحد» تعدل ثلث القرآن.",
+    "source": "صحيح البخاري، كتاب فضائل القرآن، باب فضل قل هو الله أحد، حديث رقم ٥٠١٣"
+  },
+  {
+    "id": "G35-037",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "ما السورتان المعروفتان بـ«المعوّذتين»؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "الإخلاص والكافرون"
+      },
+      {
+        "id": "b",
+        "label": "الفلق والناس"
+      },
+      {
+        "id": "c",
+        "label": "الفيل وقريش"
+      },
+      {
+        "id": "d",
+        "label": "الضحى والشرح"
+      }
+    ],
+    "answer": "b",
+    "explanation": "المعوّذتان هما سورتا الفلق والناس، وتبدأ كل منهما بـ«قل أعوذ».",
+    "source": "المصحف الشريف، سورتا الفلق والناس"
+  },
+  {
+    "id": "G35-038",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "ما السورة الوحيدة التي سُمّيت باسم امرأة؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "الممتحنة"
+      },
+      {
+        "id": "b",
+        "label": "المجادلة"
+      },
+      {
+        "id": "c",
+        "label": "مريم"
+      },
+      {
+        "id": "d",
+        "label": "النساء"
+      }
+    ],
+    "answer": "c",
+    "explanation": "سورة مريم هي السورة الوحيدة التي حملت اسم امرأة، وهي مريم ابنة عمران عليها السلام.",
+    "source": "المصحف الشريف، سورة مريم"
+  },
+  {
+    "id": "G35-039",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "ما السورة التي ذُكرت فيها قصة أصحاب الكهف؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "الروم"
+      },
+      {
+        "id": "b",
+        "label": "القصص"
+      },
+      {
+        "id": "c",
+        "label": "الأنبياء"
+      },
+      {
+        "id": "d",
+        "label": "الكهف"
+      }
+    ],
+    "answer": "d",
+    "explanation": "وردت قصة الفتية الذين آووا إلى الكهف في سورة الكهف.",
+    "source": "القرآن الكريم، سورة الكهف: ٩–٢٦"
+  },
+  {
+    "id": "G35-040",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "ما السورة التي روت قصة نبيّ واحد من أولها إلى آخرها ووُصفت في مطلعها بـ«أحسن القصص»؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "يوسف"
+      },
+      {
+        "id": "b",
+        "label": "نوح"
+      },
+      {
+        "id": "c",
+        "label": "هود"
+      },
+      {
+        "id": "d",
+        "label": "إبراهيم"
+      }
+    ],
+    "answer": "a",
+    "explanation": "سورة يوسف تروي قصة يوسف عليه السلام كاملة، وفي أولها: «نحن نقصّ عليك أحسن القصص».",
+    "source": "القرآن الكريم، سورة يوسف: ٣"
+  },
+  {
+    "id": "G35-041",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "ما السورة التي تبدأ بقوله تعالى: «تبارك الذي بيده الملك»؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "الفرقان"
+      },
+      {
+        "id": "b",
+        "label": "الملك"
+      },
+      {
+        "id": "c",
+        "label": "الواقعة"
+      },
+      {
+        "id": "d",
+        "label": "الرحمن"
+      }
+    ],
+    "answer": "b",
+    "explanation": "سورة الملك تبدأ بقوله تعالى: «تبارك الذي بيده الملك وهو على كل شيء قدير».",
+    "source": "القرآن الكريم، سورة الملك: ١"
+  },
+  {
+    "id": "G35-042",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "quran",
+    "depth": "light",
+    "body": "ما السورة التي تبدأ بقوله تعالى: «الرحمن، علّم القرآن»؟",
+    "tags": ["دين", "قرآن"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "الحديد"
+      },
+      {
+        "id": "b",
+        "label": "القمر"
+      },
+      {
+        "id": "c",
+        "label": "الرحمن"
+      },
+      {
+        "id": "d",
+        "label": "الواقعة"
+      }
+    ],
+    "answer": "c",
+    "explanation": "تبدأ سورة الرحمن بقوله تعالى: «الرحمن، علّم القرآن، خلق الإنسان».",
+    "source": "القرآن الكريم، سورة الرحمن: ١–٣"
+  },
+  {
+    "id": "G35-043",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "وصف القرآن عباد الرحمن بأنهم إذا خاطبهم الجاهلون…",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "رفعوا أصواتهم"
+      },
+      {
+        "id": "b",
+        "label": "أعرضوا غاضبين"
+      },
+      {
+        "id": "c",
+        "label": "ردّوا بمثله"
+      },
+      {
+        "id": "d",
+        "label": "قالوا سلاماً"
+      }
+    ],
+    "answer": "d",
+    "explanation": "قال تعالى: «وعباد الرحمن الذين يمشون على الأرض هوناً وإذا خاطبهم الجاهلون قالوا سلاماً».",
+    "source": "القرآن الكريم، سورة الفرقان: ٦٣"
+  },
+  {
+    "id": "G35-044",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "ما الكلمة التي نهى القرآن عن قولها للوالدين؟",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "أُفّ"
+      },
+      {
+        "id": "b",
+        "label": "لا"
+      },
+      {
+        "id": "c",
+        "label": "لماذا"
+      },
+      {
+        "id": "d",
+        "label": "انتظر"
+      }
+    ],
+    "answer": "a",
+    "explanation": "قال تعالى: «فلا تقل لهما أفّ ولا تنهرهما وقل لهما قولاً كريماً».",
+    "source": "القرآن الكريم، سورة الإسراء: ٢٣"
+  },
+  {
+    "id": "G35-045",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "أكمل الآية: «وقولوا للناس…»",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "صدقاً"
+      },
+      {
+        "id": "b",
+        "label": "حُسناً"
+      },
+      {
+        "id": "c",
+        "label": "خيراً"
+      },
+      {
+        "id": "d",
+        "label": "سلاماً"
+      }
+    ],
+    "answer": "b",
+    "explanation": "قال تعالى في سورة البقرة: «وقولوا للناس حسناً وأقيموا الصلاة وآتوا الزكاة».",
+    "source": "القرآن الكريم، سورة البقرة: ٨٣"
+  },
+  {
+    "id": "G35-046",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "أكمل الآية: «إنما المؤمنون…»",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "جيران"
+      },
+      {
+        "id": "b",
+        "label": "شركاء"
+      },
+      {
+        "id": "c",
+        "label": "إخوة"
+      },
+      {
+        "id": "d",
+        "label": "أحباب"
+      }
+    ],
+    "answer": "c",
+    "explanation": "قال تعالى: «إنما المؤمنون إخوة فأصلحوا بين أخويكم».",
+    "source": "القرآن الكريم، سورة الحجرات: ١٠"
+  },
+  {
+    "id": "G35-047",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "في أي سورة وردت الآية: «وإنك لعلى خلق عظيم»؟",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "الضحى"
+      },
+      {
+        "id": "b",
+        "label": "الحجرات"
+      },
+      {
+        "id": "c",
+        "label": "الأحزاب"
+      },
+      {
+        "id": "d",
+        "label": "القلم"
+      }
+    ],
+    "answer": "d",
+    "explanation": "وصف الله نبيه ﷺ بعظمة الخلق في سورة القلم: «وإنك لعلى خلق عظيم».",
+    "source": "القرآن الكريم، سورة القلم: ٤"
+  },
+  {
+    "id": "G35-048",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "أكمل الحديث: «لا يؤمن أحدكم حتى يحبّ لأخيه…»",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "ما يحبّ لنفسه"
+      },
+      {
+        "id": "b",
+        "label": "ما يحبّ لولده"
+      },
+      {
+        "id": "c",
+        "label": "الخير كله"
+      },
+      {
+        "id": "d",
+        "label": "ما يملك"
+      }
+    ],
+    "answer": "a",
+    "explanation": "قال النبي ﷺ: «لا يؤمن أحدكم حتى يحبّ لأخيه ما يحبّ لنفسه».",
+    "source": "صحيح البخاري، كتاب الإيمان، باب من الإيمان أن يحبّ لأخيه ما يحبّ لنفسه، حديث رقم ١٣"
+  },
+  {
+    "id": "G35-049",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "أكمل الحديث: «المسلم من سلم المسلمون من…»",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "ماله وولده"
+      },
+      {
+        "id": "b",
+        "label": "لسانه ويده"
+      },
+      {
+        "id": "c",
+        "label": "غضبه وحسده"
+      },
+      {
+        "id": "d",
+        "label": "بيته وجاره"
+      }
+    ],
+    "answer": "b",
+    "explanation": "قال النبي ﷺ: «المسلم من سلم المسلمون من لسانه ويده».",
+    "source": "صحيح البخاري، كتاب الإيمان، باب المسلم من سلم المسلمون من لسانه ويده، حديث رقم ١٠"
+  },
+  {
+    "id": "G35-050",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "أكمل الحديث: «من كان يؤمن بالله واليوم الآخر فليقل خيراً أو…»",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "ليكتب"
+      },
+      {
+        "id": "b",
+        "label": "لينصح"
+      },
+      {
+        "id": "c",
+        "label": "ليصمت"
+      },
+      {
+        "id": "d",
+        "label": "ليبتسم"
+      }
+    ],
+    "answer": "c",
+    "explanation": "قال النبي ﷺ: «من كان يؤمن بالله واليوم الآخر فليقل خيراً أو ليصمت».",
+    "source": "صحيح البخاري، كتاب الأدب، باب من كان يؤمن بالله واليوم الآخر فلا يؤذ جاره، حديث رقم ٦٠١٨"
+  },
+  {
+    "id": "G35-051",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "أكمل الحديث: «ليس الشديد بالصُّرَعة، إنما الشديد الذي يملك نفسه عند…»",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "الفرح"
+      },
+      {
+        "id": "b",
+        "label": "الخوف"
+      },
+      {
+        "id": "c",
+        "label": "الجوع"
+      },
+      {
+        "id": "d",
+        "label": "الغضب"
+      }
+    ],
+    "answer": "d",
+    "explanation": "قال النبي ﷺ: «ليس الشديد بالصُّرَعة، إنما الشديد الذي يملك نفسه عند الغضب».",
+    "source": "صحيح البخاري، كتاب الأدب، باب الحذر من الغضب، حديث رقم ٦١١٤"
+  },
+  {
+    "id": "G35-052",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "أكمل الحديث: «إن من خياركم أحسنكم…»",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "أخلاقاً"
+      },
+      {
+        "id": "b",
+        "label": "أموالاً"
+      },
+      {
+        "id": "c",
+        "label": "أصواتاً"
+      },
+      {
+        "id": "d",
+        "label": "ثياباً"
+      }
+    ],
+    "answer": "a",
+    "explanation": "قال النبي ﷺ: «إن من خياركم أحسنكم أخلاقاً».",
+    "source": "صحيح البخاري، كتاب الأدب، باب حسن الخلق والسخاء، حديث رقم ٦٠٣٥"
+  },
+  {
+    "id": "G35-053",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "أكمل الحديث: «من لا يَرحم…»",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "لا يُعان"
+      },
+      {
+        "id": "b",
+        "label": "لا يُرحم"
+      },
+      {
+        "id": "c",
+        "label": "لا يُطاع"
+      },
+      {
+        "id": "d",
+        "label": "لا يُشكر"
+      }
+    ],
+    "answer": "b",
+    "explanation": "قال النبي ﷺ: «من لا يَرحم لا يُرحم».",
+    "source": "صحيح البخاري، كتاب الأدب، باب رحمة الولد وتقبيله ومعانقته، حديث رقم ٥٩٩٧"
+  },
+  {
+    "id": "G35-054",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "أي مما يلي ذُكر في الحديث ضمن حقّ المسلم على المسلم؟",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "زيارة السوق معه"
+      },
+      {
+        "id": "b",
+        "label": "مشاركته الطعام يومياً"
+      },
+      {
+        "id": "c",
+        "label": "ردّ السلام"
+      },
+      {
+        "id": "d",
+        "label": "إهداء الكتب"
+      }
+    ],
+    "answer": "c",
+    "explanation": "قال النبي ﷺ: «حقّ المسلم على المسلم خمس: ردّ السلام، وعيادة المريض، واتباع الجنائز، وإجابة الدعوة، وتشميت العاطس».",
+    "source": "صحيح البخاري، كتاب الجنائز، باب الأمر باتباع الجنائز، حديث رقم ١٢٤٠"
+  },
+  {
+    "id": "G35-055",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "أكمل الحديث: «والكلمة الطيبة…»",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "عبادة"
+      },
+      {
+        "id": "b",
+        "label": "حكمة"
+      },
+      {
+        "id": "c",
+        "label": "أمانة"
+      },
+      {
+        "id": "d",
+        "label": "صدقة"
+      }
+    ],
+    "answer": "d",
+    "explanation": "قال النبي ﷺ: «…والكلمة الطيبة صدقة».",
+    "source": "صحيح البخاري، كتاب الجهاد والسير، باب من أخذ بالركاب ونحوه، حديث رقم ٢٩٨٩"
+  },
+  {
+    "id": "G35-056",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "ما أدنى شعب الإيمان كما ورد في الحديث؟",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "إماطة الأذى عن الطريق"
+      },
+      {
+        "id": "b",
+        "label": "الابتسامة"
+      },
+      {
+        "id": "c",
+        "label": "إفشاء السلام"
+      },
+      {
+        "id": "d",
+        "label": "صلة الرحم"
+      }
+    ],
+    "answer": "a",
+    "explanation": "قال النبي ﷺ: «الإيمان بضع وسبعون شعبة، فأفضلها قول لا إله إلا الله، وأدناها إماطة الأذى عن الطريق».",
+    "source": "صحيح مسلم، كتاب الإيمان، باب شعب الإيمان، حديث رقم ٣٥"
+  },
+  {
+    "id": "G35-057",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "أكمل الحديث: «الدين…»",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "الصبر"
+      },
+      {
+        "id": "b",
+        "label": "النصيحة"
+      },
+      {
+        "id": "c",
+        "label": "العلم"
+      },
+      {
+        "id": "d",
+        "label": "الكرم"
+      }
+    ],
+    "answer": "b",
+    "explanation": "قال النبي ﷺ: «الدين النصيحة» قالوا: لمن؟ قال: «لله ولكتابه ولرسوله ولأئمة المسلمين وعامتهم».",
+    "source": "صحيح مسلم، كتاب الإيمان، باب بيان أن الدين النصيحة، حديث رقم ٥٥"
+  },
+  {
+    "id": "G35-058",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "أكمل الحديث: «إن الله رفيق يحبّ…»",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "العجلة"
+      },
+      {
+        "id": "b",
+        "label": "الصمت"
+      },
+      {
+        "id": "c",
+        "label": "الرفق"
+      },
+      {
+        "id": "d",
+        "label": "الشدّة"
+      }
+    ],
+    "answer": "c",
+    "explanation": "قال النبي ﷺ: «إن الله رفيق يحبّ الرفق في الأمر كله».",
+    "source": "صحيح مسلم، كتاب البر والصلة والآداب، باب فضل الرفق، حديث رقم ٢٥٩٣"
+  },
+  {
+    "id": "G35-059",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "أكمل الحديث: «لا تحاسدوا ولا تباغضوا ولا تدابروا وكونوا عباد الله…»",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "متحابّين"
+      },
+      {
+        "id": "b",
+        "label": "أصدقاء"
+      },
+      {
+        "id": "c",
+        "label": "أعواناً"
+      },
+      {
+        "id": "d",
+        "label": "إخواناً"
+      }
+    ],
+    "answer": "d",
+    "explanation": "قال النبي ﷺ: «لا تحاسدوا ولا تناجشوا ولا تباغضوا ولا تدابروا… وكونوا عباد الله إخواناً».",
+    "source": "صحيح مسلم، كتاب البر والصلة والآداب، باب تحريم الظن والتجسس، حديث رقم ٢٥٦٤"
+  },
+  {
+    "id": "G35-060",
+    "gameId": "G35",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "ethics",
+    "depth": "light",
+    "body": "أكمل الحديث: «خيركم خيركم…»",
+    "tags": ["دين", "أخلاق"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-05",
+    "options": [
+      {
+        "id": "a",
+        "label": "لأهله"
+      },
+      {
+        "id": "b",
+        "label": "لجاره"
+      },
+      {
+        "id": "c",
+        "label": "لضيفه"
+      },
+      {
+        "id": "d",
+        "label": "لصديقه"
+      }
+    ],
+    "answer": "a",
+    "explanation": "قال النبي ﷺ: «خيركم خيركم لأهله، وأنا خيركم لأهلي».",
+    "source": "سنن الترمذي، كتاب المناقب، باب فضل أزواج النبي ﷺ، حديث رقم ٣٨٩٥ (قال الترمذي: حسن غريب صحيح)"
+  }
+]

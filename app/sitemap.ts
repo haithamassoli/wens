@@ -8,7 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: `${SITE_URL}/`, lastModified, changeFrequency: "monthly", priority: 1 },
     { url: `${SITE_URL}/games`, lastModified, changeFrequency: "monthly", priority: 0.9 },
-    ...GAMES.map((g) => ({
+    ...GAMES.filter((g) => !g.gated).map((g) => ({
       url: `${SITE_URL}/games/${g.slug}`,
       lastModified,
       changeFrequency: "monthly" as const,

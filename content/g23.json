@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "G23-001",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "leisure",
+    "depth": "light",
+    "body": "ماذا تفضّل في يوم إجازة؟",
+    "tags": ["ترتيب", "تفضيلات", "ترفيه"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "سفر"
+      },
+      {
+        "id": "b",
+        "label": "قراءة"
+      },
+      {
+        "id": "c",
+        "label": "طبخ"
+      },
+      {
+        "id": "d",
+        "label": "فيلم"
+      }
+    ]
+  },
+  {
+    "id": "G23-002",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّ وجبة تنتظرها أكثر؟",
+    "tags": ["ترتيب", "تفضيلات", "طعام"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "الفطور"
+      },
+      {
+        "id": "b",
+        "label": "الغداء"
+      },
+      {
+        "id": "c",
+        "label": "العشاء"
+      },
+      {
+        "id": "d",
+        "label": "وجبة خفيفة ليلاً"
+      }
+    ]
+  },
+  {
+    "id": "G23-003",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "leisure",
+    "depth": "light",
+    "body": "أفضل طريقة لقضاء المساء؟",
+    "tags": ["ترتيب", "تفضيلات", "ترفيه"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "مشي"
+      },
+      {
+        "id": "b",
+        "label": "مسلسل"
+      },
+      {
+        "id": "c",
+        "label": "لعبة ورق"
+      },
+      {
+        "id": "d",
+        "label": "حديث على الشرفة"
+      }
+    ]
+  },
+  {
+    "id": "G23-004",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "ما الأهمّ عندك في البيت؟",
+    "tags": ["ترتيب", "تفضيلات", "بيت"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "الهدوء"
+      },
+      {
+        "id": "b",
+        "label": "الترتيب"
+      },
+      {
+        "id": "c",
+        "label": "الإضاءة"
+      },
+      {
+        "id": "d",
+        "label": "رائحة الطعام"
+      }
+    ]
+  },
+  {
+    "id": "G23-005",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "moments",
+    "depth": "light",
+    "body": "أيّ فصل تحبّ أكثر؟",
+    "tags": ["ترتيب", "تفضيلات", "لحظات"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "الشتاء"
+      },
+      {
+        "id": "b",
+        "label": "الربيع"
+      },
+      {
+        "id": "c",
+        "label": "الصيف"
+      },
+      {
+        "id": "d",
+        "label": "الخريف"
+      }
+    ]
+  },
+  {
+    "id": "G23-006",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّ مشروب تبدأ به صباحك؟",
+    "tags": ["ترتيب", "تفضيلات", "طعام"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "قهوة"
+      },
+      {
+        "id": "b",
+        "label": "شاي"
+      },
+      {
+        "id": "c",
+        "label": "عصير"
+      },
+      {
+        "id": "d",
+        "label": "ماء"
+      }
+    ]
+  },
+  {
+    "id": "G23-007",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّ وجهة سفر تفضّل؟",
+    "tags": ["ترتيب", "تفضيلات", "سفر"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "البحر"
+      },
+      {
+        "id": "b",
+        "label": "الجبل"
+      },
+      {
+        "id": "c",
+        "label": "مدينة كبيرة"
+      },
+      {
+        "id": "d",
+        "label": "قرية هادئة"
+      }
+    ]
+  },
+  {
+    "id": "G23-008",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "moments",
+    "depth": "light",
+    "body": "ما الأكثر إزعاجاً لك؟",
+    "tags": ["ترتيب", "تفضيلات", "لحظات"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "الازدحام"
+      },
+      {
+        "id": "b",
+        "label": "الضجيج"
+      },
+      {
+        "id": "c",
+        "label": "الانتظار"
+      },
+      {
+        "id": "d",
+        "label": "الحرّ"
+      }
+    ]
+  },
+  {
+    "id": "G23-009",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "moments",
+    "depth": "light",
+    "body": "أيّ هديّة تسعدك أكثر؟",
+    "tags": ["ترتيب", "تفضيلات", "لحظات"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "كتاب"
+      },
+      {
+        "id": "b",
+        "label": "رحلة"
+      },
+      {
+        "id": "c",
+        "label": "عطر"
+      },
+      {
+        "id": "d",
+        "label": "رسالة بخطّ اليد"
+      }
+    ]
+  },
+  {
+    "id": "G23-010",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "ماذا تختار للعشاء الليلة؟",
+    "tags": ["ترتيب", "تفضيلات", "طعام"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "بيتزا"
+      },
+      {
+        "id": "b",
+        "label": "مشاوي"
+      },
+      {
+        "id": "c",
+        "label": "أكل بيتي"
+      },
+      {
+        "id": "d",
+        "label": "سلطة كبيرة"
+      }
+    ]
+  },
+  {
+    "id": "G23-011",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّ حلوى تفضّل؟",
+    "tags": ["ترتيب", "تفضيلات", "طعام"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "كنافة"
+      },
+      {
+        "id": "b",
+        "label": "شوكولاتة"
+      },
+      {
+        "id": "c",
+        "label": "آيس كريم"
+      },
+      {
+        "id": "d",
+        "label": "كعكة"
+      }
+    ]
+  },
+  {
+    "id": "G23-012",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "moments",
+    "depth": "light",
+    "body": "أيّ وقت في اليوم تحبّ؟",
+    "tags": ["ترتيب", "تفضيلات", "لحظات"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "الفجر"
+      },
+      {
+        "id": "b",
+        "label": "الضحى"
+      },
+      {
+        "id": "c",
+        "label": "العصر"
+      },
+      {
+        "id": "d",
+        "label": "الليل"
+      }
+    ]
+  },
+  {
+    "id": "G23-013",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "leisure",
+    "depth": "light",
+    "body": "أيّ نشاط رياضي تفضّل؟",
+    "tags": ["ترتيب", "تفضيلات", "ترفيه"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "سباحة"
+      },
+      {
+        "id": "b",
+        "label": "مشي"
+      },
+      {
+        "id": "c",
+        "label": "دراجة"
+      },
+      {
+        "id": "d",
+        "label": "كرة قدم"
+      }
+    ]
+  },
+  {
+    "id": "G23-014",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "leisure",
+    "depth": "light",
+    "body": "أيّ نوع أفلام تفضّل؟",
+    "tags": ["ترتيب", "تفضيلات", "ترفيه"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "كوميديا"
+      },
+      {
+        "id": "b",
+        "label": "مغامرة"
+      },
+      {
+        "id": "c",
+        "label": "دراما"
+      },
+      {
+        "id": "d",
+        "label": "غموض"
+      }
+    ]
+  },
+  {
+    "id": "G23-015",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "moments",
+    "depth": "light",
+    "body": "أهمّ صفة في الصديق؟",
+    "tags": ["ترتيب", "تفضيلات", "لحظات"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "الوفاء"
+      },
+      {
+        "id": "b",
+        "label": "المرح"
+      },
+      {
+        "id": "c",
+        "label": "الصدق"
+      },
+      {
+        "id": "d",
+        "label": "الكرم"
+      }
+    ]
+  },
+  {
+    "id": "G23-016",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أيّ رائحة تحبّ أكثر؟",
+    "tags": ["ترتيب", "تفضيلات", "بيت"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "المطر"
+      },
+      {
+        "id": "b",
+        "label": "القهوة"
+      },
+      {
+        "id": "c",
+        "label": "الخبز الطازج"
+      },
+      {
+        "id": "d",
+        "label": "الياسمين"
+      }
+    ]
+  },
+  {
+    "id": "G23-017",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أين تحبّ الجلوس في البيت؟",
+    "tags": ["ترتيب", "تفضيلات", "بيت"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "الصالة"
+      },
+      {
+        "id": "b",
+        "label": "الشرفة"
+      },
+      {
+        "id": "c",
+        "label": "المطبخ"
+      },
+      {
+        "id": "d",
+        "label": "غرفة النوم"
+      }
+    ]
+  },
+  {
+    "id": "G23-018",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "leisure",
+    "depth": "light",
+    "body": "أفضل طريقة للاسترخاء؟",
+    "tags": ["ترتيب", "تفضيلات", "ترفيه"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "النوم"
+      },
+      {
+        "id": "b",
+        "label": "الموسيقى"
+      },
+      {
+        "id": "c",
+        "label": "حمّام دافئ"
+      },
+      {
+        "id": "d",
+        "label": "الجلوس بصمت"
+      }
+    ]
+  },
+  {
+    "id": "G23-019",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّ فاكهة تفضّل؟",
+    "tags": ["ترتيب", "تفضيلات", "طعام"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "مانجو"
+      },
+      {
+        "id": "b",
+        "label": "فراولة"
+      },
+      {
+        "id": "c",
+        "label": "تفاح"
+      },
+      {
+        "id": "d",
+        "label": "بطيخ"
+      }
+    ]
+  },
+  {
+    "id": "G23-020",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أيّ لون تحبّه في الملابس؟",
+    "tags": ["ترتيب", "تفضيلات", "بيت"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "الأسود"
+      },
+      {
+        "id": "b",
+        "label": "الأبيض"
+      },
+      {
+        "id": "c",
+        "label": "الأزرق"
+      },
+      {
+        "id": "d",
+        "label": "الأخضر"
+      }
+    ]
+  },
+  {
+    "id": "G23-021",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّ وسيلة تفضّل في الرحلة؟",
+    "tags": ["ترتيب", "تفضيلات", "سفر"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "سيارة"
+      },
+      {
+        "id": "b",
+        "label": "قطار"
+      },
+      {
+        "id": "c",
+        "label": "طائرة"
+      },
+      {
+        "id": "d",
+        "label": "دراجة"
+      }
+    ]
+  },
+  {
+    "id": "G23-022",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "ما الأكثر متعة في العطلة؟",
+    "tags": ["ترتيب", "تفضيلات", "سفر"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "الاستكشاف"
+      },
+      {
+        "id": "b",
+        "label": "الطعام"
+      },
+      {
+        "id": "c",
+        "label": "التصوير"
+      },
+      {
+        "id": "d",
+        "label": "الراحة"
+      }
+    ]
+  },
+  {
+    "id": "G23-023",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّ طبق شعبيّ تفضّل؟",
+    "tags": ["ترتيب", "تفضيلات", "طعام"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "كبسة"
+      },
+      {
+        "id": "b",
+        "label": "مقلوبة"
+      },
+      {
+        "id": "c",
+        "label": "ملوخية"
+      },
+      {
+        "id": "d",
+        "label": "كشري"
+      }
+    ]
+  },
+  {
+    "id": "G23-024",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "متى تفضّل السفر؟",
+    "tags": ["ترتيب", "تفضيلات", "سفر"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "في العيد"
+      },
+      {
+        "id": "b",
+        "label": "في الصيف"
+      },
+      {
+        "id": "c",
+        "label": "في الشتاء"
+      },
+      {
+        "id": "d",
+        "label": "فجأة بلا تخطيط"
+      }
+    ]
+  },
+  {
+    "id": "G23-025",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "leisure",
+    "depth": "light",
+    "body": "أيّ مهارة تودّ تعلّمها؟",
+    "tags": ["ترتيب", "تفضيلات", "ترفيه"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "الطبخ"
+      },
+      {
+        "id": "b",
+        "label": "لغة جديدة"
+      },
+      {
+        "id": "c",
+        "label": "آلة موسيقية"
+      },
+      {
+        "id": "d",
+        "label": "الرسم"
+      }
+    ]
+  },
+  {
+    "id": "G23-026",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أيّ شيء لا تخرج بدونه؟",
+    "tags": ["ترتيب", "تفضيلات", "بيت"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "الهاتف"
+      },
+      {
+        "id": "b",
+        "label": "المفاتيح"
+      },
+      {
+        "id": "c",
+        "label": "المحفظة"
+      },
+      {
+        "id": "d",
+        "label": "زجاجة ماء"
+      }
+    ]
+  },
+  {
+    "id": "G23-027",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "moments",
+    "depth": "light",
+    "body": "كيف تحبّ الاحتفال بمناسبتنا؟",
+    "tags": ["ترتيب", "تفضيلات", "لحظات"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "عشاء خارج البيت"
+      },
+      {
+        "id": "b",
+        "label": "رحلة قصيرة"
+      },
+      {
+        "id": "c",
+        "label": "جلسة بيتية"
+      },
+      {
+        "id": "d",
+        "label": "مفاجأة"
+      }
+    ]
+  },
+  {
+    "id": "G23-028",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أيّ صوت يريحك؟",
+    "tags": ["ترتيب", "تفضيلات", "بيت"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "البحر"
+      },
+      {
+        "id": "b",
+        "label": "المطر"
+      },
+      {
+        "id": "c",
+        "label": "الطيور"
+      },
+      {
+        "id": "d",
+        "label": "الصمت"
+      }
+    ]
+  },
+  {
+    "id": "G23-029",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّ طبق تطبخه بنفسك؟",
+    "tags": ["ترتيب", "تفضيلات", "طعام"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "بيض"
+      },
+      {
+        "id": "b",
+        "label": "معكرونة"
+      },
+      {
+        "id": "c",
+        "label": "شوربة"
+      },
+      {
+        "id": "d",
+        "label": "أرزّ"
+      }
+    ]
+  },
+  {
+    "id": "G23-030",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أيّ عمل منزلي تفضّل؟",
+    "tags": ["ترتيب", "تفضيلات", "بيت"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "الطبخ"
+      },
+      {
+        "id": "b",
+        "label": "الغسيل"
+      },
+      {
+        "id": "c",
+        "label": "الترتيب"
+      },
+      {
+        "id": "d",
+        "label": "التسوّق"
+      }
+    ]
+  },
+  {
+    "id": "G23-031",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أيّ حيوان أليف تفضّل؟",
+    "tags": ["ترتيب", "تفضيلات", "بيت"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "قطّ"
+      },
+      {
+        "id": "b",
+        "label": "كلب"
+      },
+      {
+        "id": "c",
+        "label": "عصفور"
+      },
+      {
+        "id": "d",
+        "label": "سمكة"
+      }
+    ]
+  },
+  {
+    "id": "G23-032",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "leisure",
+    "depth": "light",
+    "body": "أين تحبّ القراءة؟",
+    "tags": ["ترتيب", "تفضيلات", "ترفيه"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "السرير"
+      },
+      {
+        "id": "b",
+        "label": "الأريكة"
+      },
+      {
+        "id": "c",
+        "label": "المقهى"
+      },
+      {
+        "id": "d",
+        "label": "الحديقة"
+      }
+    ]
+  },
+  {
+    "id": "G23-033",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "moments",
+    "depth": "light",
+    "body": "أيّ طريقة للتواصل تفضّل؟",
+    "tags": ["ترتيب", "تفضيلات", "لحظات"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "مكالمة"
+      },
+      {
+        "id": "b",
+        "label": "رسالة نصّية"
+      },
+      {
+        "id": "c",
+        "label": "رسالة صوتية"
+      },
+      {
+        "id": "d",
+        "label": "لقاء مباشر"
+      }
+    ]
+  },
+  {
+    "id": "G23-034",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "leisure",
+    "depth": "light",
+    "body": "ماذا تفعل في يوم ممطر؟",
+    "tags": ["ترتيب", "تفضيلات", "ترفيه"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "أنام"
+      },
+      {
+        "id": "b",
+        "label": "شاي أمام النافذة"
+      },
+      {
+        "id": "c",
+        "label": "مشي تحت المطر"
+      },
+      {
+        "id": "d",
+        "label": "فيلم"
+      }
+    ]
+  },
+  {
+    "id": "G23-035",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "leisure",
+    "depth": "light",
+    "body": "أيّ نوع كتب تفضّل؟",
+    "tags": ["ترتيب", "تفضيلات", "ترفيه"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "رواية"
+      },
+      {
+        "id": "b",
+        "label": "سيرة"
+      },
+      {
+        "id": "c",
+        "label": "تطوير ذات"
+      },
+      {
+        "id": "d",
+        "label": "شعر"
+      }
+    ]
+  },
+  {
+    "id": "G23-036",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "متى تفضّل العشاء؟",
+    "tags": ["ترتيب", "تفضيلات", "طعام"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "مبكّراً"
+      },
+      {
+        "id": "b",
+        "label": "في وقته"
+      },
+      {
+        "id": "c",
+        "label": "متأخّراً"
+      },
+      {
+        "id": "d",
+        "label": "حسب المزاج"
+      }
+    ]
+  },
+  {
+    "id": "G23-037",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أين تفطر في الإجازة؟",
+    "tags": ["ترتيب", "تفضيلات", "سفر"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "في البيت"
+      },
+      {
+        "id": "b",
+        "label": "في مقهى"
+      },
+      {
+        "id": "c",
+        "label": "في مطعم"
+      },
+      {
+        "id": "d",
+        "label": "نزهة في الخارج"
+      }
+    ]
+  },
+  {
+    "id": "G23-038",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "moments",
+    "depth": "light",
+    "body": "ما الذي يجعل يومك جميلاً؟",
+    "tags": ["ترتيب", "تفضيلات", "لحظات"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "نوم جيّد"
+      },
+      {
+        "id": "b",
+        "label": "طعام لذيذ"
+      },
+      {
+        "id": "c",
+        "label": "حديث دافئ"
+      },
+      {
+        "id": "d",
+        "label": "إنجاز صغير"
+      }
+    ]
+  },
+  {
+    "id": "G23-039",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "كيف يبدو بيتك المثالي؟",
+    "tags": ["ترتيب", "تفضيلات", "بيت"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "شقّة في المدينة"
+      },
+      {
+        "id": "b",
+        "label": "بيت بحديقة"
+      },
+      {
+        "id": "c",
+        "label": "بيت على البحر"
+      },
+      {
+        "id": "d",
+        "label": "مزرعة"
+      }
+    ]
+  },
+  {
+    "id": "G23-040",
+    "gameId": "G23",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّ نزهة قصيرة تفضّل؟",
+    "tags": ["ترتيب", "تفضيلات", "سفر"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-05",
+    "items": [
+      {
+        "id": "a",
+        "label": "الحديقة"
+      },
+      {
+        "id": "b",
+        "label": "السوق"
+      },
+      {
+        "id": "c",
+        "label": "البحر"
+      },
+      {
+        "id": "d",
+        "label": "البرّ"
+      }
+    ]
+  }
+]

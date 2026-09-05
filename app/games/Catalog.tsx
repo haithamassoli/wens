@@ -14,14 +14,21 @@ import {
   type GameFilters,
   hasActiveFilters,
   MINUTE_FORMS,
+  visibleGames,
 } from "@/lib/filters";
-import { GAMES, MOOD_LABEL, type Mood } from "@/lib/games";
+import { CATEGORY_LABEL, type Category, GAMES, MOOD_LABEL, type Mood } from "@/lib/games";
+import { useSettings } from "@/lib/storage";
 
 const MOODS = Object.keys(MOOD_LABEL) as Mood[];
 
 export function Catalog() {
   const [filters, setFilters] = useState<GameFilters>(EMPTY_FILTERS);
-  const shown = filterGames(GAMES, filters);
+  const { settings } = useSettings();
+  const all = visibleGames(GAMES, settings.showReligious);
+  const shown = filterGames(all, filters);
+  const sections = (Object.keys(CATEGORY_LABEL) as Category[])
+    .map((cat) => ({ cat, games: shown.filter((g) => g.category === cat) }))
+    .filter((s) => s.games.length > 0);
   const active = hasActiveFilters(filters);
 
   return (
@@ -74,13 +81,13 @@ export function Catalog() {
       </section>
 
       <p className="text-ink-soft text-sm" role="status">
-        {shown.length === GAMES.length ? (
+        {shown.length === all.length ? (
           <>
-            كل الألعاب: <Num value={GAMES.length} />
+            كل الألعاب: <Num value={all.length} />
           </>
         ) : (
           <>
-            <Num value={shown.length} /> من <Num value={GAMES.length} />
+            <Num value={shown.length} /> من <Num value={all.length} />
           </>
         )}
       </p>
@@ -96,13 +103,20 @@ export function Catalog() {
           }
         />
       ) : (
-        <ul className="grid gap-3 md:grid-cols-2">
-          {shown.map((g) => (
-            <li key={g.id}>
-              <GameCard game={g} />
-            </li>
-          ))}
-        </ul>
+        sections.map((s) => (
+          <section key={s.cat} aria-labelledby={`cat-${s.cat}`} className="flex flex-col gap-3">
+            <h2 id={`cat-${s.cat}`} className="font-display font-semibold text-ink text-lg">
+              {CATEGORY_LABEL[s.cat]}
+            </h2>
+            <ul className="grid gap-3 md:grid-cols-2">
+              {s.games.map((g) => (
+                <li key={g.id}>
+                  <GameCard game={g} />
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))
       )}
     </div>
   );

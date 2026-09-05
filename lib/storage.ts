@@ -6,12 +6,15 @@
  *   favorites_v1 → { games: string[], cards: string[] }
  *   seen_v1      → { games: { [gameId]: { id, at }[] } }
  *
- * Nothing here ever stores names, answers or scores. Every read is guarded:
+ * Plus one optional bucket per game for content the players typed and explicitly
+ * saved (`game_<gameId>[_<name>]_v1`, see `useGameData`).
+ *
+ * Nothing here ever stores round answers or scores. Every read is guarded:
  * corrupt JSON resets that one key only. When storage is blocked or full the
  * app keeps working from an in-memory mirror for the current page.
  */
 
-import { useCallback, useEffect, useSyncExternalStore } from "react";
+import { useCallback, useEffect, useRef, useState, useSyncExternalStore } from "react";
 
 export const STORAGE_KEYS = {
   settings: "settings_v1",
@@ -23,6 +26,7 @@ export interface Settings {
   sound: boolean;
   reduceMotion: boolean;
   trackSeen: boolean;
+  showReligious: boolean; // G35 section is hidden until enabled (ideas doc §7)
 }
 
 export interface Favorites {
@@ -50,6 +54,7 @@ export const DEFAULT_SETTINGS: Readonly<Settings> = Object.freeze({
   sound: false,
   reduceMotion: false,
   trackSeen: true,
+  showReligious: false,
 });
 export const DEFAULT_FAVORITES: Readonly<Favorites> = Object.freeze({ games: [], cards: [] });
 
@@ -155,6 +160,10 @@ function migrateSettings(parsed: unknown): SettingsRecord | null {
         : DEFAULT_SETTINGS.reduceMotion,
     trackSeen:
       typeof parsed.trackSeen === "boolean" ? parsed.trackSeen : DEFAULT_SETTINGS.trackSeen,
+    showReligious:
+      typeof parsed.showReligious === "boolean"
+        ? parsed.showReligious
+        : DEFAULT_SETTINGS.showReligious,
   };
 }
 
@@ -258,9 +267,10 @@ export function clearSeen(): void {
   notify();
 }
 
-/** Removes only this app's three keys. Never touches other site storage. */
+/** Removes only this app's keys: the three core ones plus every `game_*` bucket. */
 export function clearAllAppData(): void {
   for (const key of Object.values(STORAGE_KEYS)) rawRemove(key);
+  for (const key of gameDataKeys()) rawRemove(key);
   notify();
 }
 
@@ -346,4 +356,94 @@ export function useFavorites() {
   const isGameFavorite = useCallback((id: string) => favorites.games.includes(id), [favorites]);
   const isCardFavorite = useCallback((id: string) => favorites.cards.includes(id), [favorites]);
   return { favorites, toggleGame, toggleCard, isGameFavorite, isCardFavorite, hydrated };
+}
+
+/* ------------------------------------------------------------------ */
+/* Per-game data (private albums, letters, logs) — DATA-02 style        */
+/* ------------------------------------------------------------------ */
+
+/**
+ * One extra key per game bucket: `game_<gameId>[_<name>]_v1` → { schemaVersion: 1, data }.
+ * Only content the players typed and explicitly saved goes here — never round answers or
+ * scores. Corrupt JSON resets that one bucket, exactly like the three core keys.
+ *
+ * ponytail: device-local only. Two phones sharing one album is the R3 upgrade
+ * (linked accounts + Convex sync); the shape below is already the sync payload.
+ */
+const gameKey = (gameId: string, name?: string) => `game_${gameId}${name ? `_${name}` : ""}_v1`;
+
+/** Every `game_*` bucket currently stored (localStorage + the in-memory mirror). */
+function gameDataKeys(): string[] {
+  const keys = new Set<string>();
+  for (const k of memory.keys()) if (k.startsWith("game_")) keys.add(k);
+  if (hasWindow()) {
+    try {
+      for (let i = 0; i < window.localStorage.length; i++) {
+        const k = window.localStorage.key(i);
+        if (k?.startsWith("game_")) keys.add(k);
+      }
+    } catch {
+      /* blocked: the memory mirror is all we have */
+    }
+  }
+  return [...keys];
+}
+
+export function readGameData<T>(gameId: string, fallback: T, name?: string): T {
+  const key = gameKey(gameId, name);
+  const raw = rawGet(key);
+  if (raw === null) return fallback;
+  try {
+    const parsed: unknown = JSON.parse(raw);
+    if (!isObject(parsed) || parsed.schemaVersion !== 1 || parsed.data === undefined) {
+      rawRemove(key);
+      return fallback;
+    }
+    return parsed.data as T;
+  } catch {
+    rawRemove(key);
+    return fallback;
+  }
+}
+
+export function writeGameData<T>(gameId: string, data: T, name?: string): void {
+  rawSet(gameKey(gameId, name), JSON.stringify({ schemaVersion: 1, data }));
+}
+
+/** Removes one game's bucket (used by "delete everything" flows). */
+export function clearGameData(gameId: string, name?: string): void {
+  rawRemove(gameKey(gameId, name));
+}
+
+/**
+ * `[data, setData, hydrated]`. `data` is the fallback until the client has read storage
+ * (`hydrated`), so server and first paint never disagree. `setData` writes through.
+ */
+export function useGameData<T>(
+  gameId: string,
+  fallback: T,
+  name?: string,
+): [T, (next: T | ((prev: T) => T)) => void, boolean] {
+  const fallbackRef = useRef(fallback);
+  const [store, setStore] = useState<{ data: T; hydrated: boolean }>({
+    data: fallback,
+    hydrated: false,
+  });
+
+  useEffect(() => {
+    setStore({ data: readGameData(gameId, fallbackRef.current, name), hydrated: true });
+  }, [gameId, name]);
+
+  const setData = useCallback(
+    (next: T | ((prev: T) => T)) => {
+      setStore((prev) => {
+        const data = typeof next === "function" ? (next as (p: T) => T)(prev.data) : next;
+        writeGameData(gameId, data, name);
+        return { data, hydrated: true };
+      });
+    },
+    [gameId, name],
+  );
+
+  return [store.data, setData, store.hydrated];
 }

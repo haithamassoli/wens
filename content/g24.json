@@ -1,0 +1,3257 @@
+[
+  {
+    "id": "G24-001",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "ما العدد التالي في المتتالية: 2، 4، 6، 8، …؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "10"
+      },
+      {
+        "id": "opt2",
+        "label": "9"
+      },
+      {
+        "id": "opt3",
+        "label": "11"
+      },
+      {
+        "id": "opt4",
+        "label": "12"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "نضيف اثنين في كل خطوة، فالتالي هو 10.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-002",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "ما العدد التالي في المتتالية: 3، 6، 12، 24، …؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "30"
+      },
+      {
+        "id": "opt2",
+        "label": "48"
+      },
+      {
+        "id": "opt3",
+        "label": "36"
+      },
+      {
+        "id": "opt4",
+        "label": "60"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "كل عدد ضعف الذي قبله، فالتالي 48.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-003",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "ما العدد التالي في المتتالية: 1، 4، 9، 16، …؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "20"
+      },
+      {
+        "id": "opt2",
+        "label": "24"
+      },
+      {
+        "id": "opt3",
+        "label": "25"
+      },
+      {
+        "id": "opt4",
+        "label": "36"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "هذه مربّعات الأعداد 1 و2 و3 و4، فالتالي مربّع 5 أي 25.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-004",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "ما العدد التالي في المتتالية: 1، 1، 2، 3، 5، …؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "6"
+      },
+      {
+        "id": "opt2",
+        "label": "7"
+      },
+      {
+        "id": "opt3",
+        "label": "10"
+      },
+      {
+        "id": "opt4",
+        "label": "8"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "كل عدد مجموع العددين قبله: 3 + 5 = 8.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-005",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "ما العدد التالي في المتتالية: 2، 5، 11، 23، …؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "47"
+      },
+      {
+        "id": "opt2",
+        "label": "35"
+      },
+      {
+        "id": "opt3",
+        "label": "45"
+      },
+      {
+        "id": "opt4",
+        "label": "49"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "القاعدة: اضرب في اثنين ثم أضف واحداً. 23 × 2 + 1 = 47.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-006",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "ما نصف ثلث العدد 36؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "4"
+      },
+      {
+        "id": "opt2",
+        "label": "6"
+      },
+      {
+        "id": "opt3",
+        "label": "9"
+      },
+      {
+        "id": "opt4",
+        "label": "12"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "ثلث 36 هو 12، ونصف 12 هو 6.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-007",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "ثلاث تفاحات متساوية وزنها 600 غرام. كم تزن سبع تفاحات منها؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "1200 غرام"
+      },
+      {
+        "id": "opt2",
+        "label": "1300 غرام"
+      },
+      {
+        "id": "opt3",
+        "label": "1400 غرام"
+      },
+      {
+        "id": "opt4",
+        "label": "1500 غرام"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "وزن التفاحة 200 غرام، و7 × 200 = 1400 غرام.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-008",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "ساعة تتأخّر دقيقتين كل ساعة. كم تتأخّر خلال ست ساعات؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "6 دقائق"
+      },
+      {
+        "id": "opt2",
+        "label": "10 دقائق"
+      },
+      {
+        "id": "opt3",
+        "label": "18 دقيقة"
+      },
+      {
+        "id": "opt4",
+        "label": "12 دقيقة"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "دقيقتان × 6 ساعات = 12 دقيقة.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-009",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "عدد يزيد عن نصفه بتسعة. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "18"
+      },
+      {
+        "id": "opt2",
+        "label": "9"
+      },
+      {
+        "id": "opt3",
+        "label": "12"
+      },
+      {
+        "id": "opt4",
+        "label": "27"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "إذا كان العدد س فإن س − نصف س = 9، أي نصف س = 9، فالعدد 18.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-010",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "مجموع عددين 20 وفرقهما 4. ما العدد الأكبر؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "10"
+      },
+      {
+        "id": "opt2",
+        "label": "12"
+      },
+      {
+        "id": "opt3",
+        "label": "14"
+      },
+      {
+        "id": "opt4",
+        "label": "16"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "العددان 12 و8: مجموعهما 20 وفرقهما 4.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-011",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "اليوم هو الثلاثاء. ما اليوم بعد مئة يوم؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الأربعاء"
+      },
+      {
+        "id": "opt2",
+        "label": "الجمعة"
+      },
+      {
+        "id": "opt3",
+        "label": "الخميس"
+      },
+      {
+        "id": "opt4",
+        "label": "السبت"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "100 = 14 أسبوعاً وباقي يومين، ويومان بعد الثلاثاء هو الخميس.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-012",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "في السلّة 12 تفاحة. أخذنا نصفها ثم ثلث الباقي. كم بقي؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "2"
+      },
+      {
+        "id": "opt2",
+        "label": "3"
+      },
+      {
+        "id": "opt3",
+        "label": "6"
+      },
+      {
+        "id": "opt4",
+        "label": "4"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "النصف 6 فيبقى 6، وثلث الستة 2، فيبقى 4.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-013",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "خمس آلات تصنع خمس قطع في خمس دقائق. كم دقيقة تحتاج مئة آلة لصنع مئة قطعة؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "5 دقائق"
+      },
+      {
+        "id": "opt2",
+        "label": "20 دقيقة"
+      },
+      {
+        "id": "opt3",
+        "label": "50 دقيقة"
+      },
+      {
+        "id": "opt4",
+        "label": "100 دقيقة"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "كل آلة تصنع قطعة في خمس دقائق، فمئة آلة تصنع مئة قطعة في خمس دقائق أيضاً.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-014",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "نبتة يتضاعف طولها كل يوم وتملأ الحوض في اليوم العشرين. في أي يوم ملأت نصف الحوض؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "اليوم العاشر"
+      },
+      {
+        "id": "opt2",
+        "label": "اليوم التاسع عشر"
+      },
+      {
+        "id": "opt3",
+        "label": "اليوم الخامس عشر"
+      },
+      {
+        "id": "opt4",
+        "label": "اليوم الثامن عشر"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "ما دام الطول يتضاعف يومياً، فالنصف كان قبل الامتلاء بيوم واحد.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-015",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "قطار يقطع 60 كم في 45 دقيقة بسرعة ثابتة. كم يقطع في ساعة ونصف؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "90 كم"
+      },
+      {
+        "id": "opt2",
+        "label": "100 كم"
+      },
+      {
+        "id": "opt3",
+        "label": "120 كم"
+      },
+      {
+        "id": "opt4",
+        "label": "135 كم"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "ساعة ونصف = ضعف 45 دقيقة، فالمسافة ضعف 60 أي 120 كم.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-016",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "ما مجموع الأعداد من 1 إلى 10؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "45"
+      },
+      {
+        "id": "opt2",
+        "label": "50"
+      },
+      {
+        "id": "opt3",
+        "label": "60"
+      },
+      {
+        "id": "opt4",
+        "label": "55"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "مجموع الأعداد من 1 إلى 10 يساوي 55.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-017",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "كم دقيقة في يومين كاملين؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "2880"
+      },
+      {
+        "id": "opt2",
+        "label": "1440"
+      },
+      {
+        "id": "opt3",
+        "label": "2400"
+      },
+      {
+        "id": "opt4",
+        "label": "3600"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "في اليوم 1440 دقيقة، وفي يومين 2880 دقيقة.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-018",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "ما ثمن العدد 64؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "6"
+      },
+      {
+        "id": "opt2",
+        "label": "8"
+      },
+      {
+        "id": "opt3",
+        "label": "9"
+      },
+      {
+        "id": "opt4",
+        "label": "16"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "الثمن يعني القسمة على ثمانية: 64 ÷ 8 = 8.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-019",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "كم مرّة يمكن طرح 5 من 25؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "أربع مرات"
+      },
+      {
+        "id": "opt2",
+        "label": "خمس مرات"
+      },
+      {
+        "id": "opt3",
+        "label": "مرة واحدة"
+      },
+      {
+        "id": "opt4",
+        "label": "ست مرات"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "بعد الطرح الأول لم يعد العدد 25، بل صار 20.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-020",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "عمر الأب يزيد عن عمر ابنه بثلاثين سنة، ومجموع عمريهما 50. كم عمر الابن؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "5 سنوات"
+      },
+      {
+        "id": "opt2",
+        "label": "15 سنة"
+      },
+      {
+        "id": "opt3",
+        "label": "20 سنة"
+      },
+      {
+        "id": "opt4",
+        "label": "10 سنوات"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "الابن 10 والأب 40: الفرق 30 والمجموع 50.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-021",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "نريد قطع حبل إلى أربعة أجزاء. كم قصّة نحتاج؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "3"
+      },
+      {
+        "id": "opt2",
+        "label": "2"
+      },
+      {
+        "id": "opt3",
+        "label": "4"
+      },
+      {
+        "id": "opt4",
+        "label": "5"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "كل قصّة تزيد عدد الأجزاء واحداً، فأربعة أجزاء تحتاج ثلاث قصّات.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-022",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "أعطاك الطبيب ثلاث حبّات، تأخذ واحدة كل نصف ساعة. متى تنتهي من الأخيرة؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "بعد نصف ساعة"
+      },
+      {
+        "id": "opt2",
+        "label": "بعد ساعة"
+      },
+      {
+        "id": "opt3",
+        "label": "بعد ساعة ونصف"
+      },
+      {
+        "id": "opt4",
+        "label": "بعد ساعتين"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "الأولى الآن، والثانية بعد نصف ساعة، والثالثة بعد ساعة.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-023",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "عند مزارع 17 خروفاً، ماتت كلها إلا تسعة. كم خروفاً بقي؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "8"
+      },
+      {
+        "id": "opt2",
+        "label": "10"
+      },
+      {
+        "id": "opt3",
+        "label": "9"
+      },
+      {
+        "id": "opt4",
+        "label": "17"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "العبارة تقول إن تسعة لم تمت، فالباقي تسعة.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-024",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "أيّهما أثقل: كيلوغرام من الحديد أم كيلوغرام من القطن؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الحديد"
+      },
+      {
+        "id": "opt2",
+        "label": "القطن"
+      },
+      {
+        "id": "opt3",
+        "label": "لا يمكن معرفة ذلك"
+      },
+      {
+        "id": "opt4",
+        "label": "متساويان"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "الكيلوغرام وحدة كتلة واحدة مهما اختلف النوع.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-025",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "كم تبلغ الزاوية بين عقربي الساعة عند الثالثة تماماً؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "90 درجة"
+      },
+      {
+        "id": "opt2",
+        "label": "45 درجة"
+      },
+      {
+        "id": "opt3",
+        "label": "60 درجة"
+      },
+      {
+        "id": "opt4",
+        "label": "120 درجة"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "بين كل رقمين 30 درجة، وبين 12 و3 ثلاث مسافات أي 90 درجة.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-026",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "الساعة الآن التاسعة صباحاً. كم تكون بعد ثلاثين ساعة؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "التاسعة مساءً"
+      },
+      {
+        "id": "opt2",
+        "label": "الثالثة بعد الظهر"
+      },
+      {
+        "id": "opt3",
+        "label": "الثانية عشرة ظهراً"
+      },
+      {
+        "id": "opt4",
+        "label": "السادسة مساءً"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "24 ساعة تعيدنا إلى التاسعة صباحاً، وستّ ساعات بعدها تعطي الثالثة بعد الظهر.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-027",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "إذا كان أمس هو الأربعاء، فما يوم بعد غد؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الجمعة"
+      },
+      {
+        "id": "opt2",
+        "label": "الأحد"
+      },
+      {
+        "id": "opt3",
+        "label": "السبت"
+      },
+      {
+        "id": "opt4",
+        "label": "الاثنين"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "اليوم الخميس، وغداً الجمعة، وبعد غد السبت.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-028",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "يوم بعد غد هو الأحد. ما اليوم؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الخميس"
+      },
+      {
+        "id": "opt2",
+        "label": "السبت"
+      },
+      {
+        "id": "opt3",
+        "label": "الاثنين"
+      },
+      {
+        "id": "opt4",
+        "label": "الجمعة"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "إذا كان بعد غد الأحد فغداً السبت واليوم الجمعة.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-029",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "أي شهر في السنة فيه ثمانية وعشرون يوماً؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "كل الشهور"
+      },
+      {
+        "id": "opt2",
+        "label": "فبراير فقط"
+      },
+      {
+        "id": "opt3",
+        "label": "لا يوجد"
+      },
+      {
+        "id": "opt4",
+        "label": "الشهر الأخير"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "كل شهر يمرّ فيه ثمانية وعشرون يوماً على الأقل.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-030",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "في سباق تجاوزتَ صاحب المركز الثاني. ما مركزك الآن؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الأول"
+      },
+      {
+        "id": "opt2",
+        "label": "الثاني"
+      },
+      {
+        "id": "opt3",
+        "label": "الثالث"
+      },
+      {
+        "id": "opt4",
+        "label": "الرابع"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "من تجاوزه صار ثالثاً، وأنت أخذت مكانه في المركز الثاني.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-031",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "في سباق حاولت تجاوز صاحب المركز الأخير. ماذا يحدث؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "تصير أخيراً"
+      },
+      {
+        "id": "opt2",
+        "label": "تصير قبل الأخير"
+      },
+      {
+        "id": "opt3",
+        "label": "لا يمكن تجاوزه"
+      },
+      {
+        "id": "opt4",
+        "label": "تصير أولاً"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "لو تجاوزته لكنتَ خلفه، وحينها يصبح هو غير الأخير، فالفرض متناقض.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-032",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "ثلاث علب: واحدة تفاح، وواحدة برتقال، وواحدة مخلوطة، وكل الملصقات خاطئة. من أي علبة تسحب ثمرة واحدة لتعرف الجميع؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "من علبة «تفاح»"
+      },
+      {
+        "id": "opt2",
+        "label": "من علبة «برتقال»"
+      },
+      {
+        "id": "opt3",
+        "label": "لا تكفي ثمرة واحدة"
+      },
+      {
+        "id": "opt4",
+        "label": "من العلبة المكتوب عليها «مخلوط»"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "ملصقها خاطئ فهي ليست مخلوطة، والثمرة تحدّد نوعها، ثم يتحدّد الباقي لأن كل الملصقات خاطئة.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-033",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "علبتان: ملصق «أقلام» وملصق «دفاتر»، وكلا الملصقين خاطئ. كم علبة يكفي أن تفتح لتصحّح الملصقين؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "واحدة"
+      },
+      {
+        "id": "opt2",
+        "label": "اثنتان"
+      },
+      {
+        "id": "opt3",
+        "label": "لا يمكن التصحيح"
+      },
+      {
+        "id": "opt4",
+        "label": "ثلاث"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "بما أن الملصقين خاطئان، فمعرفة محتوى علبة واحدة تحدّد الأخرى تلقائياً.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-034",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "غرفة مغلقة فيها ثلاثة مصابيح، وخارجها ثلاثة مفاتيح، ويُسمح لك بدخول الغرفة مرة واحدة فقط. ما الحلّ؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "شغّل المفاتيح الثلاثة معاً"
+      },
+      {
+        "id": "opt2",
+        "label": "شغّل الأول مدة ثم أطفئه وشغّل الثاني وادخل"
+      },
+      {
+        "id": "opt3",
+        "label": "أطفئ الجميع ثم ادخل"
+      },
+      {
+        "id": "opt4",
+        "label": "لا حلّ لهذه المسألة"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "المصباح المضيء هو الثاني، والمطفأ الدافئ هو الأول، والمطفأ البارد هو الثالث.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-035",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "راعٍ معه ذئب وشاة وحزمة عشب، وقاربه يحمل واحداً فقط في كل مرة. بماذا يبدأ؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "بالذئب"
+      },
+      {
+        "id": "opt2",
+        "label": "بحزمة العشب"
+      },
+      {
+        "id": "opt3",
+        "label": "بالشاة"
+      },
+      {
+        "id": "opt4",
+        "label": "لا يمكن العبور"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "لو ترك الشاة مع الذئب أو مع العشب لضاع أحدهما، فيبدأ بالشاة.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-036",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "معك إناءان: سعة 3 لترات وسعة 5 لترات. كيف تقيس 4 لترات بالضبط؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "املأ الثلاثة مرتين"
+      },
+      {
+        "id": "opt2",
+        "label": "املأ الخمسة وأفرغ نصفه"
+      },
+      {
+        "id": "opt3",
+        "label": "لا يمكن قياس أربعة"
+      },
+      {
+        "id": "opt4",
+        "label": "املأ الخمسة وصبّ في الثلاثة، ثم أفرغ الثلاثة وضع فيه الباقي، ثم املأ الخمسة وأكمل الثلاثة"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "يبقى في الخمسة لتران، وبعد نقلهما إلى الثلاثة يتّسع لتراً واحداً، فيتبقّى في الخمسة أربعة لترات.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-037",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "سامي أسرع من ليان، وليان أسرع من نورة. من الأبطأ؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "نورة"
+      },
+      {
+        "id": "opt2",
+        "label": "سامي"
+      },
+      {
+        "id": "opt3",
+        "label": "ليان"
+      },
+      {
+        "id": "opt4",
+        "label": "لا يمكن معرفة ذلك"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "الترتيب: سامي ثم ليان ثم نورة، فنورة الأبطأ.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-038",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "الكتاب فوق الطاولة، والطاولة فوق السجادة. ما الأسفل؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الكتاب"
+      },
+      {
+        "id": "opt2",
+        "label": "السجادة"
+      },
+      {
+        "id": "opt3",
+        "label": "الطاولة"
+      },
+      {
+        "id": "opt4",
+        "label": "لا يمكن معرفة ذلك"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "الترتيب من الأعلى: كتاب ثم طاولة ثم سجادة.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-039",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "وصل سعد قبل ماجد، وماجد قبل فهد، وفهد قبل نايف. من وصل ثالثاً؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "سعد"
+      },
+      {
+        "id": "opt2",
+        "label": "ماجد"
+      },
+      {
+        "id": "opt3",
+        "label": "فهد"
+      },
+      {
+        "id": "opt4",
+        "label": "نايف"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "الترتيب: سعد، ماجد، فهد، نايف.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-040",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "لمى تجلس يمين هدى، وهدى تجلس يمين ريم. من في الوسط؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "لمى"
+      },
+      {
+        "id": "opt2",
+        "label": "ريم"
+      },
+      {
+        "id": "opt3",
+        "label": "لا أحد"
+      },
+      {
+        "id": "opt4",
+        "label": "هدى"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "الترتيب من اليمين: لمى ثم هدى ثم ريم، فهدى في الوسط.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-041",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "الصندوق الأحمر أثقل من الأزرق، والأزرق أثقل من الأخضر. أيّها أخفّ؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الأخضر"
+      },
+      {
+        "id": "opt2",
+        "label": "الأحمر"
+      },
+      {
+        "id": "opt3",
+        "label": "الأزرق"
+      },
+      {
+        "id": "opt4",
+        "label": "متساوية"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "الترتيب من الأثقل: أحمر، أزرق، أخضر.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-042",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "كل ورد هذه الحديقة أحمر، وهذه وردة من الحديقة. ما لونها؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "أبيض"
+      },
+      {
+        "id": "opt2",
+        "label": "أحمر"
+      },
+      {
+        "id": "opt3",
+        "label": "أصفر"
+      },
+      {
+        "id": "opt4",
+        "label": "لا يمكن معرفة ذلك"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "استنتاج مباشر من المقدّمتين.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-043",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "شيء كلما أخذتَ منه كبر. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الكيس"
+      },
+      {
+        "id": "opt2",
+        "label": "الصندوق"
+      },
+      {
+        "id": "opt3",
+        "label": "الحفرة"
+      },
+      {
+        "id": "opt4",
+        "label": "الجبل"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "كلما أزلت من ترابها اتّسعت.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-044",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "له أسنان ولا يعضّ. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الكلب"
+      },
+      {
+        "id": "opt2",
+        "label": "الملعقة"
+      },
+      {
+        "id": "opt3",
+        "label": "الباب"
+      },
+      {
+        "id": "opt4",
+        "label": "المشط"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "أسنان المشط لتسريح الشعر.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-045",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "له عين ولا يرى. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الإبرة"
+      },
+      {
+        "id": "opt2",
+        "label": "الكاميرا"
+      },
+      {
+        "id": "opt3",
+        "label": "النافذة"
+      },
+      {
+        "id": "opt4",
+        "label": "المرآة"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "عين الإبرة هي الثقب الذي يمرّ منه الخيط.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-046",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "له عقارب ولا يلدغ. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الصحراء"
+      },
+      {
+        "id": "opt2",
+        "label": "الساعة"
+      },
+      {
+        "id": "opt3",
+        "label": "السلّم"
+      },
+      {
+        "id": "opt4",
+        "label": "الحديقة"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "عقربا الساعة يشيران إلى الوقت.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-047",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "كلما احترق قصر. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الحبل"
+      },
+      {
+        "id": "opt2",
+        "label": "الورق"
+      },
+      {
+        "id": "opt3",
+        "label": "الشمعة"
+      },
+      {
+        "id": "opt4",
+        "label": "الخشب"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "الشمعة تنقص كلما اشتعلت.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-048",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "بيت أبيض بلا أبواب ولا نوافذ. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الثلج"
+      },
+      {
+        "id": "opt2",
+        "label": "الغيمة"
+      },
+      {
+        "id": "opt3",
+        "label": "الملح"
+      },
+      {
+        "id": "opt4",
+        "label": "البيضة"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "قشرة البيضة بيضاء ومغلقة تماماً.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-049",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "يتبعك أينما ذهبت ولا تستطيع الإمساك به. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الظلّ"
+      },
+      {
+        "id": "opt2",
+        "label": "الصدى"
+      },
+      {
+        "id": "opt3",
+        "label": "الهواء"
+      },
+      {
+        "id": "opt4",
+        "label": "الوقت"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "الظلّ يرافقك في الضوء ولا يُمسك.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-050",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "له ضفاف ولا يجلس عليها. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "القارب"
+      },
+      {
+        "id": "opt2",
+        "label": "النهر"
+      },
+      {
+        "id": "opt3",
+        "label": "الجسر"
+      },
+      {
+        "id": "opt4",
+        "label": "البحيرة"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "ضفاف النهر جانباه.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-051",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "له أربع أرجل ولا يمشي. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الحصان"
+      },
+      {
+        "id": "opt2",
+        "label": "السلّم"
+      },
+      {
+        "id": "opt3",
+        "label": "الكرسي"
+      },
+      {
+        "id": "opt4",
+        "label": "الطائر"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "أرجل الكرسي ثابتة.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-052",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "له أوراق وليس شجرة. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "النبتة"
+      },
+      {
+        "id": "opt2",
+        "label": "الباب"
+      },
+      {
+        "id": "opt3",
+        "label": "الحقيبة"
+      },
+      {
+        "id": "opt4",
+        "label": "الكتاب"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "أوراق الكتاب صفحاته.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-053",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "له لسان ولا يتكلّم. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الحذاء"
+      },
+      {
+        "id": "opt2",
+        "label": "الجرس"
+      },
+      {
+        "id": "opt3",
+        "label": "الهاتف"
+      },
+      {
+        "id": "opt4",
+        "label": "الببغاء"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "لسان الحذاء الجزء الذي تحت الرباط.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-054",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "يجيبك ولا يسألك. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الكتاب"
+      },
+      {
+        "id": "opt2",
+        "label": "الصدى"
+      },
+      {
+        "id": "opt3",
+        "label": "المرآة"
+      },
+      {
+        "id": "opt4",
+        "label": "الظلّ"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "الصدى يردّ صوتك فقط.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-055",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "هو لك ويستعمله غيرك أكثر منك. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "قلمك"
+      },
+      {
+        "id": "opt2",
+        "label": "بيتك"
+      },
+      {
+        "id": "opt3",
+        "label": "اسمك"
+      },
+      {
+        "id": "opt4",
+        "label": "هاتفك"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "الناس ينادونك باسمك أكثر مما تقوله أنت.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-056",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "فيها مدن بلا بيوت وأنهار بلا ماء. ما هي؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الصورة"
+      },
+      {
+        "id": "opt2",
+        "label": "القصة"
+      },
+      {
+        "id": "opt3",
+        "label": "الأغنية"
+      },
+      {
+        "id": "opt4",
+        "label": "الخريطة"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "الخريطة ترسم المدن والأنهار دون أن تحويها.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-057",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "يمضي ولا يعود. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الوقت"
+      },
+      {
+        "id": "opt2",
+        "label": "النهر"
+      },
+      {
+        "id": "opt3",
+        "label": "القطار"
+      },
+      {
+        "id": "opt4",
+        "label": "المطر"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "الزمن لا يُسترجع.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-058",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "يذوب في الماء ويبقى طعمه. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الثلج"
+      },
+      {
+        "id": "opt2",
+        "label": "الملح"
+      },
+      {
+        "id": "opt3",
+        "label": "الرمل"
+      },
+      {
+        "id": "opt4",
+        "label": "الزيت"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "الملح يذوب ويظلّ طعمه في الماء.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-059",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "إذا ذكرته انكسر. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الزجاج"
+      },
+      {
+        "id": "opt2",
+        "label": "العهد"
+      },
+      {
+        "id": "opt3",
+        "label": "الصمت"
+      },
+      {
+        "id": "opt4",
+        "label": "الغصن"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "بمجرد أن تنطق ينتهي الصمت.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-060",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "لها رقبة بلا رأس. ما هي؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الشجرة"
+      },
+      {
+        "id": "opt2",
+        "label": "القميص"
+      },
+      {
+        "id": "opt3",
+        "label": "الساعة"
+      },
+      {
+        "id": "opt4",
+        "label": "الزجاجة"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "عنق الزجاجة جزؤها الضيّق.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-061",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "يمشي بلا قدمين ويبكي بلا عينين. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "السحاب"
+      },
+      {
+        "id": "opt2",
+        "label": "القطار"
+      },
+      {
+        "id": "opt3",
+        "label": "النهر"
+      },
+      {
+        "id": "opt4",
+        "label": "الريح"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "السحاب يسير في السماء وينزل منه المطر.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-062",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "ترى نفسك فيها ولا تسكنها. ما هي؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الصورة"
+      },
+      {
+        "id": "opt2",
+        "label": "المرآة"
+      },
+      {
+        "id": "opt3",
+        "label": "النافذة"
+      },
+      {
+        "id": "opt4",
+        "label": "البركة"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "المرآة تعكس صورتك فقط.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-063",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "صغير يفتح ما هو أكبر منه بكثير. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "المسمار"
+      },
+      {
+        "id": "opt2",
+        "label": "الدبّوس"
+      },
+      {
+        "id": "opt3",
+        "label": "المفتاح"
+      },
+      {
+        "id": "opt4",
+        "label": "القلم"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "المفتاح الصغير يفتح باباً كبيراً.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-064",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "شيء تشتريه لتأكل به ولا تأكله. ما هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الخبز"
+      },
+      {
+        "id": "opt2",
+        "label": "الملح"
+      },
+      {
+        "id": "opt3",
+        "label": "الطبق الجاهز"
+      },
+      {
+        "id": "opt4",
+        "label": "الملعقة"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "الملعقة أداة أكل لا طعام.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-065",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "words",
+    "depth": "light",
+    "body": "أي الكلمات التالية تُقرأ من الجهتين نفسها؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "سلس"
+      },
+      {
+        "id": "opt2",
+        "label": "كتاب"
+      },
+      {
+        "id": "opt3",
+        "label": "قلم"
+      },
+      {
+        "id": "opt4",
+        "label": "شمس"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "«سلس» تُقرأ من اليمين ومن اليسار بالطريقة نفسها.",
+    "tags": ["لغز", "words"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-066",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "words",
+    "depth": "light",
+    "body": "كم حرفاً في كلمة «مستشفى»؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "5"
+      },
+      {
+        "id": "opt2",
+        "label": "6"
+      },
+      {
+        "id": "opt3",
+        "label": "7"
+      },
+      {
+        "id": "opt4",
+        "label": "8"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "م، س، ت، ش، ف، ى: ستة حروف.",
+    "tags": ["لغز", "words"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-067",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "words",
+    "depth": "light",
+    "body": "أي كلمة لا تنتمي إلى المجموعة: تفاح، موز، جزر، عنب؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "تفاح"
+      },
+      {
+        "id": "opt2",
+        "label": "موز"
+      },
+      {
+        "id": "opt3",
+        "label": "جزر"
+      },
+      {
+        "id": "opt4",
+        "label": "عنب"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "الجزر خضار والبقية فواكه.",
+    "tags": ["لغز", "words"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-068",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "words",
+    "depth": "light",
+    "body": "أي كلمة لا تنتمي إلى المجموعة: قطّ، كلب، حصان، كرسي؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "قطّ"
+      },
+      {
+        "id": "opt2",
+        "label": "كلب"
+      },
+      {
+        "id": "opt3",
+        "label": "حصان"
+      },
+      {
+        "id": "opt4",
+        "label": "كرسي"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "الكرسي جماد والبقية حيوانات.",
+    "tags": ["لغز", "words"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-069",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "words",
+    "depth": "light",
+    "body": "رتّب الحروف: ت، ا، ك، ب لتكوّن كلمة معروفة.",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "كتاب"
+      },
+      {
+        "id": "opt2",
+        "label": "باكت"
+      },
+      {
+        "id": "opt3",
+        "label": "تابك"
+      },
+      {
+        "id": "opt4",
+        "label": "كابت"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "الحروف تكوّن كلمة «كتاب».",
+    "tags": ["لغز", "words"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-070",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "words",
+    "depth": "light",
+    "body": "ما ضدّ كلمة «سخيّ»؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "كريم"
+      },
+      {
+        "id": "opt2",
+        "label": "بخيل"
+      },
+      {
+        "id": "opt3",
+        "label": "جواد"
+      },
+      {
+        "id": "opt4",
+        "label": "معطاء"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "الكرم والجود والعطاء مرادفات، والبخل هو الضدّ.",
+    "tags": ["لغز", "words"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-071",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "words",
+    "depth": "light",
+    "body": "ما مفرد كلمة «كتب»؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "كاتب"
+      },
+      {
+        "id": "opt2",
+        "label": "مكتبة"
+      },
+      {
+        "id": "opt3",
+        "label": "كتاب"
+      },
+      {
+        "id": "opt4",
+        "label": "مكتوب"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "جمع «كتاب» هو «كتب».",
+    "tags": ["لغز", "words"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-072",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "words",
+    "depth": "light",
+    "body": "أي مما يلي جمع تكسير؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "معلّمون"
+      },
+      {
+        "id": "opt2",
+        "label": "مسلمات"
+      },
+      {
+        "id": "opt3",
+        "label": "كاتبات"
+      },
+      {
+        "id": "opt4",
+        "label": "رجال"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "«رجال» جمع تكسير، والبقية جموع سالمة.",
+    "tags": ["لغز", "words"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-073",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "words",
+    "depth": "light",
+    "body": "أي الكلمات التالية ليست أداة استفهام؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "لكن"
+      },
+      {
+        "id": "opt2",
+        "label": "كيف"
+      },
+      {
+        "id": "opt3",
+        "label": "متى"
+      },
+      {
+        "id": "opt4",
+        "label": "أين"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "«لكن» أداة استدراك لا استفهام.",
+    "tags": ["لغز", "words"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-074",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "words",
+    "depth": "light",
+    "body": "ما جمع كلمة «قلم»؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "قلمان"
+      },
+      {
+        "id": "opt2",
+        "label": "أقلام"
+      },
+      {
+        "id": "opt3",
+        "label": "قوالم"
+      },
+      {
+        "id": "opt4",
+        "label": "قلمات"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "جمع قلم أقلام.",
+    "tags": ["لغز", "words"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-075",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "words",
+    "depth": "light",
+    "body": "أي كلمة لا تنتمي إلى المجموعة: أحمر، أزرق، طويل، أخضر؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "أحمر"
+      },
+      {
+        "id": "opt2",
+        "label": "أزرق"
+      },
+      {
+        "id": "opt3",
+        "label": "طويل"
+      },
+      {
+        "id": "opt4",
+        "label": "أخضر"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "«طويل» صفة قياس، والبقية ألوان.",
+    "tags": ["لغز", "words"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-076",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "words",
+    "depth": "light",
+    "body": "ما ضدّ كلمة «واسع»؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "فسيح"
+      },
+      {
+        "id": "opt2",
+        "label": "رحب"
+      },
+      {
+        "id": "opt3",
+        "label": "كبير"
+      },
+      {
+        "id": "opt4",
+        "label": "ضيّق"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "الفسيح والرحب مرادفان لواسع، والضيّق هو الضدّ.",
+    "tags": ["لغز", "words"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-077",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "words",
+    "depth": "light",
+    "body": "أي مما يلي ليس فصلاً من فصول السنة؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "الشروق"
+      },
+      {
+        "id": "opt2",
+        "label": "الربيع"
+      },
+      {
+        "id": "opt3",
+        "label": "الخريف"
+      },
+      {
+        "id": "opt4",
+        "label": "الشتاء"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "الشروق وقت من اليوم لا فصل.",
+    "tags": ["لغز", "words"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-078",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "words",
+    "depth": "light",
+    "body": "إذا قلبنا ترتيب حروف كلمة «قمر» فماذا نحصل؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "مرق"
+      },
+      {
+        "id": "opt2",
+        "label": "رمق"
+      },
+      {
+        "id": "opt3",
+        "label": "قرم"
+      },
+      {
+        "id": "opt4",
+        "label": "رقم"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "قلب الترتيب يعطي: ر، م، ق.",
+    "tags": ["لغز", "words"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-079",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "words",
+    "depth": "light",
+    "body": "أي الجمل التالية تبدأ بفعل ماضٍ؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "يكتب سعد الدرس"
+      },
+      {
+        "id": "opt2",
+        "label": "اكتب الدرس"
+      },
+      {
+        "id": "opt3",
+        "label": "كتب سعد الدرس"
+      },
+      {
+        "id": "opt4",
+        "label": "سعد كاتب الدرس"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "«كتب» فعل ماضٍ، و«يكتب» مضارع، و«اكتب» أمر.",
+    "tags": ["لغز", "words"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-080",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "أختان وُلدتا في اليوم نفسه من الأم نفسها ولستا توأمين. كيف؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "إحداهما بالتبنّي"
+      },
+      {
+        "id": "opt2",
+        "label": "وُلدتا في سنتين مختلفتين"
+      },
+      {
+        "id": "opt3",
+        "label": "المسألة مستحيلة"
+      },
+      {
+        "id": "opt4",
+        "label": "هما اثنتان من ثلاثة توائم"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "التوأم يعني اثنين، أما الثلاثة فكل اثنتين منهم ليستا «توأمين».",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-081",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "برتقالة واحدة بين طفلين. ما أعدل طريقة للقسمة يرضيان بها؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "أحدهما يقسم والآخر يختار"
+      },
+      {
+        "id": "opt2",
+        "label": "الأكبر يقسم ويأخذ نصفه"
+      },
+      {
+        "id": "opt3",
+        "label": "تُقسم بالقرعة"
+      },
+      {
+        "id": "opt4",
+        "label": "تُترك لأحدهما"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "من يقسم يحرص على العدل لأنه يأخذ ما تبقّى.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-082",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "أمامك حارسان: أحدهما يصدق دائماً والآخر يكذب دائماً، ولك سؤال واحد. ما أفضل سؤال؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "«هل هذا الباب صحيح؟»"
+      },
+      {
+        "id": "opt2",
+        "label": "«لو سألت زميلك عن الباب الصحيح، ماذا يقول؟» ثم اختر الباب الآخر"
+      },
+      {
+        "id": "opt3",
+        "label": "«هل أنت صادق؟»"
+      },
+      {
+        "id": "opt4",
+        "label": "«ما اسم زميلك؟»"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "الجواب يمرّ بكذبة واحدة في الحالتين، فيكون خاطئاً دائماً، ويكفي أن تعكسه.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-083",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "معك ثماني كرات متطابقة، واحدة أثقل، وميزان بكفّتين. ما أقلّ عدد وزنات يكفي؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "واحدة"
+      },
+      {
+        "id": "opt2",
+        "label": "ثلاث"
+      },
+      {
+        "id": "opt3",
+        "label": "وزنتان"
+      },
+      {
+        "id": "opt4",
+        "label": "أربع"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "زِن ثلاثاً مقابل ثلاث، ثم زِن اثنتين من المجموعة الأثقل.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-084",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "في الدرج عشرة جوارب سوداء وعشرة بيضاء مختلطة، والغرفة مظلمة. كم جورباً تسحب لتضمن زوجاً متطابقاً؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "2"
+      },
+      {
+        "id": "opt2",
+        "label": "4"
+      },
+      {
+        "id": "opt3",
+        "label": "11"
+      },
+      {
+        "id": "opt4",
+        "label": "3"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "الجوربان قد يختلفان، أما الثالث فلا بدّ أن يوافق أحدهما.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-085",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "في غرفة خمسة أشخاص، صافح كل واحد الآخرين مرة واحدة. كم مصافحة حدثت؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "10"
+      },
+      {
+        "id": "opt2",
+        "label": "5"
+      },
+      {
+        "id": "opt3",
+        "label": "15"
+      },
+      {
+        "id": "opt4",
+        "label": "20"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "عدد الأزواج الممكنة من خمسة أشخاص هو عشرة.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-086",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "كم مرّة يلتقي عقربا الساعة خلال اثنتي عشرة ساعة؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "10 مرات"
+      },
+      {
+        "id": "opt2",
+        "label": "11 مرة"
+      },
+      {
+        "id": "opt3",
+        "label": "12 مرة"
+      },
+      {
+        "id": "opt4",
+        "label": "13 مرة"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "العقربان يلتقيان كل 65 دقيقة تقريباً، فيكون اللقاء 11 مرة في 12 ساعة.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-087",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "شمعة طولها 20 سم وتنقص 4 سم كل ساعة. بعد كم ساعة تنتهي؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "4 ساعات"
+      },
+      {
+        "id": "opt2",
+        "label": "6 ساعات"
+      },
+      {
+        "id": "opt3",
+        "label": "5 ساعات"
+      },
+      {
+        "id": "opt4",
+        "label": "8 ساعات"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "20 ÷ 4 = 5 ساعات.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-088",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "على سلّم من عشرين درجة: صعدت 8 ثم نزلت 3 ثم صعدت 6. على أي درجة أنت؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "10"
+      },
+      {
+        "id": "opt2",
+        "label": "12"
+      },
+      {
+        "id": "opt3",
+        "label": "17"
+      },
+      {
+        "id": "opt4",
+        "label": "11"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "8 − 3 + 6 = 11.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-089",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "riddle",
+    "depth": "light",
+    "body": "ابن أمّك وأبيك، وليس أخاك ولا أختك. من هو؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "أنت نفسك"
+      },
+      {
+        "id": "opt2",
+        "label": "ابن عمّك"
+      },
+      {
+        "id": "opt3",
+        "label": "ابن خالك"
+      },
+      {
+        "id": "opt4",
+        "label": "جارك"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "أنت الوحيد الذي ينطبق عليه الوصف دون أن يكون أخاً أو أختاً لك.",
+    "tags": ["لغز", "riddle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-090",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "logic",
+    "depth": "light",
+    "body": "أمامك ثلاثة أكياس متطابقة، في اثنين منها حبّات وزنها 10 غرامات وفي واحد 9 غرامات، ومعك ميزان رقمي تستخدمه مرة واحدة. ما الحلّ؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "زِن كل كيس على حدة"
+      },
+      {
+        "id": "opt2",
+        "label": "خذ حبّة من الأول واثنتين من الثاني وثلاثاً من الثالث وزنها معاً"
+      },
+      {
+        "id": "opt3",
+        "label": "زِن كيسين معاً"
+      },
+      {
+        "id": "opt4",
+        "label": "لا يمكن بمرة واحدة"
+      }
+    ],
+    "answer": "opt2",
+    "explanation": "نقص الوزن عن 60 غراماً يساوي رقم الكيس الناقص.",
+    "tags": ["لغز", "logic"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-091",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "ما العدد التالي في المتتالية: 100، 90، 81، 73، …؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "64"
+      },
+      {
+        "id": "opt2",
+        "label": "65"
+      },
+      {
+        "id": "opt3",
+        "label": "66"
+      },
+      {
+        "id": "opt4",
+        "label": "68"
+      }
+    ],
+    "answer": "opt3",
+    "explanation": "ننقص 10 ثم 9 ثم 8 ثم 7، فالتالي 73 − 7 = 66.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-092",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "إذا كان نصف العدد يساوي ثلثه زائد 5، فما العدد؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "15"
+      },
+      {
+        "id": "opt2",
+        "label": "20"
+      },
+      {
+        "id": "opt3",
+        "label": "60"
+      },
+      {
+        "id": "opt4",
+        "label": "30"
+      }
+    ],
+    "answer": "opt4",
+    "explanation": "نصف س − ثلث س = سدس س = 5، فالعدد 30.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  },
+  {
+    "id": "G24-093",
+    "gameId": "G24",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "numbers",
+    "depth": "light",
+    "body": "ثلاثة أصدقاء اشتركوا في تنظيف حديقة: الأول ينهيها في 6 ساعات، والثاني في 3، والثالث في 2. كم يحتاجون معاً؟",
+    "options": [
+      {
+        "id": "opt1",
+        "label": "ساعة واحدة"
+      },
+      {
+        "id": "opt2",
+        "label": "نصف ساعة"
+      },
+      {
+        "id": "opt3",
+        "label": "ساعتان"
+      },
+      {
+        "id": "opt4",
+        "label": "ثلاث ساعات"
+      }
+    ],
+    "answer": "opt1",
+    "explanation": "في الساعة ينجزون سدساً وثلثاً ونصفاً، ومجموعها حديقة كاملة.",
+    "tags": ["لغز", "numbers"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 4,
+    "reviewedAt": "2026-09-05"
+  }
+]

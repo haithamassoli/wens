@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function GamesPage() {
   return (
     <>
-      <PageHeader title="الألعاب" lede="ست ألعاب قصيرة، كلها على هاتف واحد وبلا تسجيل." />
+      <PageHeader title="الألعاب" lede="ألعاب وأنشطة قصيرة، كلها على هاتف واحد وبلا تسجيل." />
       <Catalog />
     </>
   );

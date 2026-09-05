@@ -29,7 +29,15 @@ export type Event =
   | { type: "SPIN"; seed?: number }
   | { type: "DONE" }
   | { type: "RESET_POOL" }
-  | { type: "RESHUFFLE" };
+  | { type: "RESHUFFLE" }
+  | { type: "INPUT"; field: string; value: string } // free text for one named field (G07, G12, G22)
+  | { type: "SET"; key: string; value: string | number | string[] } // generic setter (G07 fiction, G22 verdict, G23 order)
+  | { type: "UNDO" } // remove the latest turn (G12), step back one count (G21)
+  | { type: "CORRECT" } // the guess landed this round (G10, G11, G21)
+  | { type: "WRONG" } // the guess did not land this round (G21)
+  | { type: "REPLACE"; slot: string } // swap one frozen element before the timer (G13)
+  | { type: "REVEAL" } // show the approved solution, scoring nothing (G18, G24)
+  | { type: "HINT" }; // reveal the card hint, never penalised (G18)
 
 export type Phase =
   | "instructions"
@@ -39,6 +47,7 @@ export type Phase =
   | "handoff"
   | "player_B_input"
   | "reveal"
+  | "input"
   | "timer_ready"
   | "timer_running"
   | "timer_paused"
@@ -46,6 +55,10 @@ export type Phase =
   | "wheel_idle"
   | "wheel_spinning"
   | "wheel_result"
+  | "private_view"
+  | "input"
+  | "playing"
+  | "review" // generic phases (G12 input, G22 review)
   | "results";
 
 export interface RoundRecord {

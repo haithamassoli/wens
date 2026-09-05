@@ -21,6 +21,10 @@ export function hasActiveFilters(f: GameFilters): boolean {
   return f.mood !== null || f.duration !== null || f.noTools || f.noMovement;
 }
 
+/** Games allowed to appear in lists given the user's settings (G35 is opt-in). */
+export const visibleGames = (games: readonly GameMeta[], showReligious: boolean) =>
+  games.filter((g) => g.gated !== "religious" || showReligious);
+
 export function filterGames(games: readonly GameMeta[], f: GameFilters): GameMeta[] {
   return games.filter((g) => {
     if (f.mood && !g.moods.includes(f.mood)) return false;

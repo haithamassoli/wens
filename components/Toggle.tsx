@@ -33,7 +33,7 @@ export function Toggle({ label, description, checked, onChange, disabled }: Togg
         aria-describedby={description ? descId : undefined}
         disabled={disabled}
         onClick={() => onChange(!checked)}
-        className={`relative inline-flex h-8 w-14 shrink-0 items-center rounded-chip border transition-colors disabled:opacity-50 ${
+        className={`relative inline-flex h-8 w-14 shrink-0 items-center rounded-chip border transition-colors before:absolute before:-inset-2 before:content-[""] disabled:opacity-50 ${
           checked ? "border-mint bg-mint" : "border-line bg-ground-deep"
         }`}
       >

@@ -40,7 +40,7 @@ export function remainingMs(s: G09State, now: number): number {
   const t = s.timer;
   if (!t) return (s.deck[s.roundIndex]?.durationSeconds ?? 0) * 1000;
   const elapsed = (t.pausedAt ?? now) - t.startedAt - t.pausedTotalMs;
-  return Math.max(0, t.durationMs - elapsed);
+  return Math.min(t.durationMs, Math.max(0, t.durationMs - elapsed));
 }
 
 const ACTIVE = new Set(["timer_running", "timer_paused", "timer_expired"]);

@@ -38,9 +38,12 @@ export function SessionFrame({ game, progress, onExit, live = false, children }:
     return () => window.removeEventListener("popstate", onPop);
   }, [live]);
 
+  // FR-CORE-06: a confirmed early exit ends the session in place so the results screen
+  // (completed rounds only) is shown; leaving from setup/results goes back to the game page.
   const leave = () => {
-    onExit?.();
-    router.push(`/games/${game.slug}`);
+    setConfirming(false);
+    if (live && onExit) onExit();
+    else router.push(`/games/${game.slug}`);
   };
 
   return (
