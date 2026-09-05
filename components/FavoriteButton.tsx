@@ -12,7 +12,15 @@ interface FavoriteButtonProps {
 
 function Heart({ filled }: { filled: boolean }) {
   return (
-    <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+    // `pop` only exists while filled, so adding the class is what plays the animation.
+    <svg
+      width="22"
+      height="22"
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+      focusable="false"
+      className={filled ? "pop" : ""}
+    >
       <path
         d="M12 20.5s-7.5-4.6-7.5-10A4.5 4.5 0 0 1 12 8a4.5 4.5 0 0 1 7.5 2.5c0 5.4-7.5 10-7.5 10Z"
         fill={filled ? "currentColor" : "none"}
@@ -43,7 +51,7 @@ export function FavoriteButton({
         aria-pressed={active}
         aria-label={withLabel ? undefined : label}
         onClick={() => (kind === "game" ? toggleGame(id) : toggleCard(id))}
-        className={`inline-flex min-h-11 min-w-11 items-center justify-center gap-2 rounded-chip border px-3 font-medium text-base transition-colors ${
+        className={`inline-flex min-h-11 min-w-11 items-center justify-center gap-2 rounded-chip border px-3 font-medium text-base transition-[color,background-color,border-color,transform] duration-200 active:scale-95 ${
           active
             ? "border-rose bg-rose/10 text-rose"
             : "border-line bg-card text-ink-soft hover:border-rose hover:text-rose"

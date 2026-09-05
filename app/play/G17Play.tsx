@@ -274,7 +274,7 @@ function WordCard({ card, headline, hue }: { card: G17Card; headline: string; hu
   return (
     <div className="flex flex-col gap-3">
       <p className="font-semibold text-ink-soft">{headline}</p>
-      <div className="flex flex-col gap-3 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
+      <div className="card-in flex flex-col gap-3 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
         <div className="flex items-start justify-between gap-3">
           <p className="font-bold font-display text-4xl leading-snug">{card.body}</p>
           <FavoriteButton kind="card" id={card.id} />

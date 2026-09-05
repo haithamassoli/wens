@@ -44,7 +44,7 @@ export function G12Play({ game }: { game: GameMeta }) {
 function Story({ state }: { state: G12State }) {
   const opening = state.deck[state.roundIndex];
   return (
-    <div className="rounded-card bg-card p-5 shadow-[var(--shadow-deck)]">
+    <div className="card-in rounded-card bg-card p-5 shadow-[var(--shadow-deck)]">
       <div className="flex items-start justify-between gap-3">
         <p className="font-display font-semibold text-xl leading-relaxed">
           <span className="font-bold">{opening?.body}</span>

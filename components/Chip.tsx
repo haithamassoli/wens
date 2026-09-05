@@ -16,10 +16,10 @@ export function Chip({ pressed, onToggle, children, hue }: ChipProps) {
       aria-pressed={pressed}
       onClick={onToggle}
       style={hue && pressed ? { backgroundColor: hue, borderColor: hue } : undefined}
-      className={`inline-flex min-h-11 items-center gap-1.5 rounded-chip border px-4 font-medium text-base leading-none transition-colors ${
+      className={`inline-flex min-h-11 items-center gap-1.5 rounded-chip border px-4 font-medium text-base leading-none transition-[color,background-color,border-color,transform] duration-200 active:scale-95 ${
         pressed
           ? "border-ink bg-ink text-ground"
-          : "border-line bg-card text-ink hover:border-ink-faint"
+          : "border-line bg-card text-ink hover:-translate-y-0.5 hover:border-ink-faint"
       }`}
     >
       {children}

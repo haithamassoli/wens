@@ -74,6 +74,7 @@ h3 {
   *::before,
   *::after {
     animation-duration: 0.01ms !important;
+    animation-delay: 0ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
@@ -84,10 +85,14 @@ html[data-reduce-motion="true"] *,
 html[data-reduce-motion="true"] *::before,
 html[data-reduce-motion="true"] *::after {
   animation-duration: 0.01ms !important;
+  animation-delay: 0ms !important;
   transition-duration: 0.01ms !important;
 }
 
-/* Home hero: the deck fans open once (400ms). Reduced motion collapses it via the rules above. */
+/* --- Motion. Every animation here is one-shot or hover-scoped; the reduced-motion
+   rules above collapse all of them to ~0ms, so nothing is required to read the UI. --- */
+
+/* Home hero: the deck fans open once (400ms). */
 @keyframes deck-settle {
   from {
     transform: rotate(0deg) translateY(10px);
@@ -101,4 +106,81 @@ html[data-reduce-motion="true"] *::after {
 .deck-card {
   transform: rotate(var(--deck-rotate, 0deg));
   animation: deck-settle 400ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+/* Entrance for lists and sections. --d staggers siblings. */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+}
+.rise {
+  animation: rise 420ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation-delay: var(--d, 0ms);
+}
+
+/* Logo: the two cards deal open, then the heart beats once. Rotations are stated in
+   full (from and to) because the SVG transform attribute is the base value here. */
+@keyframes logo-deal-back {
+  from {
+    transform: rotate(4deg) translateY(3px);
+  }
+  to {
+    transform: rotate(-18deg);
+  }
+}
+@keyframes logo-deal-front {
+  from {
+    transform: rotate(-4deg) translateY(3px);
+  }
+  to {
+    transform: rotate(7deg);
+  }
+}
+@keyframes heartbeat {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.18);
+  }
+}
+.logo-deal .logo-back,
+.logo-deal .logo-front,
+.logo-deal .logo-heart {
+  transform-box: view-box;
+  transform-origin: 24px 24px;
+}
+.logo-deal .logo-back {
+  animation: logo-deal-back 520ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+.logo-deal .logo-front {
+  animation: logo-deal-front 520ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+.logo-deal .logo-heart {
+  animation: heartbeat 700ms ease-out 460ms both;
+}
+
+/* Play card: each new card is dealt in. PlayCard keys on the card id, so the remount
+   plays this once per card. */
+@keyframes card-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.97) rotate(-1.5deg);
+  }
+}
+.card-in {
+  animation: card-in 320ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+/* Favourite heart pop, on the transition to "favourited". */
+@keyframes pop {
+  50% {
+    transform: scale(1.25);
+  }
+}
+.pop {
+  animation: pop 300ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }

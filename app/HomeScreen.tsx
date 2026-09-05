@@ -6,6 +6,7 @@ import { Button } from "@/components/Button";
 import { Chip } from "@/components/Chip";
 import { EmptyState } from "@/components/EmptyState";
 import { GameCard } from "@/components/GameCard";
+import { Logo } from "@/components/Logo";
 import { Num } from "@/components/Num";
 import {
   countNoun,
@@ -39,6 +40,7 @@ function DeckHero() {
       />
       <div className="deck-card relative flex min-h-56 flex-col items-center justify-center gap-3 rounded-card border border-line bg-card px-6 py-8 text-center shadow-deck">
         <span aria-hidden="true" className="absolute end-4 top-4 size-3 rounded-full bg-marigold" />
+        <Logo size={64} animate />
         <h1 id="home-title" className="font-bold font-display text-3xl text-ink leading-tight">
           ماذا تحبّان أن تفعلا اليوم؟
         </h1>
@@ -65,7 +67,7 @@ export function HomeScreen() {
     <div className="flex flex-col gap-8">
       <DeckHero />
 
-      <div className="flex flex-col gap-3">
+      <div className="rise flex flex-col gap-3" style={{ "--d": "120ms" } as React.CSSProperties}>
         <Button onClick={surprise} fullWidth className="text-lg">
           فاجئنا
         </Button>
@@ -74,7 +76,11 @@ export function HomeScreen() {
         </p>
       </div>
 
-      <section aria-labelledby="mood-title" className="flex flex-col gap-2">
+      <section
+        aria-labelledby="mood-title"
+        className="rise flex flex-col gap-2"
+        style={{ "--d": "200ms" } as React.CSSProperties}
+      >
         <h2 id="mood-title" className="font-display font-semibold text-ink text-lg">
           ما مزاجكما؟
         </h2>
@@ -91,7 +97,11 @@ export function HomeScreen() {
         </div>
       </section>
 
-      <section aria-labelledby="time-title" className="flex flex-col gap-2">
+      <section
+        aria-labelledby="time-title"
+        className="rise flex flex-col gap-2"
+        style={{ "--d": "260ms" } as React.CSSProperties}
+      >
         <h2 id="time-title" className="font-display font-semibold text-ink text-lg">
           كم لديكما من الوقت؟
         </h2>
@@ -131,8 +141,13 @@ export function HomeScreen() {
           />
         ) : (
           <ul className="grid gap-3 md:grid-cols-2">
-            {shown.map((g) => (
-              <li key={g.id}>
+            {shown.map((g, i) => (
+              // Stagger caps at 6 cards so a long list never waits on the animation.
+              <li
+                key={g.id}
+                className="rise"
+                style={{ "--d": `${Math.min(i, 6) * 45 + 320}ms` } as React.CSSProperties}
+              >
                 <GameCard game={g} />
               </li>
             ))}

@@ -204,7 +204,7 @@ export function G26Play({ game }: { game: GameMeta }) {
     <SessionFrame game={game}>
       <div className="flex flex-1 flex-col gap-6">
         {savedResolved && saved ? (
-          <section className="flex flex-col gap-3 rounded-card bg-card p-5 shadow-[var(--shadow-deck)]">
+          <section className="card-in flex flex-col gap-3 rounded-card bg-card p-5 shadow-[var(--shadow-deck)]">
             <div className="flex items-center justify-between gap-3">
               <h2 className="font-bold font-display text-xl">خطتكما المحفوظة</h2>
               <span className="text-ink-soft text-sm">{minutes(planMinutes(savedResolved))}</span>

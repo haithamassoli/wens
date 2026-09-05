@@ -13,7 +13,7 @@ export function DeckGlyph({ hue, size = 56 }: { hue: string; size?: number }) {
       viewBox="0 0 56 56"
       aria-hidden="true"
       focusable="false"
-      className="shrink-0"
+      className="shrink-0 transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-105"
     >
       <circle cx="28" cy="28" r="28" fill={`color-mix(in srgb, ${hue} 16%, white)`} />
       <g transform="rotate(-10 28 30)">
@@ -30,7 +30,7 @@ export function GameCard({ game }: { game: GameMeta }) {
   return (
     <Link
       href={`/games/${game.slug}`}
-      className="group flex gap-4 rounded-card border border-line bg-card p-4 pe-5 transition-[transform,box-shadow] hover:shadow-lift focus-visible:shadow-lift md:p-5"
+      className="group flex gap-4 rounded-card border border-line bg-card p-4 pe-5 transition-[transform,box-shadow] duration-200 hover:-translate-y-1 hover:shadow-lift focus-visible:-translate-y-1 focus-visible:shadow-lift active:translate-y-0 md:p-5"
       style={{ borderInlineStartWidth: 6, borderInlineStartColor: game.hue }}
       aria-label={`${game.name}: ${game.tagline}`}
     >

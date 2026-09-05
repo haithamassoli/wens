@@ -227,7 +227,7 @@ export function G32Play({ game }: { game: GameMeta }) {
     <SessionFrame game={game}>
       <div className="flex flex-1 flex-col gap-6">
         <article
-          className="rounded-card border-t-8 bg-card p-6 shadow-[var(--shadow-deck)]"
+          className="card-in rounded-card border-t-8 bg-card p-6 shadow-[var(--shadow-deck)]"
           style={{ borderColor: game.hue }}
         >
           <div className="flex flex-wrap items-center gap-2">

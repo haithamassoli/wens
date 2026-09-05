@@ -109,8 +109,12 @@ export function Catalog() {
               {CATEGORY_LABEL[s.cat]}
             </h2>
             <ul className="grid gap-3 md:grid-cols-2">
-              {s.games.map((g) => (
-                <li key={g.id}>
+              {s.games.map((g, i) => (
+                <li
+                  key={g.id}
+                  className="rise"
+                  style={{ "--d": `${Math.min(i, 6) * 45}ms` } as React.CSSProperties}
+                >
                   <GameCard game={g} />
                 </li>
               ))}

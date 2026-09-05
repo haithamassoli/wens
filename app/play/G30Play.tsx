@@ -197,7 +197,7 @@ export function G30Play({ game }: { game: GameMeta }) {
       <div className="flex flex-1 flex-col gap-5">
         {current ? (
           <article
-            className="flex flex-col gap-4 rounded-card border-t-8 bg-card p-6 shadow-[var(--shadow-deck)]"
+            className="card-in flex flex-col gap-4 rounded-card border-t-8 bg-card p-6 shadow-[var(--shadow-deck)]"
             style={{ borderColor: game.hue }}
           >
             <div className="flex items-start justify-between gap-3">
@@ -329,7 +329,7 @@ export function G30Play({ game }: { game: GameMeta }) {
 function EntryRow({ entry, onDelete }: { entry: Entry; onDelete: () => void }) {
   const card = G30_CARDS.find((c) => c.id === entry.cardId);
   return (
-    <article className="flex flex-col gap-2 rounded-card bg-card p-4 shadow-[var(--shadow-deck)]">
+    <article className="card-in flex flex-col gap-2 rounded-card bg-card p-4 shadow-[var(--shadow-deck)]">
       <h3 className="font-display font-semibold leading-snug">{card?.body ?? "تجربة محفوظة"}</h3>
       <p className="leading-relaxed">{entry.impression}</p>
       <div className="flex flex-wrap gap-1.5">

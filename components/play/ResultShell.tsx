@@ -20,7 +20,7 @@ export function ResultShell({
 }) {
   return (
     <div className="flex flex-1 flex-col gap-6">
-      <div className="rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
+      <div className="card-in rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
         <h2 className="font-bold font-display text-3xl">{title}</h2>
         {note ? <p className="mt-1 text-ink-soft">{note}</p> : null}
         <div className="mt-5">{children}</div>

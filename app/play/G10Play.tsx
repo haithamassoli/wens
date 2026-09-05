@@ -104,7 +104,7 @@ function Session({ game, setup, seen }: { game: GameMeta; setup: G10Setup; seen:
           <p className="font-semibold text-ink-soft" aria-live="polite">
             {aliases[performer]} يمثّل، و{guesser} يخمّن
           </p>
-          <div className="flex flex-col items-center gap-2 rounded-card bg-card p-6 text-center shadow-[var(--shadow-deck)]">
+          <div className="card-in flex flex-col items-center gap-2 rounded-card bg-card p-6 text-center shadow-[var(--shadow-deck)]">
             <p className="font-display font-semibold text-2xl">الكلمة مخفيّة الآن</p>
             <p className="text-ink-soft">شاهدا التمثيل، ثم سجّلا النتيجة.</p>
           </div>

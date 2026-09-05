@@ -64,7 +64,7 @@ function Session({ game, setup, seen }: { game: GameMeta; setup: G08Setup; seen:
           {/* The premise stays fixed while its follow-ups are answered (FR-G08 acceptance). */}
           <article
             key={card.id}
-            className="rounded-card border-t-8 bg-card p-6 shadow-[var(--shadow-deck)]"
+            className="card-in rounded-card border-t-8 bg-card p-6 shadow-[var(--shadow-deck)]"
             style={{ borderColor: game.hue }}
           >
             <div className="flex items-start justify-between gap-3">

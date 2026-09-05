@@ -133,7 +133,7 @@ function Session({ game, setup, seen }: { game: GameMeta; setup: G21Setup; seen:
           <p className="font-semibold text-ink-soft" aria-live="polite">
             {guesser} يسأل، و{aliases[chooser]} يجيب بنعم أو لا
           </p>
-          <div className="flex flex-col items-center gap-2 rounded-card bg-card p-6 text-center shadow-[var(--shadow-deck)]">
+          <div className="card-in flex flex-col items-center gap-2 rounded-card bg-card p-6 text-center shadow-[var(--shadow-deck)]">
             <p className="font-bold font-display text-7xl tabular-nums leading-none">
               <Num value={questions} />
             </p>
@@ -182,7 +182,7 @@ function Session({ game, setup, seen }: { game: GameMeta; setup: G21Setup; seen:
       {phase === "reveal" && card && last ? (
         <div className="flex flex-1 flex-col gap-5">
           <p className="font-semibold text-ink-soft">الكلمة كانت</p>
-          <div className="flex flex-col gap-4 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
+          <div className="card-in flex flex-col gap-4 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
             <p className="font-bold font-display text-3xl leading-snug">{card.body}</p>
             <p
               role="status"

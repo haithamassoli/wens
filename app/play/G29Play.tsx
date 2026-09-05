@@ -311,7 +311,7 @@ function LetterRow({
   const locked = stateOf(letter, today) === "locked";
 
   return (
-    <article className="flex flex-col gap-3 rounded-card bg-card p-4 shadow-[var(--shadow-deck)]">
+    <article className="card-in flex flex-col gap-3 rounded-card bg-card p-4 shadow-[var(--shadow-deck)]">
       <div className="flex items-start justify-between gap-3">
         <p className="font-semibold">
           من {fromName} إلى {toName}

@@ -258,7 +258,7 @@ export function G25Play({ game }: { game: GameMeta }) {
 
         {state.phase === "wheel_result" && selected ? (
           <article
-            className="rounded-card border-t-8 bg-card p-6 shadow-[var(--shadow-deck)]"
+            className="card-in rounded-card border-t-8 bg-card p-6 shadow-[var(--shadow-deck)]"
             style={{ borderColor: game.hue }}
           >
             <div className="flex items-start justify-between gap-3">

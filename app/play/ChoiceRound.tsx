@@ -29,7 +29,7 @@ export function PlayCard({
       </p>
       <div
         key={cardId}
-        className="flex min-h-44 flex-col gap-4 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]"
+        className="card-in flex min-h-44 flex-col gap-4 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]"
       >
         <p className="flex-1 font-display font-semibold text-2xl leading-snug">{body}</p>
         <div className="flex items-end justify-between gap-3">
@@ -84,7 +84,7 @@ export function ChoiceInput({
                   ? { borderColor: hue, backgroundColor: `color-mix(in srgb, ${hue} 18%, white)` }
                   : undefined
               }
-              className={`flex min-h-14 items-center justify-between gap-3 rounded-2xl border-2 px-5 py-3 text-start font-medium text-lg transition-colors ${
+              className={`flex min-h-14 items-center justify-between gap-3 rounded-2xl border-2 px-5 py-3 text-start font-medium text-lg transition-[color,background-color,border-color,transform] duration-200 active:scale-[0.98] ${
                 on ? "text-ink" : "border-line bg-card text-ink hover:border-ink-faint"
               }`}
             >

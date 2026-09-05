@@ -4,10 +4,11 @@ import type { ComponentProps, ReactNode } from "react";
 type Variant = "primary" | "secondary" | "ghost" | "danger";
 
 const base =
-  "inline-flex min-h-11 items-center justify-center gap-2 rounded-chip px-5 py-2 font-semibold text-base leading-tight transition-colors disabled:pointer-events-none disabled:opacity-50";
+  "inline-flex min-h-11 items-center justify-center gap-2 rounded-chip px-5 py-2 font-semibold text-base leading-tight transition-[color,background-color,border-color,box-shadow,transform] duration-200 active:scale-[0.97] disabled:pointer-events-none disabled:opacity-50";
 
 const variants: Record<Variant, string> = {
-  primary: "bg-marigold text-ink hover:brightness-95 active:brightness-90",
+  primary:
+    "bg-marigold text-ink shadow-[0_6px_16px_-8px_var(--color-marigold-deep)] hover:brightness-95 hover:shadow-lift active:brightness-90",
   secondary: "border border-line bg-card text-ink hover:border-ink-faint hover:bg-white",
   ghost: "bg-transparent text-ink hover:bg-ground-deep",
   danger: "bg-danger text-white hover:brightness-95",

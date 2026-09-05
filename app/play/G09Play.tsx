@@ -207,7 +207,7 @@ export function G09Play({ game }: { game: GameMeta }) {
     >
       <div className="flex flex-1 flex-col gap-5">
         <article
-          className="rounded-card border-t-8 bg-card p-6 shadow-[var(--shadow-deck)]"
+          className="card-in rounded-card border-t-8 bg-card p-6 shadow-[var(--shadow-deck)]"
           style={{ borderColor: game.hue }}
         >
           <div className="flex items-start justify-between gap-3">

@@ -70,7 +70,7 @@ function beep() {
 function ThemeCard({ card, who, hue }: { card: G34Card; who: string; hue: string }) {
   return (
     <article
-      className="rounded-card border-t-8 bg-card p-5 shadow-[var(--shadow-deck)]"
+      className="card-in rounded-card border-t-8 bg-card p-5 shadow-[var(--shadow-deck)]"
       style={{ borderColor: hue }}
     >
       <div className="flex items-start justify-between gap-3">

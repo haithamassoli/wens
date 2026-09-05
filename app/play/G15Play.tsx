@@ -350,7 +350,7 @@ function StationPlay({
       <p className="font-semibold text-ink-soft" aria-live="polite">
         المحطة <Num value={index + 1} /> من <Num value={STATIONS} />
       </p>
-      <div className="flex min-h-44 flex-col gap-4 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
+      <div className="card-in flex min-h-44 flex-col gap-4 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
         <p className="flex-1 font-display font-semibold text-2xl leading-snug">{hint}</p>
         {extraHint ? (
           <p role="status" className="rounded-xl bg-mint-soft p-3 text-sm">

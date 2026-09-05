@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { ReactNode } from "react";
+import { Logo } from "@/components/Logo";
 import { useSettings } from "@/lib/storage";
 
 const TABS = [
@@ -41,8 +42,8 @@ export function AppShell({ children }: { children: ReactNode }) {
       {/* Top bar at ≥768px */}
       <header className="hidden border-line border-b bg-ground md:block">
         <div className="mx-auto flex h-16 w-full max-w-3xl items-center justify-between px-6">
-          <Link href="/" className="font-display font-extrabold text-2xl text-ink">
-            ونس
+          <Link href="/" aria-label="ونس — الرئيسية" className="rounded-chip">
+            <Logo size={34} withWordmark animate />
           </Link>
           <nav aria-label="التنقّل الرئيسي">
             <ul className="flex gap-1">
@@ -53,8 +54,10 @@ export function AppShell({ children }: { children: ReactNode }) {
                     <Link
                       href={t.href}
                       aria-current={active ? "page" : undefined}
-                      className={`inline-flex min-h-11 items-center gap-2 rounded-chip px-4 font-medium transition-colors ${
-                        active ? "bg-card text-ink shadow-sm" : "text-ink-soft hover:text-ink"
+                      className={`inline-flex min-h-11 items-center gap-2 rounded-chip px-4 font-medium transition-[color,background-color,transform] duration-200 ${
+                        active
+                          ? "bg-card text-ink shadow-sm"
+                          : "text-ink-soft hover:-translate-y-0.5 hover:text-ink"
                       }`}
                     >
                       <t.icon />
@@ -65,6 +68,15 @@ export function AppShell({ children }: { children: ReactNode }) {
               })}
             </ul>
           </nav>
+        </div>
+      </header>
+
+      {/* Compact brand bar on phones — the tab bar carries navigation. */}
+      <header className="sticky top-0 z-10 border-line/70 border-b bg-ground/85 backdrop-blur md:hidden">
+        <div className="mx-auto flex h-14 w-full max-w-md items-center px-4">
+          <Link href="/" aria-label="ونس — الرئيسية" className="rounded-chip">
+            <Logo size={30} withWordmark animate />
+          </Link>
         </div>
       </header>
 
@@ -85,11 +97,21 @@ export function AppShell({ children }: { children: ReactNode }) {
                 <Link
                   href={t.href}
                   aria-current={active ? "page" : undefined}
-                  className={`flex min-h-14 flex-col items-center justify-center gap-0.5 text-sm ${
+                  className={`relative flex min-h-14 flex-col items-center justify-center gap-0.5 text-sm transition-colors ${
                     active ? "font-semibold text-ink" : "text-ink-soft"
                   }`}
                 >
-                  <t.icon />
+                  <span
+                    aria-hidden="true"
+                    className={`absolute top-1 left-1/2 h-1 -translate-x-1/2 rounded-chip bg-marigold transition-all duration-300 ${
+                      active ? "w-8 opacity-100" : "w-0 opacity-0"
+                    }`}
+                  />
+                  <span
+                    className={`transition-transform duration-300 ${active ? "-translate-y-0.5 scale-110" : ""}`}
+                  >
+                    <t.icon />
+                  </span>
                   <span>{t.label}</span>
                 </Link>
               </li>

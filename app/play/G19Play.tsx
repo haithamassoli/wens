@@ -244,7 +244,7 @@ function Session({
 
       {phase === "card" ? (
         <div className="flex flex-1 flex-col gap-5">
-          <div className="flex flex-col gap-4 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
+          <div className="card-in flex flex-col gap-4 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
             <div className="flex items-start justify-between gap-3">
               <h2 className="font-bold font-display text-2xl">{story.title}</h2>
               <FavoriteButton kind="card" id={story.id} />
@@ -294,7 +294,7 @@ function Session({
 
           {phase === "private_view" ? (
             <>
-              <div className="flex min-h-44 flex-col gap-3 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
+              <div className="card-in flex min-h-44 flex-col gap-3 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
                 <p className="font-semibold text-ink-soft">
                   دليلك الخاص يا {aliases[state.viewer]}
                 </p>
@@ -322,7 +322,7 @@ function Session({
                 send({ type: "DONE" });
               }}
             >
-              <div className="flex flex-col gap-3 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
+              <div className="card-in flex flex-col gap-3 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
                 <p className="font-display font-semibold text-2xl leading-snug">{lock.question}</p>
                 <p className="text-ink-soft text-sm">
                   تبادلا ما قرأه كلٌّ منكما بصوت عالٍ، ثم اكتبا الجواب معاً.

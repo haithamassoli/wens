@@ -155,7 +155,7 @@ function Session({
 
       {phase === "card" ? (
         <div className="flex flex-1 flex-col gap-5">
-          <div className="flex flex-col gap-4 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
+          <div className="card-in flex flex-col gap-4 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
             <div className="flex items-start justify-between gap-3">
               <h2 className="font-bold font-display text-2xl">{card.body}</h2>
               <FavoriteButton kind="card" id={card.id} />
@@ -173,7 +173,7 @@ function Session({
       {phase === "playing" ? (
         <div className="flex flex-1 flex-col gap-5">
           <p className="font-semibold text-ink-soft">التمرين معاً</p>
-          <div className="flex min-h-44 flex-col gap-4 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
+          <div className="card-in flex min-h-44 flex-col gap-4 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
             <p className="flex-1 font-display font-semibold text-2xl leading-snug">
               {card.exercise}
             </p>

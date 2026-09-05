@@ -252,7 +252,7 @@ export function G16Play({ game }: { game: GameMeta }) {
     <SessionFrame game={game} live onExit={() => send({ type: "END" })}>
       <div className="flex flex-1 flex-col gap-5">
         <article
-          className="rounded-card border-t-8 bg-card p-6 shadow-[var(--shadow-deck)]"
+          className="card-in rounded-card border-t-8 bg-card p-6 shadow-[var(--shadow-deck)]"
           style={{ borderColor: game.hue }}
         >
           <div className="flex items-start justify-between gap-3">

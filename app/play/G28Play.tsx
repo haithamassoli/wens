@@ -177,7 +177,7 @@ function MemoryRow({
   onDelete: () => void;
 }) {
   return (
-    <article className="flex flex-col gap-2 rounded-card bg-card p-4 shadow-[var(--shadow-deck)]">
+    <article className="card-in flex flex-col gap-2 rounded-card bg-card p-4 shadow-[var(--shadow-deck)]">
       <div className="flex items-start justify-between gap-3">
         <h4 className="font-display font-semibold text-lg leading-snug">{memory.title}</h4>
         {isAnniversarySoon(memory.date, today) ? (
@@ -214,7 +214,7 @@ function MemoryForm({
 
   return (
     <form
-      className="flex flex-col gap-4 rounded-card bg-card p-5 shadow-[var(--shadow-deck)]"
+      className="card-in flex flex-col gap-4 rounded-card bg-card p-5 shadow-[var(--shadow-deck)]"
       onSubmit={(e) => {
         e.preventDefault();
         if (error === null) onSave(draft);

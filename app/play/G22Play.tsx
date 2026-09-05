@@ -137,7 +137,7 @@ function LetterCard({ state, hue }: { state: G22State; hue: string }) {
   const card = state.deck[state.roundIndex];
   return (
     <article
-      className="rounded-card border-t-8 bg-card p-5 shadow-[var(--shadow-deck)]"
+      className="card-in rounded-card border-t-8 bg-card p-5 shadow-[var(--shadow-deck)]"
       style={{ borderColor: hue }}
     >
       <div className="flex items-start justify-between gap-3">

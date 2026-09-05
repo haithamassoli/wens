@@ -246,7 +246,7 @@ export function G20Play({ game }: { game: GameMeta }) {
               {grid.targets.map((id) => (
                 <li
                   key={id}
-                  className="flex min-h-24 items-center justify-center rounded-card bg-card p-3 text-center shadow-[var(--shadow-deck)]"
+                  className="card-in flex min-h-24 items-center justify-center rounded-card bg-card p-3 text-center shadow-[var(--shadow-deck)]"
                 >
                   <ObjectFace card={byId(id)} wordsOnly={state.wordsOnly} />
                 </li>

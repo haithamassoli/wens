@@ -138,7 +138,7 @@ function Session({
 
       {phase === "reveal" && card ? (
         <div className="flex flex-1 flex-col gap-5">
-          <article className="rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
+          <article className="card-in rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
             <p className="font-display font-semibold text-xl leading-snug">{card.body}</p>
             <p
               role="status"

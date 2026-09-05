@@ -111,7 +111,7 @@ export function PrivateView({
       <p className="font-semibold text-ink-soft" aria-live="polite">
         {headline}
       </p>
-      <div className="flex flex-col gap-4 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
+      <div className="card-in flex flex-col gap-4 rounded-card bg-card p-6 shadow-[var(--shadow-deck)]">
         {children}
       </div>
       <div className="mt-auto flex flex-col gap-2">

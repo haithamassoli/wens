@@ -106,7 +106,7 @@ function Session({ game, setup, seen }: { game: GameMeta; setup: G13Setup; seen:
             {G13_SLOTS.map((slot) => (
               <div
                 key={slot}
-                className="flex items-center justify-between gap-3 rounded-card bg-card p-4 shadow-[var(--shadow-deck)]"
+                className="card-in flex items-center justify-between gap-3 rounded-card bg-card p-4 shadow-[var(--shadow-deck)]"
               >
                 <div className="min-w-0">
                   <dt className="text-ink-soft text-sm">{SLOT_LABEL[slot]}</dt>
