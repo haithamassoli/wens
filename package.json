@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "SERWIST_SUPPRESS_TURBOPACK_WARNING=1 next build --webpack",
+    "build": "node scripts/validate-content.mjs && SERWIST_SUPPRESS_TURBOPACK_WARNING=1 next build --webpack",
     "start": "next start",
     "lint": "biome lint",
     "format": "biome format --write .",
     "check": "biome check --write .",
-    "prepare": "lefthook install"
+    "prepare": "lefthook install",
+    "validate:content": "node scripts/validate-content.mjs"
   },
   "dependencies": {
     "convex": "^1.45.0",

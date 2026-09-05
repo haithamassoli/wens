@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ونس
 
-## Getting Started
+ألعاب وأنشطة قصيرة للزوجين، على هاتف واحد وبلا تسجيل. الواجهة عربية بالكامل (RTL) ومصمّمة للهاتف أولاً.
 
-First, run the development server:
+**ونس** (warm companionship) is a Next.js 16 app-router project. Everything a couple types or chooses during a session lives in page memory only; the browser keeps just three small localStorage records (settings, favorites, seen-card ids). No accounts, no analytics.
+
+## Run
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev              # http://localhost:3000
+npm run build            # production build (webpack, generates the service worker)
+npm start                # serve the build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Test and check
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+node --test lib/engine/*.test.ts   # pure game engines (Node strips types natively)
+npm run validate:content           # schema-checks content/*.json
+npm run check                      # Biome format + lint (also runs on pre-commit)
+npx tsc --noEmit -p .              # types
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Layout
 
-## Learn More
+| Path | What lives there |
+| --- | --- |
+| `app/` | Routes: `/` home, `/games`, `/games/[slug]`, `/play/[gameId]`, `/favorites`, `/settings`, `/privacy` |
+| `components/` | Shared UI (`AppShell`, `Button`, `Chip`, `GameCard`, `FavoriteButton`, …) |
+| `lib/games.ts` | Game metadata: name, tagline, steps, minutes, moods, hue |
+| `lib/content/` | Card schema (`types.ts`) and the loader (`index.ts`, exports `G01_CARDS…` and `findCard(id)`) |
+| `lib/engine/` | Pure, DOM-free session engines, one per game, with tests |
+| `lib/storage.ts` | localStorage layer: `settings_v1`, `favorites_v1`, `seen_v1` |
+| `content/` | Card banks, one JSON array per game (`G01.json`, …). Only `status: "published"` cards are dealt |
+| `docs/` | PRD and idea backlog |
 
-To learn more about Next.js, take a look at the following resources:
+## Content
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Cards are plain JSON in `content/`, validated against `lib/content/types.ts`. Each card has a stable id (`G02-014`), a `status` (`draft` → `review` → `published` → `archived`), a `depth`, and flags for `requiresTools` / `requiresMovement` so the "no tools" and "no movement" filters can exclude it. Archived cards stay in the file so favorites pointing at them degrade to a generic "no longer available" notice instead of breaking.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Adding a game
 
-## Deploy on Vercel
+Add a `GameMeta` entry to `lib/games.ts` (id, slug, Arabic copy, minutes, moods, a distinct `hue`), extend `GameId` and the card type in `lib/content/types.ts`, drop a `content/Gxx.json` bank, write `lib/engine/Gxx.ts` implementing the `GameDefinition` contract in `lib/engine/README.md` together with a `Gxx.test.ts`, and register the engine in the play route. The catalog, details page, home filters and favorites pick the game up from `lib/games.ts` automatically.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Known limitations
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- No offline guarantee: a service worker precaches the shell, but content and routes you have not visited may need a connection.
+- No accounts or sync: favorites and settings belong to one browser and are not backed up.
+- Hiding a partner's answer is a UI barrier, not encryption.
+- Single-device play only in this release; two-device rooms are a later milestone.

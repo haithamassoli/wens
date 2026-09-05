@@ -8,7 +8,7 @@ const withSerwist = withSerwistInit({
 });
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  turbopack: {}, // dev runs on Turbopack (SW disabled); build uses --webpack for Serwist
 };
 
 export default withSerwist(nextConfig);

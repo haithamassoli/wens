@@ -1,0 +1,1982 @@
+[
+  {
+    "id": "G04-001",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "ما أكثر وقت في اليوم أشعر فيه بالنشاط؟",
+    "tags": ["توقّع", "عادات", "morning", "noon"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "morning",
+        "label": "الصباح"
+      },
+      {
+        "id": "noon",
+        "label": "منتصف اليوم"
+      },
+      {
+        "id": "evening",
+        "label": "المساء"
+      },
+      {
+        "id": "late_night",
+        "label": "ما بعد منتصف الليل"
+      }
+    ]
+  },
+  {
+    "id": "G04-002",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "لو أخذت استراحة قصيرة، ماذا أختار؟",
+    "tags": ["توقّع", "عادات", "sleep", "go_out"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "sleep",
+        "label": "النوم"
+      },
+      {
+        "id": "go_out",
+        "label": "الخروج"
+      },
+      {
+        "id": "family",
+        "label": "زيارة الأهل"
+      },
+      {
+        "id": "movie",
+        "label": "فيلم في البيت"
+      }
+    ]
+  },
+  {
+    "id": "G04-003",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "ما نكهة المثلّجات المفضّلة لديّ؟",
+    "tags": ["توقّع", "طعام", "vanilla", "chocolate"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "vanilla",
+        "label": "فانيلا"
+      },
+      {
+        "id": "chocolate",
+        "label": "شوكولاتة"
+      },
+      {
+        "id": "mango",
+        "label": "مانجو"
+      },
+      {
+        "id": "pistachio",
+        "label": "فستق"
+      }
+    ]
+  },
+  {
+    "id": "G04-004",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "taste",
+    "depth": "light",
+    "body": "ما اللون الذي أرتاح له أكثر؟",
+    "tags": ["توقّع", "أذواق", "blue", "green"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "blue",
+        "label": "أزرق"
+      },
+      {
+        "id": "green",
+        "label": "أخضر"
+      },
+      {
+        "id": "beige",
+        "label": "بيج"
+      },
+      {
+        "id": "black",
+        "label": "أسود"
+      }
+    ]
+  },
+  {
+    "id": "G04-005",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "ما أول ما أفعله عند الوصول إلى البيت؟",
+    "tags": ["توقّع", "عادات", "change_clothes", "eat"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "change_clothes",
+        "label": "أغيّر ملابسي"
+      },
+      {
+        "id": "eat",
+        "label": "آكل شيئًا"
+      },
+      {
+        "id": "phone",
+        "label": "أتفقّد هاتفي"
+      },
+      {
+        "id": "sit",
+        "label": "أجلس قليلًا"
+      }
+    ]
+  },
+  {
+    "id": "G04-006",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "taste",
+    "depth": "light",
+    "body": "أيّ فصل أحبّ أكثر؟",
+    "tags": ["توقّع", "أذواق", "winter", "spring"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "winter",
+        "label": "الشتاء"
+      },
+      {
+        "id": "spring",
+        "label": "الربيع"
+      },
+      {
+        "id": "summer",
+        "label": "الصيف"
+      },
+      {
+        "id": "autumn",
+        "label": "الخريف"
+      }
+    ]
+  },
+  {
+    "id": "G04-007",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "ما المشروب الذي أختاره في المقهى غالبًا؟",
+    "tags": ["توقّع", "طعام", "black_coffee", "latte"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "black_coffee",
+        "label": "قهوة سادة"
+      },
+      {
+        "id": "latte",
+        "label": "قهوة بالحليب"
+      },
+      {
+        "id": "tea",
+        "label": "شاي"
+      },
+      {
+        "id": "cold_drink",
+        "label": "مشروب بارد"
+      }
+    ]
+  },
+  {
+    "id": "G04-008",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "ما الصوت الذي يزعجني أكثر؟",
+    "tags": ["توقّع", "عادات", "chewing", "alarm"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "chewing",
+        "label": "صوت المضغ"
+      },
+      {
+        "id": "alarm",
+        "label": "صوت المنبّه"
+      },
+      {
+        "id": "traffic",
+        "label": "صوت السيارات"
+      },
+      {
+        "id": "loud_tv",
+        "label": "صوت التلفاز العالي"
+      }
+    ]
+  },
+  {
+    "id": "G04-009",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "أيّ نوع من الأفلام أختاره غالبًا؟",
+    "tags": ["توقّع", "مرح", "comedy", "action"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "comedy",
+        "label": "كوميدي"
+      },
+      {
+        "id": "action",
+        "label": "حركة"
+      },
+      {
+        "id": "drama",
+        "label": "دراما"
+      },
+      {
+        "id": "documentary",
+        "label": "وثائقي"
+      }
+    ]
+  },
+  {
+    "id": "G04-010",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "ما المقعد الذي أفضّله في الطائرة؟",
+    "tags": ["توقّع", "سفر", "window", "aisle"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "window",
+        "label": "النافذة"
+      },
+      {
+        "id": "aisle",
+        "label": "الممرّ"
+      },
+      {
+        "id": "middle",
+        "label": "الوسط"
+      },
+      {
+        "id": "front",
+        "label": "المقاعد الأمامية"
+      }
+    ]
+  },
+  {
+    "id": "G04-011",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "ما الوجبة التي أستمتع بها أكثر؟",
+    "tags": ["توقّع", "طعام", "breakfast", "lunch"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "breakfast",
+        "label": "الفطور"
+      },
+      {
+        "id": "lunch",
+        "label": "الغداء"
+      },
+      {
+        "id": "dinner",
+        "label": "العشاء"
+      },
+      {
+        "id": "snacks",
+        "label": "الوجبات الخفيفة"
+      }
+    ]
+  },
+  {
+    "id": "G04-012",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "كيف أفضّل قضاء أمسية هادئة؟",
+    "tags": ["توقّع", "مرح", "reading", "series"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "reading",
+        "label": "قراءة"
+      },
+      {
+        "id": "series",
+        "label": "مسلسل"
+      },
+      {
+        "id": "music",
+        "label": "موسيقى"
+      },
+      {
+        "id": "phone_call",
+        "label": "مكالمة مع صديق"
+      }
+    ]
+  },
+  {
+    "id": "G04-013",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "taste",
+    "depth": "light",
+    "body": "ما الحيوان الذي أحبّ أن أربّيه لو تيسّر؟",
+    "tags": ["توقّع", "أذواق", "cat", "dog"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "cat",
+        "label": "قطّة"
+      },
+      {
+        "id": "dog",
+        "label": "كلب"
+      },
+      {
+        "id": "birds",
+        "label": "طيور"
+      },
+      {
+        "id": "fish",
+        "label": "أسماك زينة"
+      }
+    ]
+  },
+  {
+    "id": "G04-014",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "ما الشيء الذي أشتريه بلا تخطيط؟",
+    "tags": ["توقّع", "عادات", "snacks", "clothes"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "snacks",
+        "label": "حلويات ووجبات خفيفة"
+      },
+      {
+        "id": "clothes",
+        "label": "ملابس"
+      },
+      {
+        "id": "gadgets",
+        "label": "أجهزة صغيرة"
+      },
+      {
+        "id": "books",
+        "label": "كتب"
+      }
+    ]
+  },
+  {
+    "id": "G04-015",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "ما الفاكهة التي أفضّلها؟",
+    "tags": ["توقّع", "طعام", "mango", "strawberry"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "mango",
+        "label": "مانجو"
+      },
+      {
+        "id": "strawberry",
+        "label": "فراولة"
+      },
+      {
+        "id": "watermelon",
+        "label": "بطّيخ"
+      },
+      {
+        "id": "grapes",
+        "label": "عنب"
+      }
+    ]
+  },
+  {
+    "id": "G04-016",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "social",
+    "depth": "light",
+    "body": "ما الطريقة التي أفضّلها للتواصل مع الأصدقاء؟",
+    "tags": ["توقّع", "اجتماعي", "call", "text"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "call",
+        "label": "مكالمة"
+      },
+      {
+        "id": "text",
+        "label": "رسائل نصّية"
+      },
+      {
+        "id": "voice_note",
+        "label": "رسائل صوتية"
+      },
+      {
+        "id": "meet",
+        "label": "لقاء مباشر"
+      }
+    ]
+  },
+  {
+    "id": "G04-017",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "ما الذي يجعلني أضحك أكثر؟",
+    "tags": ["توقّع", "مرح", "puns", "situations"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "puns",
+        "label": "تلاعب بالكلمات"
+      },
+      {
+        "id": "situations",
+        "label": "مواقف عفوية"
+      },
+      {
+        "id": "impressions",
+        "label": "تقليد الأصوات"
+      },
+      {
+        "id": "old_stories",
+        "label": "قصص قديمة"
+      }
+    ]
+  },
+  {
+    "id": "G04-018",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "ما القوّة الخارقة التي أختارها؟",
+    "tags": ["توقّع", "مرح", "fly", "invisible"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "fly",
+        "label": "الطيران"
+      },
+      {
+        "id": "invisible",
+        "label": "الاختفاء"
+      },
+      {
+        "id": "teleport",
+        "label": "الانتقال الفوري"
+      },
+      {
+        "id": "read_minds",
+        "label": "قراءة الأفكار"
+      }
+    ]
+  },
+  {
+    "id": "G04-019",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "ما وجهة السفر التي أحلم بها؟",
+    "tags": ["توقّع", "سفر", "beach", "mountains"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "beach",
+        "label": "شاطئ"
+      },
+      {
+        "id": "mountains",
+        "label": "جبال"
+      },
+      {
+        "id": "big_city",
+        "label": "مدينة كبيرة"
+      },
+      {
+        "id": "historic_city",
+        "label": "مدينة تاريخية"
+      }
+    ]
+  },
+  {
+    "id": "G04-020",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "taste",
+    "depth": "light",
+    "body": "ما الشيء الذي أخافه بشكل طريف؟",
+    "tags": ["توقّع", "أذواق", "insects", "heights"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "insects",
+        "label": "الحشرات"
+      },
+      {
+        "id": "heights",
+        "label": "المرتفعات"
+      },
+      {
+        "id": "dark",
+        "label": "الظلام"
+      },
+      {
+        "id": "closed_spaces",
+        "label": "الأماكن المغلقة"
+      }
+    ]
+  },
+  {
+    "id": "G04-021",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "ما أفضل طريقة أرتاح بها بعد يوم متعب؟",
+    "tags": ["توقّع", "عادات", "shower", "nap"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "shower",
+        "label": "حمّام دافئ"
+      },
+      {
+        "id": "nap",
+        "label": "قيلولة"
+      },
+      {
+        "id": "walk",
+        "label": "مشوار"
+      },
+      {
+        "id": "silence",
+        "label": "جلسة صامتة"
+      }
+    ]
+  },
+  {
+    "id": "G04-022",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "ما الرياضة التي أستمتع بمشاهدتها أكثر؟",
+    "tags": ["توقّع", "مرح", "football", "tennis"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "football",
+        "label": "كرة القدم"
+      },
+      {
+        "id": "tennis",
+        "label": "التنس"
+      },
+      {
+        "id": "basketball",
+        "label": "كرة السلة"
+      },
+      {
+        "id": "none",
+        "label": "لا أتابع الرياضة"
+      }
+    ]
+  },
+  {
+    "id": "G04-023",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "ما الطبق الذي أختاره في مطعم جديد؟",
+    "tags": ["توقّع", "طعام", "grill", "pasta"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "grill",
+        "label": "مشاوي"
+      },
+      {
+        "id": "pasta",
+        "label": "معكرونة"
+      },
+      {
+        "id": "seafood",
+        "label": "مأكولات بحرية"
+      },
+      {
+        "id": "burger",
+        "label": "برغر"
+      }
+    ]
+  },
+  {
+    "id": "G04-024",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "ما النكهة التي أفضّلها في الحلويات؟",
+    "tags": ["توقّع", "طعام", "chocolate", "caramel"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "chocolate",
+        "label": "شوكولاتة"
+      },
+      {
+        "id": "caramel",
+        "label": "كراميل"
+      },
+      {
+        "id": "lemon",
+        "label": "ليمون"
+      },
+      {
+        "id": "nuts",
+        "label": "مكسّرات"
+      }
+    ]
+  },
+  {
+    "id": "G04-025",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "كم قيلولة أحتاج في الأسبوع؟",
+    "tags": ["توقّع", "عادات", "none", "one_two"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "none",
+        "label": "لا شيء"
+      },
+      {
+        "id": "one_two",
+        "label": "واحدة أو اثنتان"
+      },
+      {
+        "id": "three_four",
+        "label": "ثلاث أو أربع"
+      },
+      {
+        "id": "daily",
+        "label": "يوميًّا"
+      }
+    ]
+  },
+  {
+    "id": "G04-026",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "taste",
+    "depth": "light",
+    "body": "أين أختار الجلوس في المقهى؟",
+    "tags": ["توقّع", "أذواق", "window", "corner"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "window",
+        "label": "قرب النافذة"
+      },
+      {
+        "id": "corner",
+        "label": "في الزاوية"
+      },
+      {
+        "id": "outside",
+        "label": "في الخارج"
+      },
+      {
+        "id": "center",
+        "label": "في وسط المكان"
+      }
+    ]
+  },
+  {
+    "id": "G04-027",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "ما أكثر ما يثير حماسي في السفر؟",
+    "tags": ["توقّع", "سفر", "food", "nature"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "food",
+        "label": "الطعام"
+      },
+      {
+        "id": "nature",
+        "label": "الطبيعة"
+      },
+      {
+        "id": "shopping",
+        "label": "التسوّق"
+      },
+      {
+        "id": "history",
+        "label": "الآثار والتاريخ"
+      }
+    ]
+  },
+  {
+    "id": "G04-028",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "ما الأداة التي لا أستغني عنها في المطبخ؟",
+    "tags": ["توقّع", "طعام", "knife", "pan"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "knife",
+        "label": "السكّين"
+      },
+      {
+        "id": "pan",
+        "label": "المقلاة"
+      },
+      {
+        "id": "blender",
+        "label": "الخلّاط"
+      },
+      {
+        "id": "kettle",
+        "label": "الغلّاية"
+      }
+    ]
+  },
+  {
+    "id": "G04-029",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "taste",
+    "depth": "light",
+    "body": "ما نوع الموسيقى الذي يريحني؟",
+    "tags": ["توقّع", "أذواق", "calm", "classical"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "calm",
+        "label": "هادئة"
+      },
+      {
+        "id": "classical",
+        "label": "كلاسيكية"
+      },
+      {
+        "id": "pop",
+        "label": "شعبية حديثة"
+      },
+      {
+        "id": "traditional",
+        "label": "عزف تقليدي"
+      }
+    ]
+  },
+  {
+    "id": "G04-030",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "taste",
+    "depth": "light",
+    "body": "ما الهدية التي تسعدني أكثر؟",
+    "tags": ["توقّع", "أذواق", "experience", "handmade"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "experience",
+        "label": "تجربة مشتركة"
+      },
+      {
+        "id": "handmade",
+        "label": "شيء مصنوع يدويًّا"
+      },
+      {
+        "id": "book",
+        "label": "كتاب"
+      },
+      {
+        "id": "gadget",
+        "label": "جهاز جديد"
+      }
+    ]
+  },
+  {
+    "id": "G04-031",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "ما الذي أفعله عادةً عند الملل؟",
+    "tags": ["توقّع", "عادات", "scroll", "snack"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "scroll",
+        "label": "أتصفّح الهاتف"
+      },
+      {
+        "id": "snack",
+        "label": "آكل شيئًا"
+      },
+      {
+        "id": "tidy",
+        "label": "أرتّب المكان"
+      },
+      {
+        "id": "call",
+        "label": "أتّصل بأحد"
+      }
+    ]
+  },
+  {
+    "id": "G04-032",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "ما المشروب الذي أفضّله في الشتاء؟",
+    "tags": ["توقّع", "طعام", "hot_chocolate", "sahlab"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "hot_chocolate",
+        "label": "شوكولاتة ساخنة"
+      },
+      {
+        "id": "sahlab",
+        "label": "سحلب"
+      },
+      {
+        "id": "mint_tea",
+        "label": "شاي بالنعناع"
+      },
+      {
+        "id": "coffee",
+        "label": "قهوة"
+      }
+    ]
+  },
+  {
+    "id": "G04-033",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "ما اليوم الذي أفضّله في الأسبوع؟",
+    "tags": ["توقّع", "عادات", "thursday", "friday"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "thursday",
+        "label": "الخميس"
+      },
+      {
+        "id": "friday",
+        "label": "الجمعة"
+      },
+      {
+        "id": "saturday",
+        "label": "السبت"
+      },
+      {
+        "id": "sunday",
+        "label": "الأحد"
+      }
+    ]
+  },
+  {
+    "id": "G04-034",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "ما الشيء الذي أنساه أكثر؟",
+    "tags": ["توقّع", "عادات", "keys", "wallet"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "keys",
+        "label": "المفاتيح"
+      },
+      {
+        "id": "wallet",
+        "label": "المحفظة"
+      },
+      {
+        "id": "phone",
+        "label": "الهاتف"
+      },
+      {
+        "id": "charger",
+        "label": "الشاحن"
+      }
+    ]
+  },
+  {
+    "id": "G04-035",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "taste",
+    "depth": "light",
+    "body": "ما أكثر ما يحسّن مزاجي بسرعة؟",
+    "tags": ["توقّع", "أذواق", "food", "music"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "food",
+        "label": "طعام لذيذ"
+      },
+      {
+        "id": "music",
+        "label": "موسيقى"
+      },
+      {
+        "id": "kind_word",
+        "label": "كلمة طيّبة"
+      },
+      {
+        "id": "walk",
+        "label": "مشوار"
+      }
+    ]
+  },
+  {
+    "id": "G04-036",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "taste",
+    "depth": "light",
+    "body": "ما المهارة التي أتمنّى تعلّمها؟",
+    "tags": ["توقّع", "أذواق", "instrument", "language"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "instrument",
+        "label": "آلة موسيقية"
+      },
+      {
+        "id": "language",
+        "label": "لغة جديدة"
+      },
+      {
+        "id": "cooking",
+        "label": "طبخ متقدّم"
+      },
+      {
+        "id": "swimming",
+        "label": "السباحة"
+      }
+    ]
+  },
+  {
+    "id": "G04-037",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "taste",
+    "depth": "light",
+    "body": "ما نوع الطقس الذي أحبّه؟",
+    "tags": ["توقّع", "أذواق", "rainy", "sunny"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "rainy",
+        "label": "ممطر"
+      },
+      {
+        "id": "sunny",
+        "label": "مشمس"
+      },
+      {
+        "id": "cloudy",
+        "label": "غائم"
+      },
+      {
+        "id": "snowy",
+        "label": "مثلج"
+      }
+    ]
+  },
+  {
+    "id": "G04-038",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "ما الوجهة التي أختارها لقضاء يوم؟",
+    "tags": ["توقّع", "مرح", "mall", "park"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "mall",
+        "label": "مركز تجاري"
+      },
+      {
+        "id": "park",
+        "label": "حديقة"
+      },
+      {
+        "id": "beach",
+        "label": "شاطئ"
+      },
+      {
+        "id": "library",
+        "label": "مكتبة"
+      }
+    ]
+  },
+  {
+    "id": "G04-039",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "social",
+    "depth": "light",
+    "body": "ما الشيء الذي أستطيع الحديث عنه لساعات؟",
+    "tags": ["توقّع", "اجتماعي", "work", "hobbies"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "work",
+        "label": "عملي"
+      },
+      {
+        "id": "hobbies",
+        "label": "هواياتي"
+      },
+      {
+        "id": "family",
+        "label": "العائلة"
+      },
+      {
+        "id": "movies",
+        "label": "الأفلام والمسلسلات"
+      }
+    ]
+  },
+  {
+    "id": "G04-040",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "ما وقت نومي المعتاد في العطلة؟",
+    "tags": ["توقّع", "عادات", "before_11", "eleven_to_12"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "before_11",
+        "label": "قبل الحادية عشرة"
+      },
+      {
+        "id": "eleven_to_12",
+        "label": "بين الحادية عشرة ومنتصف الليل"
+      },
+      {
+        "id": "midnight_to_1",
+        "label": "بين منتصف الليل والواحدة"
+      },
+      {
+        "id": "after_1",
+        "label": "بعد الواحدة"
+      }
+    ]
+  },
+  {
+    "id": "G04-041",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "ما المكان الذي أحبّه أكثر في البيت؟",
+    "tags": ["توقّع", "بيت", "kitchen", "bedroom"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "kitchen",
+        "label": "المطبخ"
+      },
+      {
+        "id": "bedroom",
+        "label": "غرفة النوم"
+      },
+      {
+        "id": "living_room",
+        "label": "الصالة"
+      },
+      {
+        "id": "balcony",
+        "label": "الشرفة"
+      }
+    ]
+  },
+  {
+    "id": "G04-042",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "ما أول ما أنظر إليه في قائمة الطعام؟",
+    "tags": ["توقّع", "طعام", "mains", "desserts"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "mains",
+        "label": "الأطباق الرئيسية"
+      },
+      {
+        "id": "desserts",
+        "label": "الحلويات"
+      },
+      {
+        "id": "drinks",
+        "label": "المشروبات"
+      },
+      {
+        "id": "appetizers",
+        "label": "المقبّلات"
+      }
+    ]
+  },
+  {
+    "id": "G04-043",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "كيف أفضّل قضاء يوم ممطر؟",
+    "tags": ["توقّع", "مرح", "home_movies", "cooking"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "home_movies",
+        "label": "أفلام في البيت"
+      },
+      {
+        "id": "cooking",
+        "label": "طبخ"
+      },
+      {
+        "id": "reading",
+        "label": "قراءة"
+      },
+      {
+        "id": "walk_rain",
+        "label": "مشوار تحت المطر"
+      }
+    ]
+  },
+  {
+    "id": "G04-044",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "ما أكثر ما يضايقني في الانتظار؟",
+    "tags": ["توقّع", "عادات", "traffic", "queues"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "traffic",
+        "label": "زحمة الطريق"
+      },
+      {
+        "id": "queues",
+        "label": "الطوابير"
+      },
+      {
+        "id": "late_people",
+        "label": "تأخّر الآخرين"
+      },
+      {
+        "id": "slow_internet",
+        "label": "الإنترنت البطيء"
+      }
+    ]
+  },
+  {
+    "id": "G04-045",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "taste",
+    "depth": "light",
+    "body": "ما طريقتي المفضّلة في التعلّم؟",
+    "tags": ["توقّع", "أذواق", "videos", "reading"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "videos",
+        "label": "فيديوهات"
+      },
+      {
+        "id": "reading",
+        "label": "قراءة"
+      },
+      {
+        "id": "practice",
+        "label": "تجربة عملية"
+      },
+      {
+        "id": "discussion",
+        "label": "حوار مع الآخرين"
+      }
+    ]
+  },
+  {
+    "id": "G04-046",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "ما الحلوى التي لا أرفضها؟",
+    "tags": ["توقّع", "طعام", "kunafa", "cake"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "kunafa",
+        "label": "كنافة"
+      },
+      {
+        "id": "cake",
+        "label": "كيك"
+      },
+      {
+        "id": "baklava",
+        "label": "بقلاوة"
+      },
+      {
+        "id": "cookies",
+        "label": "بسكويت"
+      }
+    ]
+  },
+  {
+    "id": "G04-047",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "taste",
+    "depth": "light",
+    "body": "ما نوع الكتب الذي أختاره؟",
+    "tags": ["توقّع", "أذواق", "novels", "biographies"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "novels",
+        "label": "روايات"
+      },
+      {
+        "id": "biographies",
+        "label": "سِيَر"
+      },
+      {
+        "id": "self_dev",
+        "label": "تطوير ذات"
+      },
+      {
+        "id": "history",
+        "label": "تاريخ"
+      }
+    ]
+  },
+  {
+    "id": "G04-048",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "ما الذي أفعله عادةً عند التوتّر؟",
+    "tags": ["توقّع", "عادات", "jokes", "silence"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "jokes",
+        "label": "أمزح"
+      },
+      {
+        "id": "silence",
+        "label": "أصمت"
+      },
+      {
+        "id": "talking",
+        "label": "أتكلّم كثيرًا"
+      },
+      {
+        "id": "movement",
+        "label": "أتحرّك بلا توقّف"
+      }
+    ]
+  },
+  {
+    "id": "G04-049",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "ما أطول وقت أستطيع البقاء فيه بلا هاتف؟",
+    "tags": ["توقّع", "عادات", "hour", "half_day"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "hour",
+        "label": "ساعة"
+      },
+      {
+        "id": "half_day",
+        "label": "نصف يوم"
+      },
+      {
+        "id": "day",
+        "label": "يوم كامل"
+      },
+      {
+        "id": "days",
+        "label": "عدّة أيّام"
+      }
+    ]
+  },
+  {
+    "id": "G04-050",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "ما الطعام الذي لا أحبّه رغم شعبيّته؟",
+    "tags": ["توقّع", "طعام", "okra", "eggplant"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "okra",
+        "label": "بامية"
+      },
+      {
+        "id": "eggplant",
+        "label": "باذنجان"
+      },
+      {
+        "id": "liver",
+        "label": "كبدة"
+      },
+      {
+        "id": "olives",
+        "label": "زيتون"
+      }
+    ]
+  },
+  {
+    "id": "G04-051",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "social",
+    "depth": "light",
+    "body": "كيف أفضّل الاحتفال بعيد ميلادي؟",
+    "tags": ["توقّع", "اجتماعي", "quiet", "family"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "quiet",
+        "label": "بهدوء معك"
+      },
+      {
+        "id": "family",
+        "label": "مع العائلة"
+      },
+      {
+        "id": "friends",
+        "label": "مع الأصدقاء"
+      },
+      {
+        "id": "trip",
+        "label": "برحلة قصيرة"
+      }
+    ]
+  },
+  {
+    "id": "G04-052",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "ما أول شيء أفعله في الصباح؟",
+    "tags": ["توقّع", "عادات", "phone", "water"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "phone",
+        "label": "أتفقّد الهاتف"
+      },
+      {
+        "id": "water",
+        "label": "أشرب ماء"
+      },
+      {
+        "id": "stretch",
+        "label": "أتمطّى"
+      },
+      {
+        "id": "coffee",
+        "label": "أعدّ القهوة"
+      }
+    ]
+  },
+  {
+    "id": "G04-053",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "ما الشيء الذي أحبّ أن أفعله في السيارة؟",
+    "tags": ["توقّع", "مرح", "sing", "podcast"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "sing",
+        "label": "أغنّي"
+      },
+      {
+        "id": "podcast",
+        "label": "أسمع بودكاست"
+      },
+      {
+        "id": "silence",
+        "label": "أستمتع بالهدوء"
+      },
+      {
+        "id": "talk",
+        "label": "أتحدّث"
+      }
+    ]
+  },
+  {
+    "id": "G04-054",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "ما أفضل وقت للتسوّق بالنسبة إليّ؟",
+    "tags": ["توقّع", "عادات", "morning", "afternoon"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "morning",
+        "label": "صباحًا"
+      },
+      {
+        "id": "afternoon",
+        "label": "بعد الظهر"
+      },
+      {
+        "id": "evening",
+        "label": "مساءً"
+      },
+      {
+        "id": "online",
+        "label": "عبر الإنترنت فقط"
+      }
+    ]
+  },
+  {
+    "id": "G04-055",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "taste",
+    "depth": "light",
+    "body": "ما الشيء الذي أجمعه أو أحتفظ به؟",
+    "tags": ["توقّع", "أذواق", "photos", "tickets"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "photos",
+        "label": "صور"
+      },
+      {
+        "id": "tickets",
+        "label": "تذاكر وتذكارات"
+      },
+      {
+        "id": "books",
+        "label": "كتب"
+      },
+      {
+        "id": "nothing",
+        "label": "لا أحتفظ بشيء"
+      }
+    ]
+  },
+  {
+    "id": "G04-056",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أين أفضّل أن أعمل أو أدرس في البيت؟",
+    "tags": ["توقّع", "بيت", "desk", "sofa"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "desk",
+        "label": "المكتب"
+      },
+      {
+        "id": "sofa",
+        "label": "الأريكة"
+      },
+      {
+        "id": "kitchen_table",
+        "label": "طاولة المطبخ"
+      },
+      {
+        "id": "bed",
+        "label": "السرير"
+      }
+    ]
+  },
+  {
+    "id": "G04-057",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "ماذا أختار لو ربحت عطلة أسبوع؟",
+    "tags": ["توقّع", "سفر", "resort", "road_trip"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "resort",
+        "label": "منتجع"
+      },
+      {
+        "id": "road_trip",
+        "label": "رحلة بالسيارة"
+      },
+      {
+        "id": "home_rest",
+        "label": "راحة في البيت"
+      },
+      {
+        "id": "visit_relatives",
+        "label": "زيارة الأقارب"
+      }
+    ]
+  },
+  {
+    "id": "G04-058",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "ما الطبق الذي أتقن إعداده أكثر؟",
+    "tags": ["توقّع", "طعام", "rice", "pasta"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "rice",
+        "label": "أرز"
+      },
+      {
+        "id": "pasta",
+        "label": "معكرونة"
+      },
+      {
+        "id": "eggs",
+        "label": "بيض"
+      },
+      {
+        "id": "desserts",
+        "label": "حلويات"
+      }
+    ]
+  },
+  {
+    "id": "G04-059",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "taste",
+    "depth": "light",
+    "body": "ما الشيء الذي يجعلني أفتخر بنفسي؟",
+    "tags": ["توقّع", "أذواق", "finishing_tasks", "helping_others"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "finishing_tasks",
+        "label": "إنهاء المهامّ"
+      },
+      {
+        "id": "helping_others",
+        "label": "مساعدة الآخرين"
+      },
+      {
+        "id": "learning",
+        "label": "تعلّم شيء جديد"
+      },
+      {
+        "id": "patience",
+        "label": "الصبر في المواقف"
+      }
+    ]
+  },
+  {
+    "id": "G04-060",
+    "gameId": "G04",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "كيف أفضّل قضاء آخر ساعة قبل النوم؟",
+    "tags": ["توقّع", "عادات", "series", "reading"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 2,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "series",
+        "label": "مسلسل"
+      },
+      {
+        "id": "reading",
+        "label": "قراءة"
+      },
+      {
+        "id": "chat",
+        "label": "حديث معك"
+      },
+      {
+        "id": "phone",
+        "label": "تصفّح الهاتف"
+      }
+    ]
+  }
+]

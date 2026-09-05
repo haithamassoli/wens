@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "G02-001",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّهما تختار لعطلة نهاية الأسبوع؟",
+    "tags": ["اختيار", "سفر", "sea", "mountains"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "sea",
+        "label": "البحر"
+      },
+      {
+        "id": "mountains",
+        "label": "الجبال"
+      }
+    ]
+  },
+  {
+    "id": "G02-002",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما تفضّل لعشاء الليلة؟",
+    "tags": ["اختيار", "طعام", "cook_together", "new_restaurant"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "cook_together",
+        "label": "نطبخ معًا"
+      },
+      {
+        "id": "new_restaurant",
+        "label": "نجرّب مطعمًا جديدًا"
+      }
+    ]
+  },
+  {
+    "id": "G02-003",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما أقرب إليك في الصباح؟",
+    "tags": ["اختيار", "طعام", "tea", "coffee"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "tea",
+        "label": "شاي"
+      },
+      {
+        "id": "coffee",
+        "label": "قهوة"
+      }
+    ]
+  },
+  {
+    "id": "G02-004",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّهما تفضّل في السفر؟",
+    "tags": ["اختيار", "سفر", "plan_everything", "go_with_flow"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "plan_everything",
+        "label": "خطّة مفصّلة"
+      },
+      {
+        "id": "go_with_flow",
+        "label": "نمشي مع الظروف"
+      }
+    ]
+  },
+  {
+    "id": "G02-005",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أيّهما تختار لقضاء مساء هادئ؟",
+    "tags": ["اختيار", "بيت", "movie", "book"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "movie",
+        "label": "فيلم"
+      },
+      {
+        "id": "book",
+        "label": "كتاب"
+      }
+    ]
+  },
+  {
+    "id": "G02-006",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّهما تفضّل في الإجازة؟",
+    "tags": ["اختيار", "سفر", "city", "village"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "city",
+        "label": "مدينة صاخبة"
+      },
+      {
+        "id": "village",
+        "label": "قرية هادئة"
+      }
+    ]
+  },
+  {
+    "id": "G02-007",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما تختار لوجبة سريعة؟",
+    "tags": ["اختيار", "طعام", "pizza", "shawarma"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "pizza",
+        "label": "بيتزا"
+      },
+      {
+        "id": "shawarma",
+        "label": "شاورما"
+      }
+    ]
+  },
+  {
+    "id": "G02-008",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "أيّهما أقرب إلى طبيعتك؟",
+    "tags": ["اختيار", "عادات", "early_bird", "night_owl"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "early_bird",
+        "label": "الاستيقاظ باكرًا"
+      },
+      {
+        "id": "night_owl",
+        "label": "السهر ليلًا"
+      }
+    ]
+  },
+  {
+    "id": "G02-009",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّهما تختار للتنقّل في مدينة جديدة؟",
+    "tags": ["اختيار", "سفر", "walk", "car"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "walk",
+        "label": "المشي"
+      },
+      {
+        "id": "car",
+        "label": "السيارة"
+      }
+    ]
+  },
+  {
+    "id": "G02-010",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أيّهما تفضّل في جوّ البيت؟",
+    "tags": ["اختيار", "بيت", "warm", "cool"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "warm",
+        "label": "دافئ قليلًا"
+      },
+      {
+        "id": "cool",
+        "label": "بارد قليلًا"
+      }
+    ]
+  },
+  {
+    "id": "G02-011",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "outings",
+    "depth": "light",
+    "body": "أيّهما تختار لنزهة؟",
+    "tags": ["اختيار", "خروج", "picnic", "cafe"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "picnic",
+        "label": "نزهة في حديقة"
+      },
+      {
+        "id": "cafe",
+        "label": "جلسة في مقهى"
+      }
+    ]
+  },
+  {
+    "id": "G02-012",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما تفضّل عند الجوع الخفيف؟",
+    "tags": ["اختيار", "طعام", "sweet", "salty"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "sweet",
+        "label": "حلو"
+      },
+      {
+        "id": "salty",
+        "label": "مالح"
+      }
+    ]
+  },
+  {
+    "id": "G02-013",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّهما تختار لعطلة طويلة؟",
+    "tags": ["اختيار", "سفر", "one_place", "many_places"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "one_place",
+        "label": "مكان واحد نستقرّ فيه"
+      },
+      {
+        "id": "many_places",
+        "label": "عدّة أماكن نتنقّل بينها"
+      }
+    ]
+  },
+  {
+    "id": "G02-014",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "أيّهما تفضّل عند سماع الموسيقى؟",
+    "tags": ["اختيار", "مرح", "quiet", "upbeat"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "quiet",
+        "label": "هادئة"
+      },
+      {
+        "id": "upbeat",
+        "label": "حماسية"
+      }
+    ]
+  },
+  {
+    "id": "G02-015",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما تختار للفطور؟",
+    "tags": ["اختيار", "طعام", "eggs", "pancakes"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "eggs",
+        "label": "بيض"
+      },
+      {
+        "id": "pancakes",
+        "label": "فطائر"
+      }
+    ]
+  },
+  {
+    "id": "G02-016",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "أيّهما تفضّل في الطقس؟",
+    "tags": ["اختيار", "مرح", "rain", "sun"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "rain",
+        "label": "مطر"
+      },
+      {
+        "id": "sun",
+        "label": "شمس"
+      }
+    ]
+  },
+  {
+    "id": "G02-017",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "outings",
+    "depth": "light",
+    "body": "أيّهما تختار لأمسية مع الأصدقاء؟",
+    "tags": ["اختيار", "خروج", "home_gathering", "out_gathering"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "home_gathering",
+        "label": "جلسة في البيت"
+      },
+      {
+        "id": "out_gathering",
+        "label": "خروج للعشاء"
+      }
+    ]
+  },
+  {
+    "id": "G02-018",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أيّهما تفضّل لتزيين البيت؟",
+    "tags": ["اختيار", "بيت", "plants", "paintings"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "plants",
+        "label": "نباتات"
+      },
+      {
+        "id": "paintings",
+        "label": "لوحات"
+      }
+    ]
+  },
+  {
+    "id": "G02-019",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "outings",
+    "depth": "light",
+    "body": "أيّهما تختار للتسوّق؟",
+    "tags": ["اختيار", "خروج", "mall", "market"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "mall",
+        "label": "مركز تجاري"
+      },
+      {
+        "id": "market",
+        "label": "سوق شعبي"
+      }
+    ]
+  },
+  {
+    "id": "G02-020",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّهما تفضّل للإقامة في السفر؟",
+    "tags": ["اختيار", "سفر", "hotel", "apartment"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "hotel",
+        "label": "فندق"
+      },
+      {
+        "id": "apartment",
+        "label": "شقّة"
+      }
+    ]
+  },
+  {
+    "id": "G02-021",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "أيّهما تختار في وقت الفراغ؟",
+    "tags": ["اختيار", "عادات", "nap", "walk_outside"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "nap",
+        "label": "قيلولة"
+      },
+      {
+        "id": "walk_outside",
+        "label": "مشوار قصير"
+      }
+    ]
+  },
+  {
+    "id": "G02-022",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما تفضّل في الحلويات؟",
+    "tags": ["اختيار", "طعام", "chocolate", "fruit"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "chocolate",
+        "label": "شوكولاتة"
+      },
+      {
+        "id": "fruit",
+        "label": "فاكهة"
+      }
+    ]
+  },
+  {
+    "id": "G02-023",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "أيّهما تختار للترفيه؟",
+    "tags": ["اختيار", "مرح", "board_game", "video_game"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "board_game",
+        "label": "لعبة لوحية"
+      },
+      {
+        "id": "video_game",
+        "label": "لعبة إلكترونية"
+      }
+    ]
+  },
+  {
+    "id": "G02-024",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما تفضّل في المطبخ؟",
+    "tags": ["اختيار", "طعام", "follow_recipe", "improvise"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "follow_recipe",
+        "label": "نتبع الوصفة"
+      },
+      {
+        "id": "improvise",
+        "label": "نجرّب بلا وصفة"
+      }
+    ]
+  },
+  {
+    "id": "G02-025",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "outings",
+    "depth": "light",
+    "body": "أيّهما تختار لقضاء يوم؟",
+    "tags": ["اختيار", "خروج", "beach_day", "museum_day"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "beach_day",
+        "label": "يوم على الشاطئ"
+      },
+      {
+        "id": "museum_day",
+        "label": "يوم في متحف"
+      }
+    ]
+  },
+  {
+    "id": "G02-026",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "أيّهما تفضّل في الترتيب؟",
+    "tags": ["اختيار", "عادات", "tidy_daily", "tidy_weekly"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "tidy_daily",
+        "label": "ترتيب يومي بسيط"
+      },
+      {
+        "id": "tidy_weekly",
+        "label": "ترتيب أسبوعي شامل"
+      }
+    ]
+  },
+  {
+    "id": "G02-027",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "أيّهما تختار للاحتفال؟",
+    "tags": ["اختيار", "مرح", "surprise", "planned"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "surprise",
+        "label": "مفاجأة"
+      },
+      {
+        "id": "planned",
+        "label": "احتفال مخطّط"
+      }
+    ]
+  },
+  {
+    "id": "G02-028",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "outings",
+    "depth": "light",
+    "body": "أيّهما تفضّل في العطلة؟",
+    "tags": ["اختيار", "خروج", "sunrise", "sunset"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "sunrise",
+        "label": "نشاهد الشروق"
+      },
+      {
+        "id": "sunset",
+        "label": "نشاهد الغروب"
+      }
+    ]
+  },
+  {
+    "id": "G02-029",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّهما تختار وسيلة سفر؟",
+    "tags": ["اختيار", "سفر", "train", "plane"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "train",
+        "label": "قطار"
+      },
+      {
+        "id": "plane",
+        "label": "طائرة"
+      }
+    ]
+  },
+  {
+    "id": "G02-030",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما تفضّل للعشاء؟",
+    "tags": ["اختيار", "طعام", "light_dinner", "big_dinner"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "light_dinner",
+        "label": "عشاء خفيف"
+      },
+      {
+        "id": "big_dinner",
+        "label": "عشاء دسم"
+      }
+    ]
+  },
+  {
+    "id": "G02-031",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّهما تختار لعطلة؟",
+    "tags": ["اختيار", "سفر", "desert", "forest"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "desert",
+        "label": "صحراء"
+      },
+      {
+        "id": "forest",
+        "label": "غابة"
+      }
+    ]
+  },
+  {
+    "id": "G02-032",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "أيّهما تفضّل في السينما؟",
+    "tags": ["اختيار", "مرح", "comedy", "mystery"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "comedy",
+        "label": "كوميديا"
+      },
+      {
+        "id": "mystery",
+        "label": "غموض وتشويق"
+      }
+    ]
+  },
+  {
+    "id": "G02-033",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أيّهما تختار للبيت؟",
+    "tags": ["اختيار", "بيت", "big_kitchen", "big_living_room"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "big_kitchen",
+        "label": "مطبخ واسع"
+      },
+      {
+        "id": "big_living_room",
+        "label": "صالة واسعة"
+      }
+    ]
+  },
+  {
+    "id": "G02-034",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما تختار حلوى في يوم حارّ؟",
+    "tags": ["اختيار", "طعام", "ice_cream", "warm_dessert"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "ice_cream",
+        "label": "مثلّجات"
+      },
+      {
+        "id": "warm_dessert",
+        "label": "حلوى ساخنة"
+      }
+    ]
+  },
+  {
+    "id": "G02-035",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "أيّهما تختار للرياضة؟",
+    "tags": ["اختيار", "عادات", "gym", "outdoor_sport"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "gym",
+        "label": "نادٍ رياضي"
+      },
+      {
+        "id": "outdoor_sport",
+        "label": "رياضة في الهواء الطلق"
+      }
+    ]
+  },
+  {
+    "id": "G02-036",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّهما تفضّل في الرحلة؟",
+    "tags": ["اختيار", "سفر", "photos", "no_photos"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "photos",
+        "label": "نصوّر كثيرًا"
+      },
+      {
+        "id": "no_photos",
+        "label": "نعيش اللحظة بلا تصوير"
+      }
+    ]
+  },
+  {
+    "id": "G02-037",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أيّهما تختار للمساء؟",
+    "tags": ["اختيار", "بيت", "balcony", "living_room"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "balcony",
+        "label": "جلسة في الشرفة"
+      },
+      {
+        "id": "living_room",
+        "label": "جلسة في الصالة"
+      }
+    ]
+  },
+  {
+    "id": "G02-038",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما تفضّل مشروبًا مع الفطور؟",
+    "tags": ["اختيار", "طعام", "juice", "smoothie"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "juice",
+        "label": "عصير طازج"
+      },
+      {
+        "id": "smoothie",
+        "label": "سموذي"
+      }
+    ]
+  },
+  {
+    "id": "G02-039",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "أيّهما تختار للتعلّم؟",
+    "tags": ["اختيار", "عادات", "course", "online"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "course",
+        "label": "دورة حضورية"
+      },
+      {
+        "id": "online",
+        "label": "دورة عبر الإنترنت"
+      }
+    ]
+  },
+  {
+    "id": "G02-040",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "أيّهما تفضّل عند الملل؟",
+    "tags": ["اختيار", "مرح", "cook_something", "go_out"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "cook_something",
+        "label": "نطبخ شيئًا"
+      },
+      {
+        "id": "go_out",
+        "label": "نخرج بلا هدف"
+      }
+    ]
+  },
+  {
+    "id": "G02-041",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّهما تختار لعطلة الصيف؟",
+    "tags": ["اختيار", "سفر", "cold_place", "warm_place"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "cold_place",
+        "label": "مكان بارد"
+      },
+      {
+        "id": "warm_place",
+        "label": "مكان دافئ"
+      }
+    ]
+  },
+  {
+    "id": "G02-042",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما تفضّل في الخبز؟",
+    "tags": ["اختيار", "طعام", "fresh_bread", "toast"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "fresh_bread",
+        "label": "خبز ساخن"
+      },
+      {
+        "id": "toast",
+        "label": "خبز محمّص"
+      }
+    ]
+  },
+  {
+    "id": "G02-043",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "outings",
+    "depth": "light",
+    "body": "أيّهما تختار لنزهة مع الصغار في العائلة؟",
+    "tags": ["اختيار", "خروج", "park", "zoo"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "park",
+        "label": "حديقة ألعاب"
+      },
+      {
+        "id": "zoo",
+        "label": "حديقة حيوانات"
+      }
+    ]
+  },
+  {
+    "id": "G02-044",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّهما تفضّل عند تجهيز الحقائب؟",
+    "tags": ["اختيار", "سفر", "light_bag", "big_bag"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "light_bag",
+        "label": "حقيبة صغيرة"
+      },
+      {
+        "id": "big_bag",
+        "label": "حقيبة كبيرة"
+      }
+    ]
+  },
+  {
+    "id": "G02-045",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "outings",
+    "depth": "light",
+    "body": "أيّهما تختار لمساء الجمعة؟",
+    "tags": ["اختيار", "خروج", "family_visit", "quiet_evening"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "family_visit",
+        "label": "زيارة الأهل"
+      },
+      {
+        "id": "quiet_evening",
+        "label": "مساء هادئ في البيت"
+      }
+    ]
+  },
+  {
+    "id": "G02-046",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّهما تفضّل في الطائرة؟",
+    "tags": ["اختيار", "سفر", "window_seat", "aisle_seat"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "window_seat",
+        "label": "مقعد بجانب النافذة"
+      },
+      {
+        "id": "aisle_seat",
+        "label": "مقعد بجانب الممرّ"
+      }
+    ]
+  },
+  {
+    "id": "G02-047",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما تختار في الطبخ؟",
+    "tags": ["اختيار", "طعام", "spicy", "mild"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "spicy",
+        "label": "حارّ"
+      },
+      {
+        "id": "mild",
+        "label": "خفيف"
+      }
+    ]
+  },
+  {
+    "id": "G02-048",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "أيّهما تفضّل لتغيير الروتين؟",
+    "tags": ["اختيار", "عادات", "new_hobby", "new_place"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "new_hobby",
+        "label": "هواية جديدة"
+      },
+      {
+        "id": "new_place",
+        "label": "مكان جديد"
+      }
+    ]
+  },
+  {
+    "id": "G02-049",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أيّهما تختار لديكور غرفة النوم؟",
+    "tags": ["اختيار", "بيت", "bright_colors", "calm_colors"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "bright_colors",
+        "label": "ألوان زاهية"
+      },
+      {
+        "id": "calm_colors",
+        "label": "ألوان هادئة"
+      }
+    ]
+  },
+  {
+    "id": "G02-050",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "أيّهما تفضّل عند القراءة؟",
+    "tags": ["اختيار", "عادات", "paper_book", "ebook"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "paper_book",
+        "label": "كتاب ورقي"
+      },
+      {
+        "id": "ebook",
+        "label": "كتاب إلكتروني"
+      }
+    ]
+  },
+  {
+    "id": "G02-051",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "outings",
+    "depth": "light",
+    "body": "أيّهما تختار للتنزّه؟",
+    "tags": ["اختيار", "خروج", "bike", "walk_long"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "bike",
+        "label": "درّاجة"
+      },
+      {
+        "id": "walk_long",
+        "label": "مشي طويل"
+      }
+    ]
+  },
+  {
+    "id": "G02-052",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما تختار طبقًا جانبيًّا للغداء؟",
+    "tags": ["اختيار", "طعام", "soup", "salad"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "soup",
+        "label": "شوربة"
+      },
+      {
+        "id": "salad",
+        "label": "سلطة"
+      }
+    ]
+  },
+  {
+    "id": "G02-053",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّهما تختار لقضاء ليلة؟",
+    "tags": ["اختيار", "سفر", "camping", "cabin"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "camping",
+        "label": "تخييم"
+      },
+      {
+        "id": "cabin",
+        "label": "كوخ مريح"
+      }
+    ]
+  },
+  {
+    "id": "G02-054",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "أيّهما تفضّل في الحفلات؟",
+    "tags": ["اختيار", "مرح", "small_party", "big_party"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "small_party",
+        "label": "حفلة صغيرة"
+      },
+      {
+        "id": "big_party",
+        "label": "حفلة كبيرة"
+      }
+    ]
+  },
+  {
+    "id": "G02-055",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أيّهما تختار لأرضية البيت؟",
+    "tags": ["اختيار", "بيت", "carpet", "wood"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "carpet",
+        "label": "سجّاد"
+      },
+      {
+        "id": "wood",
+        "label": "أرضية خشبية"
+      }
+    ]
+  },
+  {
+    "id": "G02-056",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما تفضّل بعد العشاء؟",
+    "tags": ["اختيار", "طعام", "dessert", "tea_after"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "dessert",
+        "label": "حلوى"
+      },
+      {
+        "id": "tea_after",
+        "label": "شاي"
+      }
+    ]
+  },
+  {
+    "id": "G02-057",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "أيّهما تختار لقضاء الوقت؟",
+    "tags": ["اختيار", "مرح", "puzzle", "cards"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "puzzle",
+        "label": "أحجية"
+      },
+      {
+        "id": "cards",
+        "label": "ورق لعب"
+      }
+    ]
+  },
+  {
+    "id": "G02-058",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "أيّهما تفضّل لتوثيق الذكريات؟",
+    "tags": ["اختيار", "عادات", "album", "journal"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "album",
+        "label": "ألبوم صور"
+      },
+      {
+        "id": "journal",
+        "label": "دفتر يوميات"
+      }
+    ]
+  },
+  {
+    "id": "G02-059",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "outings",
+    "depth": "light",
+    "body": "أيّهما تختار لمشوار قصير؟",
+    "tags": ["اختيار", "خروج", "bakery", "ice_cream_shop"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "bakery",
+        "label": "مخبز"
+      },
+      {
+        "id": "ice_cream_shop",
+        "label": "محلّ مثلّجات"
+      }
+    ]
+  },
+  {
+    "id": "G02-060",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّهما تفضّل لاكتشاف مدينة جديدة؟",
+    "tags": ["اختيار", "سفر", "guided_tour", "explore_alone"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "guided_tour",
+        "label": "جولة مع مرشد"
+      },
+      {
+        "id": "explore_alone",
+        "label": "نستكشف وحدنا"
+      }
+    ]
+  },
+  {
+    "id": "G02-061",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "outings",
+    "depth": "light",
+    "body": "أيّهما تختار لوجبة خارج البيت؟",
+    "tags": ["اختيار", "خروج", "breakfast_out", "dinner_out"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "breakfast_out",
+        "label": "فطور خارج البيت"
+      },
+      {
+        "id": "dinner_out",
+        "label": "عشاء خارج البيت"
+      }
+    ]
+  },
+  {
+    "id": "G02-062",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما تفضّل لطهي اللحم أو الخضار؟",
+    "tags": ["اختيار", "طعام", "oven", "grill"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "oven",
+        "label": "فرن"
+      },
+      {
+        "id": "grill",
+        "label": "شواء"
+      }
+    ]
+  },
+  {
+    "id": "G02-063",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "أيّهما تختار لقضاء يوم بارد؟",
+    "tags": ["اختيار", "مرح", "blanket_movies", "hot_drinks_walk"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "blanket_movies",
+        "label": "أفلام تحت الغطاء"
+      },
+      {
+        "id": "hot_drinks_walk",
+        "label": "مشوار مع مشروب ساخن"
+      }
+    ]
+  },
+  {
+    "id": "G02-064",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أيّهما تفضّل لو ربّينا حيوانًا؟",
+    "tags": ["اختيار", "بيت", "pet_cat", "pet_fish"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "pet_cat",
+        "label": "قطّة"
+      },
+      {
+        "id": "pet_fish",
+        "label": "أسماك زينة"
+      }
+    ]
+  },
+  {
+    "id": "G02-065",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّهما تختار للعطلة؟",
+    "tags": ["اختيار", "سفر", "history", "nature"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "history",
+        "label": "رحلة تاريخية"
+      },
+      {
+        "id": "nature",
+        "label": "رحلة طبيعية"
+      }
+    ]
+  },
+  {
+    "id": "G02-066",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "أيّهما تفضّل في السيارة؟",
+    "tags": ["اختيار", "مرح", "singing", "podcast"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "singing",
+        "label": "نغنّي"
+      },
+      {
+        "id": "podcast",
+        "label": "نسمع بودكاست"
+      }
+    ]
+  },
+  {
+    "id": "G02-067",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما تختار للعشاء مع الضيوف؟",
+    "tags": ["اختيار", "طعام", "home_cooked", "order_in"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "home_cooked",
+        "label": "طبخ منزلي"
+      },
+      {
+        "id": "order_in",
+        "label": "طلب من مطعم"
+      }
+    ]
+  },
+  {
+    "id": "G02-068",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "أيّهما تفضّل في الصباح؟",
+    "tags": ["اختيار", "عادات", "long_shower", "long_breakfast"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "long_shower",
+        "label": "استحمام طويل"
+      },
+      {
+        "id": "long_breakfast",
+        "label": "فطور طويل"
+      }
+    ]
+  },
+  {
+    "id": "G02-069",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "outings",
+    "depth": "light",
+    "body": "أيّهما تختار لأمسية فنّية؟",
+    "tags": ["اختيار", "خروج", "theater", "concert"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "theater",
+        "label": "مسرح"
+      },
+      {
+        "id": "concert",
+        "label": "حفل موسيقي"
+      }
+    ]
+  },
+  {
+    "id": "G02-070",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "travel",
+    "depth": "light",
+    "body": "أيّهما تفضّل لعطلة؟",
+    "tags": ["اختيار", "سفر", "island", "old_city"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "island",
+        "label": "جزيرة"
+      },
+      {
+        "id": "old_city",
+        "label": "مدينة قديمة"
+      }
+    ]
+  },
+  {
+    "id": "G02-071",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أيّهما تفضّل في أسلوب البيت؟",
+    "tags": ["اختيار", "بيت", "many_pillows", "minimal"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "many_pillows",
+        "label": "وسائد كثيرة"
+      },
+      {
+        "id": "minimal",
+        "label": "بساطة وقليل من الأشياء"
+      }
+    ]
+  },
+  {
+    "id": "G02-072",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما لا تستغني عنه على مائدة الفطور؟",
+    "tags": ["اختيار", "طعام", "cheese", "olives"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "cheese",
+        "label": "جبن"
+      },
+      {
+        "id": "olives",
+        "label": "زيتون"
+      }
+    ]
+  },
+  {
+    "id": "G02-073",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "fun",
+    "depth": "light",
+    "body": "أيّهما تختار للمرح؟",
+    "tags": ["اختيار", "مرح", "karaoke", "acting_challenge"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "karaoke",
+        "label": "نغنّي كاريوكي"
+      },
+      {
+        "id": "acting_challenge",
+        "label": "تحدّي تمثيل"
+      }
+    ]
+  },
+  {
+    "id": "G02-074",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "أيّهما تفضّل لمشوار يومي؟",
+    "tags": ["اختيار", "عادات", "morning_walk", "evening_walk"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "morning_walk",
+        "label": "مشوار صباحي"
+      },
+      {
+        "id": "evening_walk",
+        "label": "مشوار مسائي"
+      }
+    ]
+  },
+  {
+    "id": "G02-075",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أيّهما تختار لتغيير الديكور؟",
+    "tags": ["اختيار", "بيت", "new_curtains", "new_lighting"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "new_curtains",
+        "label": "ستائر جديدة"
+      },
+      {
+        "id": "new_lighting",
+        "label": "إضاءة جديدة"
+      }
+    ]
+  },
+  {
+    "id": "G02-076",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "food",
+    "depth": "light",
+    "body": "أيّهما تختار للطعام في بلد جديد؟",
+    "tags": ["اختيار", "طعام", "street_food", "fancy_restaurant"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "street_food",
+        "label": "طعام الشارع"
+      },
+      {
+        "id": "fancy_restaurant",
+        "label": "مطعم راقٍ"
+      }
+    ]
+  },
+  {
+    "id": "G02-077",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "outings",
+    "depth": "light",
+    "body": "أيّهما تختار لخروج ممتع مع الأصدقاء؟",
+    "tags": ["اختيار", "خروج", "escape_room", "bowling"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "escape_room",
+        "label": "غرفة ألغاز"
+      },
+      {
+        "id": "bowling",
+        "label": "بولينغ"
+      }
+    ]
+  },
+  {
+    "id": "G02-078",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "أيّهما تفضّل لإرسال كلمة لطيفة؟",
+    "tags": ["اختيار", "عادات", "handwritten_note", "voice_message"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "handwritten_note",
+        "label": "رسالة بخطّ اليد"
+      },
+      {
+        "id": "voice_message",
+        "label": "رسالة صوتية"
+      }
+    ]
+  },
+  {
+    "id": "G02-079",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "home",
+    "depth": "light",
+    "body": "أيّهما تختار للاسترخاء؟",
+    "tags": ["اختيار", "بيت", "quiet_music", "hot_bath"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "quiet_music",
+        "label": "موسيقى هادئة"
+      },
+      {
+        "id": "hot_bath",
+        "label": "حمّام دافئ"
+      }
+    ]
+  },
+  {
+    "id": "G02-080",
+    "gameId": "G02",
+    "locale": "ar",
+    "version": 1,
+    "status": "published",
+    "category": "habits",
+    "depth": "light",
+    "body": "أيّهما تفضّل لختام اليوم؟",
+    "tags": ["اختيار", "عادات", "chat_before_sleep", "episode"],
+    "requiresMovement": false,
+    "requiresTools": false,
+    "estimatedMinutes": 1,
+    "reviewedAt": "2026-09-01",
+    "options": [
+      {
+        "id": "chat_before_sleep",
+        "label": "حديث قبل النوم"
+      },
+      {
+        "id": "episode",
+        "label": "حلقة من مسلسل"
+      }
+    ]
+  }
+]

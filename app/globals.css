@@ -1,26 +1,104 @@
 @import "tailwindcss";
 
+/*
+  ونس design tokens.
+  Mood: an evening at home under lamp light. Lilac-tinted ground (not cream), aubergine ink,
+  marigold for the primary action, rose for hearts/favorites, mint for "match".
+  Each game also owns a hue (see lib/games.ts) — colour is identity, not decoration.
+*/
+@theme {
+  --color-ground: #f3eef7;
+  --color-ground-deep: #e6dcee;
+  --color-card: #ffffff;
+  --color-ink: #2a1a33;
+  --color-ink-soft: #6b5a75;
+  --color-ink-faint: #a898b3;
+  --color-line: #d9cfe3;
+  --color-marigold: #f0a23b;
+  --color-marigold-deep: #c47c17;
+  --color-rose: #d9647a;
+  --color-mint: #2f9e8f;
+  --color-mint-soft: #d7f0ea;
+  --color-danger: #c2410c;
+
+  --font-display: var(--font-baloo), system-ui, sans-serif;
+  --font-sans: var(--font-plex), system-ui, sans-serif;
+
+  --radius-card: 1.75rem;
+  --radius-chip: 999px;
+
+  --shadow-deck: 0 1px 0 0 var(--color-line), 0 10px 0 -4px #fff, 0 11px 0 -4px var(--color-line),
+    0 20px 0 -8px #fff, 0 21px 0 -8px var(--color-line);
+  --shadow-lift: 0 12px 32px -12px rgb(42 26 51 / 0.25);
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  background: var(--color-ground);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100dvh;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  line-height: 1.25;
+}
+
+/* Visible focus everywhere (NFR-UX-02) */
+:focus-visible {
+  outline: 3px solid var(--color-marigold);
+  outline-offset: 2px;
+  border-radius: 0.5rem;
+}
+
+/* Numbers, codes and links stay LTR inside RTL text (NFR-UX-01) */
+.ltr {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/* User setting "reduced motion" (S08) mirrors the media query */
+html[data-reduce-motion="true"] *,
+html[data-reduce-motion="true"] *::before,
+html[data-reduce-motion="true"] *::after {
+  animation-duration: 0.01ms !important;
+  transition-duration: 0.01ms !important;
+}
+
+/* Home hero: the deck fans open once (400ms). Reduced motion collapses it via the rules above. */
+@keyframes deck-settle {
+  from {
+    transform: rotate(0deg) translateY(10px);
+    opacity: 0.4;
+  }
+  to {
+    transform: rotate(var(--deck-rotate, 0deg)) translateY(0);
+    opacity: 1;
+  }
+}
+.deck-card {
+  transform: rotate(var(--deck-rotate, 0deg));
+  animation: deck-settle 400ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
 }

@@ -1,31 +1,39 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Baloo_Bhaijaan_2, IBM_Plex_Sans_Arabic } from "next/font/google";
+import { AppShell } from "@/components/AppShell";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const baloo = Baloo_Bhaijaan_2({
+  variable: "--font-baloo",
+  subsets: ["arabic", "latin"],
+  weight: ["500", "600", "700", "800"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const plex = IBM_Plex_Sans_Arabic({
+  variable: "--font-plex",
+  subsets: ["arabic", "latin"],
+  weight: ["400", "500", "600"],
 });
 
 export const metadata: Metadata = {
-  title: "Wens — Couples Games",
-  description: "Games for couples.",
-  appleWebApp: { capable: true, statusBarStyle: "black-translucent", title: "Wens" },
+  title: { default: "ونس", template: "%s · ونس" },
+  description: "ألعاب وأنشطة قصيرة للزوجين، على هاتف واحد وبلا تسجيل.",
+  appleWebApp: { capable: true, statusBarStyle: "default", title: "ونس" },
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0a0a0a",
+  themeColor: "#f3eef7",
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <body className="flex min-h-full flex-col">{children}</body>
+    <html lang="ar" dir="rtl" className={`${baloo.variable} ${plex.variable} h-full antialiased`}>
+      <body className="flex min-h-full flex-col">
+        <AppShell>{children}</AppShell>
+      </body>
     </html>
   );
 }
