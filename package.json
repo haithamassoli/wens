@@ -6,9 +6,9 @@
     "dev": "next dev",
     "build": "SERWIST_SUPPRESS_TURBOPACK_WARNING=1 next build --webpack",
     "start": "next start",
-    "lint": "eslint",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
+    "lint": "biome lint",
+    "format": "biome format --write .",
+    "check": "biome check --write .",
     "prepare": "lefthook install"
   },
   "dependencies": {
@@ -18,17 +18,13 @@
     "react-dom": "19.2.8"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.5.12",
     "@serwist/next": "^9.5.12",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.3.4",
-    "eslint-config-prettier": "^10.1.8",
     "lefthook": "^2.1.12",
-    "prettier": "^3.9.6",
-    "prettier-plugin-tailwindcss": "^0.8.1",
     "serwist": "^9.5.12",
     "tailwindcss": "^4",
     "typescript": "^5"

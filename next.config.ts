@@ -7,6 +7,8 @@ const withSerwist = withSerwistInit({
   disable: process.env.NODE_ENV === "development", // ponytail: dev SW churn is noise; test PWA via `next build && next start`
 });
 
-const nextConfig: NextConfig = {/* config options here */};
+const nextConfig: NextConfig = {
+  /* config options here */
+};
 
 export default withSerwist(nextConfig);
