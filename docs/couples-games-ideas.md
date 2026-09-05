@@ -25,13 +25,13 @@ This document describes 36 ideas. Each includes a purpose, gameplay, example, re
 
 ### Categories
 
-| IDs | Category |
-| --- | --- |
-| G01–G08 | Conversation and getting to know each other |
-| G09–G16 | Laughter and movement |
-| G17–G24 | Thinking and cooperation |
-| G25–G30 | Outings and memories |
-| G31–G34 | Useful shared activities |
+| IDs     | Category                                     |
+| ------- | -------------------------------------------- |
+| G01–G08 | Conversation and getting to know each other  |
+| G09–G16 | Laughter and movement                        |
+| G17–G24 | Thinking and cooperation                     |
+| G25–G30 | Outings and memories                         |
+| G31–G34 | Useful shared activities                     |
 | G35–G36 | Optional religious and charitable activities |
 
 ## 2. Conversation and getting to know each other
@@ -446,13 +446,13 @@ This document describes 36 ideas. Each includes a purpose, gameplay, example, re
 
 Start with one website under the working name Wens. Shared card, turn, timer, and reveal engines reduce repeated work. These collections can later become separate products if useful.
 
-| Proposed project | Ideas | Scope and dependencies |
-| --- | --- | --- |
-| Quick Wens | G01, G02, G03, G04, G09, G25 | Immediate start without registration; the PRD's MVP. |
-| Game Night | G05–G08, G10–G13, G18, G20, G21, G26, G31 | Local expansion using cards, turns, and lightweight engines. |
-| Play Apart | Suitable existing games, then G14, G17, G22, G23, G24 | Private rooms, server synchronization, and temporary player identities. |
-| Our Story | G27–G30, G32, G34 | Linked accounts, private storage, files, deletion, and unlinking. Launch after validating the privacy model. |
-| Adventures and Learning | G15, G16, G19, G33, G35, G36 | Specialized content and additional review; split into smaller packs according to demand. |
+| Proposed project        | Ideas                                                 | Scope and dependencies                                                                                       |
+| ----------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Quick Wens              | G01, G02, G03, G04, G09, G25                          | Immediate start without registration; the PRD's MVP.                                                         |
+| Game Night              | G05–G08, G10–G13, G18, G20, G21, G26, G31             | Local expansion using cards, turns, and lightweight engines.                                                 |
+| Play Apart              | Suitable existing games, then G14, G17, G22, G23, G24 | Private rooms, server synchronization, and temporary player identities.                                      |
+| Our Story               | G27–G30, G32, G34                                     | Linked accounts, private storage, files, deletion, and unlinking. Launch after validating the privacy model. |
+| Adventures and Learning | G15, G16, G19, G33, G35, G36                          | Specialized content and additional review; split into smaller packs according to demand.                     |
 
 ## 9. Experience improvements and business experiments
 

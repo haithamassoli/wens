@@ -18,12 +18,12 @@ The implementation team should deliver a working mobile website, six complete ga
 
 ### Release strategy
 
-| Release | Scope |
-| --- | --- |
-| MVP | One shared device, no accounts, no server storing player session data. |
-| R1 | More local games and activities. |
-| R2 | Private rooms and two-device play. |
-| R3 | Private shared space, persistent accounts where needed, and specialized packs. |
+| Release | Scope                                                                          |
+| ------- | ------------------------------------------------------------------------------ |
+| MVP     | One shared device, no accounts, no server storing player session data.         |
+| R1      | More local games and activities.                                               |
+| R2      | Private rooms and two-device play.                                             |
+| R3      | Private shared space, persistent accounts where needed, and specialized packs. |
 
 **Readers:** Product owner, designer, frontend and backend developers, content editor, and quality reviewer.
 
@@ -48,14 +48,14 @@ Start without registration, provide meaningfully different game rules, support e
 
 ### Included
 
-| ID | Game |
-| --- | --- |
-| G01 | Conversation Starters |
-| G02 | Would You Rather? |
-| G03 | Which One of Us? |
+| ID  | Game                     |
+| --- | ------------------------ |
+| G01 | Conversation Starters    |
+| G02 | Would You Rather?        |
+| G03 | Which One of Us?         |
 | G04 | How Well Do You Know Me? |
-| G09 | One-Minute Challenges |
-| G25 | What Shall We Do? Wheel |
+| G09 | One-Minute Challenges    |
+| G25 | What Shall We Do? Wheel  |
 
 Included screens: home, catalog, game details, setup, active session, results, favorites, settings, and privacy information.
 
@@ -79,13 +79,13 @@ A feature outside scope does not enter the release merely because it appears eas
 
 ### User stories
 
-| ID | Need | Acceptance criteria |
-| --- | --- | --- |
-| US-01 | As a visitor, I want to play without an account. | After choosing a game, starting a round takes at most three screen transitions. Names are optional and default to Player 1 and Player 2. |
+| ID    | Need                                                             | Acceptance criteria                                                                                                                                                   |
+| ----- | ---------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| US-01 | As a visitor, I want to play without an account.                 | After choosing a game, starting a round takes at most three screen transitions. Names are optional and default to Player 1 and Player 2.                              |
 | US-02 | As a player, I want to choose before seeing my partner's answer. | Hide the first answer behind a handoff screen. Reveal only after the second player locks an answer. Back navigation cannot return revealed answers to an input stage. |
-| US-03 | I want to skip without explaining why. | Skip is always available, carries no penalty, and discards any answer entered in the skipped round. |
-| US-04 | I want to return to a game or card I liked. | Favorite IDs survive refresh on this device. Explain that they belong to this browser and are not backed up. |
-| US-05 | I want a clear exit. | Leaving asks “End this session?” and explains that temporary answers will be cleared. Results offer Replay and Home. |
+| US-03 | I want to skip without explaining why.                           | Skip is always available, carries no penalty, and discards any answer entered in the skipped round.                                                                   |
+| US-04 | I want to return to a game or card I liked.                      | Favorite IDs survive refresh on this device. Explain that they belong to this browser and are not backed up.                                                          |
+| US-05 | I want a clear exit.                                             | Leaving asks “End this session?” and explains that temporary answers will be cleared. Results offer Replay and Home.                                                  |
 
 ## 4. Screens and information architecture
 
@@ -226,35 +226,35 @@ One-device barriers prevent accidental disclosure through the interface. They do
 
 ### FR-CONTENT-01 — Launch production quota
 
-| Game | Required reviewed items |
-| --- | ---: |
-| G01 | 120 |
-| G02 | 80 |
-| G03 | 60 |
-| G04 | 60 |
-| G09 | 50 |
-| G25 | 40 |
-| **Total** | **410** |
+| Game      | Required reviewed items |
+| --------- | ----------------------: |
+| G01       |                     120 |
+| G02       |                      80 |
+| G03       |                      60 |
+| G04       |                      60 |
+| G09       |                      50 |
+| G25       |                      40 |
+| **Total** |                 **410** |
 
 These are required production quantities. Examples in the two documents are not a completed content bank.
 
 ### Common fields
 
-| Field | Requirement |
-| --- | --- |
-| `id` | Stable and unique; reject duplicate IDs during build. |
-| `gameId` | Owning game, such as `G02`. |
-| `locale` | `ar` for MVP production content. |
-| `version` | Content version. |
-| `status` | `draft`, `review`, `published`, or `archived`. |
-| `category` | Editorial category. |
-| `depth` | `light` or `deep`. |
-| `body` | User-facing text. |
-| `tags` | Filter and discovery metadata. |
-| `requiresMovement` | Movement requirement. |
-| `requiresTools` | Tool requirement. |
-| `estimatedMinutes` | Expected duration. |
-| `reviewedAt` | Review timestamp. |
+| Field              | Requirement                                           |
+| ------------------ | ----------------------------------------------------- |
+| `id`               | Stable and unique; reject duplicate IDs during build. |
+| `gameId`           | Owning game, such as `G02`.                           |
+| `locale`           | `ar` for MVP production content.                      |
+| `version`          | Content version.                                      |
+| `status`           | `draft`, `review`, `published`, or `archived`.        |
+| `category`         | Editorial category.                                   |
+| `depth`            | `light` or `deep`.                                    |
+| `body`             | User-facing text.                                     |
+| `tags`             | Filter and discovery metadata.                        |
+| `requiresMovement` | Movement requirement.                                 |
+| `requiresTools`    | Tool requirement.                                     |
+| `estimatedMinutes` | Expected duration.                                    |
+| `reviewedAt`       | Review timestamp.                                     |
 
 ### Engine-specific fields
 
@@ -282,15 +282,15 @@ No AI generation or stored answers in MVP. Religious R3 content requires sources
 
 ## 8. User experience and nonfunctional requirements
 
-| ID | Requirement |
-| --- | --- |
-| NFR-UX-01 | Arabic RTL at page level; logical navigation; LTR isolation for codes and links. Test widths of 360, 390, 768, and 1440 pixels. No horizontal scrolling in main content. |
-| NFR-UX-02 | Target 16 px body text on phones, touch targets at least 44 × 44 px, 4.5:1 normal-text contrast, and visible focus. These are internal design and test targets, not a compliance certification. |
-| NFR-UX-03 | Full keyboard operation, screen-reader labels, a non-repetitive round-result announcement, and no reliance on color alone. Future drawing interfaces need textual control alternatives; sortable cards need movement buttons. |
-| NFR-UX-04 | Sound off by default, reduced-motion preference respected, persistent mute, and no unexpected vibration or audio. Pausing does not automatically cause a loss. |
-| NFR-PERF-01 | On a midrange phone with simulated 4G, target primary content visible within 2.5 seconds and local game-button response within 100 ms. Target initial compressed JavaScript below 250 KB; load other games on demand. |
-| NFR-REL-01 | Test Safari on iPhone, Chrome on Android, and desktop Chrome/Firefox using versions available at delivery. Record actual devices; simulation alone is insufficient for touch acceptance. |
-| NFR-ERR-01 | Provide loading, content-load failure with retry, empty bank, unavailable local storage, missing game, and failed R2 room recovery states. No blank screen or silently lost lock action. |
+| ID          | Requirement                                                                                                                                                                                                                   |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| NFR-UX-01   | Arabic RTL at page level; logical navigation; LTR isolation for codes and links. Test widths of 360, 390, 768, and 1440 pixels. No horizontal scrolling in main content.                                                      |
+| NFR-UX-02   | Target 16 px body text on phones, touch targets at least 44 × 44 px, 4.5:1 normal-text contrast, and visible focus. These are internal design and test targets, not a compliance certification.                               |
+| NFR-UX-03   | Full keyboard operation, screen-reader labels, a non-repetitive round-result announcement, and no reliance on color alone. Future drawing interfaces need textual control alternatives; sortable cards need movement buttons. |
+| NFR-UX-04   | Sound off by default, reduced-motion preference respected, persistent mute, and no unexpected vibration or audio. Pausing does not automatically cause a loss.                                                                |
+| NFR-PERF-01 | On a midrange phone with simulated 4G, target primary content visible within 2.5 seconds and local game-button response within 100 ms. Target initial compressed JavaScript below 250 KB; load other games on demand.         |
+| NFR-REL-01  | Test Safari on iPhone, Chrome on Android, and desktop Chrome/Firefox using versions available at delivery. Record actual devices; simulation alone is insufficient for touch acceptance.                                      |
+| NFR-ERR-01  | Provide loading, content-load failure with retry, empty bank, unavailable local storage, missing game, and failed R2 room recovery states. No blank screen or silently lost lock action.                                      |
 
 ### Interface copy, translated for this document
 
@@ -329,13 +329,13 @@ Include `schemaVersion` in each record. Use explicit, tested migration functions
 
 ### DATA-06 — Result models
 
-| Game | Result |
-| --- | --- |
-| G01 | Completed card count. |
+| Game    | Result                                   |
+| ------- | ---------------------------------------- |
+| G01     | Completed card count.                    |
 | G02/G03 | Matches and completed-round denominator. |
-| G04 | Points per player. |
-| G09 | Completed and skipped challenges. |
-| G25 | Selected activity and its status. |
+| G04     | Points per player.                       |
+| G09     | Completed and skipped challenges.        |
+| G25     | Selected activity and its status.        |
 
 Recompute results from round events rather than relying on an incremented counter without a source record.
 
@@ -419,13 +419,13 @@ A waiting room expires after 15 minutes without starting. An active room expires
 
 **Base:** `/api/v1`. All timestamps use UTC and fields use stable IDs. Every private endpoint verifies credentials and membership. These are R2 contracts; do not build them in MVP.
 
-| Endpoint | Request | Response and rules |
-| --- | --- | --- |
-| `POST /rooms` | `gameId`, `settings`, `alias` | `roomId`, `joinCode`, `expiresAt`, `revision`; host credential in a cookie. Validate published game, settings, and creation limits. |
-| `POST /rooms/:id/join-requests` | `joinCode`, `alias` | `pendingRequestId` and waiting status only. After host approval, issue the second player's credential through a documented flow. Rejection reveals no room data. |
-| `POST /rooms/:id/admissions` | `requestId`, `decision` | Host only. Atomic admission rejects a seat already taken; concurrent requests cannot create more than two members. |
-| `GET /rooms/:id/state` | Authenticated request | Player-specific snapshot: round, turn, timer, and submission-lock states; no unrevealed opponent input. Reconnection retrieves a full authorized snapshot. |
-| `POST /rooms/:id/actions` | `actionId`, `expectedRevision`, `roundId`, `type`, `payload` | `accepted`, `revision`, `state`, or a defined error. Derive `playerId` from the credential, never from an untrusted client value. |
+| Endpoint                        | Request                                                      | Response and rules                                                                                                                                               |
+| ------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `POST /rooms`                   | `gameId`, `settings`, `alias`                                | `roomId`, `joinCode`, `expiresAt`, `revision`; host credential in a cookie. Validate published game, settings, and creation limits.                              |
+| `POST /rooms/:id/join-requests` | `joinCode`, `alias`                                          | `pendingRequestId` and waiting status only. After host approval, issue the second player's credential through a documented flow. Rejection reveals no room data. |
+| `POST /rooms/:id/admissions`    | `requestId`, `decision`                                      | Host only. Atomic admission rejects a seat already taken; concurrent requests cannot create more than two members.                                               |
+| `GET /rooms/:id/state`          | Authenticated request                                        | Player-specific snapshot: round, turn, timer, and submission-lock states; no unrevealed opponent input. Reconnection retrieves a full authorized snapshot.       |
+| `POST /rooms/:id/actions`       | `actionId`, `expectedRevision`, `roundId`, `type`, `payload` | `accepted`, `revision`, `state`, or a defined error. Derive `playerId` from the credential, never from an untrusted client value.                                |
 
 ### Real-time events
 
@@ -435,15 +435,15 @@ Each carries `eventId`, `revision`, and `serverTime`. Ignore duplicates; request
 
 ### Error contract
 
-| Status | Meaning |
-| --- | --- |
-| 400 | Invalid input. |
-| 401 | Missing or invalid credential. |
-| 403 | Not an authorized member. |
-| 404 | Room unavailable or nonexistent. |
-| 409 | State conflict or full room. |
-| 410 | Expired room, after authorization checks. |
-| 429 | Rate limit exceeded. |
+| Status | Meaning                                   |
+| ------ | ----------------------------------------- |
+| 400    | Invalid input.                            |
+| 401    | Missing or invalid credential.            |
+| 403    | Not an authorized member.                 |
+| 404    | Room unavailable or nonexistent.          |
+| 409    | State conflict or full room.              |
+| 410    | Expired room, after authorization checks. |
+| 429    | Rate limit exceeded.                      |
 
 Use simple user-facing messages without stack traces.
 
@@ -480,12 +480,12 @@ Use two separate accounts and an invitation explicitly accepted by the recipient
 
 ### Visibility rules
 
-| Content state | Authorized viewers |
-| --- | --- |
-| Draft or private | Author only. |
-| Shared | Both active members of the couple. |
-| Letter before `releaseAt` | Author only. |
-| Letter after release | Author and designated current recipient, provided the link remains valid. |
+| Content state             | Authorized viewers                                                        |
+| ------------------------- | ------------------------------------------------------------------------- |
+| Draft or private          | Author only.                                                              |
+| Shared                    | Both active members of the couple.                                        |
+| Letter before `releaseAt` | Author only.                                                              |
+| Letter after release      | Author and designated current recipient, provided the link remains valid. |
 
 Content administrators have no permission to read couples' private text.
 
@@ -537,44 +537,44 @@ Use separate feature flags for rooms, uploads, and letters. For a privacy defect
 
 The companion guide's acceptance criterion for each idea is part of its specification. Engine and privacy requirements in this PRD apply in addition. A release label means the first proposed availability, not a committed date.
 
-| ID | Game or activity | Release | Main dependency |
-| --- | --- | --- | --- |
-| G01 | Conversation Starters | MVP | Cards |
-| G02 | Would You Rather? | MVP | Choice and reveal |
-| G03 | Which One of Us? | MVP | Choice and reveal |
-| G04 | How Well Do You Know Me? | MVP | Answer prediction |
-| G05 | Finish the Sentence | R1 | Cards |
-| G06 | Memory Lane | R1 | Cards |
-| G07 | Two Truths and a Fiction | R1 | Manual guessing |
-| G08 | Our World If… | R1 | Cards |
-| G09 | One-Minute Challenges | MVP | Challenges and timer |
-| G10 | Silent Charades | R1 | Challenges and timer |
-| G11 | Explain Without These Words | R1 | Challenges and timer |
-| G12 | A Story, One Word at a Time | R1 | Alternating writing |
-| G13 | The Unusual Announcer | R1 | Challenges and timer |
-| G14 | The Preference Auction | R2 | Simultaneous bidding |
-| G15 | Home Treasure Hunt | R3 | Puzzle path |
-| G16 | Random Cooking Challenge | R3 | Activity planner |
-| G17 | Draw and Guess | R2 | Drawing canvas |
-| G18 | Emoji Guessing | R1 | Answer and solution |
-| G19 | The Shared Escape Room | R3 | Puzzle path |
-| G20 | Object Memory | R1 | Memory and timer |
-| G21 | Twenty Questions | R1 | Counter and turns |
-| G22 | Letter Challenge | R2 | Simultaneous answers |
-| G23 | Rank It Like Me | R2 | Ranking and reveal |
-| G24 | Daily Duo Puzzle | R2 | Answer and solution |
-| G25 | What Shall We Do? Wheel | MVP | Random selection |
-| G26 | Our Night Planner | R1 | Activity planner |
-| G27 | Our Wish Jar | R3 | Shared lists |
-| G28 | Our Memory Map | R3 | Private album |
-| G29 | A Letter to the Future | R3 | Scheduled letters |
-| G30 | Our First-Time Album | R3 | Private album |
-| G31 | A Gratitude Card | R1 | Cards |
-| G32 | Our Weekly Team Mission | R3 | Shared lists |
-| G33 | Learn Together | R3 | Content path |
-| G34 | Creative Photo Challenge | R3 | Tasks and album |
-| G35 | Religious Knowledge Quiz | R3 | Answer and solution |
-| G36 | A Good Deed Together | R3 | Cards and tasks |
+| ID  | Game or activity            | Release | Main dependency      |
+| --- | --------------------------- | ------- | -------------------- |
+| G01 | Conversation Starters       | MVP     | Cards                |
+| G02 | Would You Rather?           | MVP     | Choice and reveal    |
+| G03 | Which One of Us?            | MVP     | Choice and reveal    |
+| G04 | How Well Do You Know Me?    | MVP     | Answer prediction    |
+| G05 | Finish the Sentence         | R1      | Cards                |
+| G06 | Memory Lane                 | R1      | Cards                |
+| G07 | Two Truths and a Fiction    | R1      | Manual guessing      |
+| G08 | Our World If…               | R1      | Cards                |
+| G09 | One-Minute Challenges       | MVP     | Challenges and timer |
+| G10 | Silent Charades             | R1      | Challenges and timer |
+| G11 | Explain Without These Words | R1      | Challenges and timer |
+| G12 | A Story, One Word at a Time | R1      | Alternating writing  |
+| G13 | The Unusual Announcer       | R1      | Challenges and timer |
+| G14 | The Preference Auction      | R2      | Simultaneous bidding |
+| G15 | Home Treasure Hunt          | R3      | Puzzle path          |
+| G16 | Random Cooking Challenge    | R3      | Activity planner     |
+| G17 | Draw and Guess              | R2      | Drawing canvas       |
+| G18 | Emoji Guessing              | R1      | Answer and solution  |
+| G19 | The Shared Escape Room      | R3      | Puzzle path          |
+| G20 | Object Memory               | R1      | Memory and timer     |
+| G21 | Twenty Questions            | R1      | Counter and turns    |
+| G22 | Letter Challenge            | R2      | Simultaneous answers |
+| G23 | Rank It Like Me             | R2      | Ranking and reveal   |
+| G24 | Daily Duo Puzzle            | R2      | Answer and solution  |
+| G25 | What Shall We Do? Wheel     | MVP     | Random selection     |
+| G26 | Our Night Planner           | R1      | Activity planner     |
+| G27 | Our Wish Jar                | R3      | Shared lists         |
+| G28 | Our Memory Map              | R3      | Private album        |
+| G29 | A Letter to the Future      | R3      | Scheduled letters    |
+| G30 | Our First-Time Album        | R3      | Private album        |
+| G31 | A Gratitude Card            | R1      | Cards                |
+| G32 | Our Weekly Team Mission     | R3      | Shared lists         |
+| G33 | Learn Together              | R3      | Content path         |
+| G34 | Creative Photo Challenge    | R3      | Tasks and album      |
+| G35 | Religious Knowledge Quiz    | R3      | Answer and solution  |
+| G36 | A Good Deed Together        | R3      | Cards and tasks      |
 
 One-device games may later receive room support after their private-turn handling is tested.
 
@@ -678,13 +678,13 @@ Do not launch shared saving, images, or letters until authorization, unlinking, 
 
 **Assumption:** One full-time developer experienced in web interfaces, part-time design support, and an independent content reviewer. Estimates are approximate working effort, not a quote or delivery commitment. Content and review may change the schedule.
 
-| Stage | Estimated engineering effort | Deliverable |
-| --- | --- | --- |
-| A — Foundation | 4–6 working days | Project structure and RTL, catalog, unified card schema, setup, handoff, and reveal. One complete flow with sample cards, not yet launch-ready. |
-| B — Rules | 6–9 working days | G01–G04, then G09 and its timer, and G25 and filters. Six working games with transition, score, and edge-case checks. |
-| C — Experience and content integration | 4–6 working days | Favorites, local storage, empty states, reduced motion, interface copy, and reviewed bank integration. |
-| D — Verification | 3–4 working days | Actual-device review, privacy and accessibility checks, 5–10 volunteer couple sessions, blocker fixes, and a release package. |
-| **Total engineering** | **17–25 working days** | Approximately 4–5 weeks when content is available. |
+| Stage                                  | Estimated engineering effort | Deliverable                                                                                                                                     |
+| -------------------------------------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| A — Foundation                         | 4–6 working days             | Project structure and RTL, catalog, unified card schema, setup, handoff, and reveal. One complete flow with sample cards, not yet launch-ready. |
+| B — Rules                              | 6–9 working days             | G01–G04, then G09 and its timer, and G25 and filters. Six working games with transition, score, and edge-case checks.                           |
+| C — Experience and content integration | 4–6 working days             | Favorites, local storage, empty states, reduced motion, interface copy, and reviewed bank integration.                                          |
+| D — Verification                       | 3–4 working days             | Actual-device review, privacy and accessibility checks, 5–10 volunteer couple sessions, blocker fixes, and a release package.                   |
+| **Total engineering**                  | **17–25 working days**       | Approximately 4–5 weeks when content is available.                                                                                              |
 
 Producing and reviewing 410 items is a parallel content track, initially estimated at 5–8 content working days. Re-estimate after the first 30 items.
 
@@ -769,14 +769,14 @@ Start free. Test interest in a ready-made game-night pack and one-time extra-con
 
 ### Risks and responses
 
-| Risk | Response |
-| --- | --- |
-| Weak or repetitive content | Editorial review and seen-card ID history. |
-| Scope growth | Keep MVP to six games. |
-| Hurtful comparisons | Neutral tone and no relationship interpretation. |
-| Answer exposure | Separate UI phases and R2 server withholding. |
-| Network failure | Reconnection and duplicate-safe actions. |
-| Photo-maintenance burden | Defer images and enforce upload limits. |
+| Risk                       | Response                                         |
+| -------------------------- | ------------------------------------------------ |
+| Weak or repetitive content | Editorial review and seen-card ID history.       |
+| Scope growth               | Keep MVP to six games.                           |
+| Hurtful comparisons        | Neutral tone and no relationship interpretation. |
+| Answer exposure            | Separate UI phases and R2 server withholding.    |
+| Network failure            | Reconnection and duplicate-safe actions.         |
+| Photo-maintenance burden   | Defer images and enforce upload limits.          |
 
 ### Deferred decisions that do not block MVP
 
