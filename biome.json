@@ -3,7 +3,7 @@
   "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
   "files": {
     "ignoreUnknown": true,
-    "includes": ["**", "!convex/_generated", "!public", "!app/globals.css"]
+    "includes": ["**", "!convex/_generated", "!public", "!app/globals.css", "!**/*.svg"]
   },
   "formatter": {
     "enabled": true,

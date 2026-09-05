@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import { PageHeader } from "@/components/PageHeader";
 import { Catalog } from "./Catalog";
 
-export const metadata: Metadata = { title: "الألعاب" };
+export const metadata: Metadata = {
+  title: "الألعاب",
+  alternates: { canonical: "/games" },
+};
 
 export default function GamesPage() {
   return (

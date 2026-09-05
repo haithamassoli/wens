@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHeader } from "@/components/PageHeader";
 
-export const metadata: Metadata = { title: "الخصوصية" };
+export const metadata: Metadata = {
+  title: "الخصوصية",
+  alternates: { canonical: "/privacy" },
+};
 
 const KEYS = [
   { key: "settings_v1", what: "الصوت، تقليل الحركة، وخيار تذكّر البطاقات." },

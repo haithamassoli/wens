@@ -5,6 +5,9 @@ const withSerwist = withSerwistInit({
   swSrc: "app/sw.ts",
   swDest: "public/sw.js",
   disable: process.env.NODE_ENV === "development", // ponytail: dev SW churn is noise; test PWA via `next build && next start`
+  // The precache manifest only covers static assets, so the offline fallback document is added
+  // by hand. ponytail: revision is the build time — it re-fetches one small HTML doc per deploy.
+  additionalPrecacheEntries: [{ url: "/offline", revision: Date.now().toString() }],
 });
 
 const nextConfig: NextConfig = {
