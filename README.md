@@ -26,13 +26,14 @@ npx tsc --noEmit -p .              # types
 
 | Path | What lives there |
 | --- | --- |
-| `app/` | Routes: `/` home, `/games`, `/games/[slug]`, `/play/[gameId]`, `/favorites`, `/settings`, `/privacy` |
+| `app/` | Routes: `/` home, `/games`, `/games/[slug]`, `/play/[gameId]`, `/favorites`, `/settings`, `/privacy`, `/offline`; plus `manifest.ts`, `robots.ts`, `sitemap.ts`, `error.tsx`, `global-error.tsx`, `not-found.tsx` |
 | `components/` | Shared UI (`AppShell`, `Button`, `Chip`, `GameCard`, `FavoriteButton`, …) |
 | `lib/games.ts` | Game metadata: name, tagline, steps, minutes, moods, hue |
 | `lib/content/` | Card schema (`types.ts`) and the loader (`index.ts`, exports `G01_CARDS…` and `findCard(id)`) |
 | `lib/engine/` | Pure, DOM-free session engines, one per game, with tests |
 | `lib/storage.ts` | localStorage layer: `settings_v1`, `favorites_v1`, `seen_v1` |
 | `content/` | Card banks, one JSON array per game (`G01.json`, …). Only `status: "published"` cards are dealt |
+| `assets/` | Source SVGs for the logo and social card — `node scripts/gen-assets.mjs` rasterises them |
 | `docs/` | PRD and idea backlog |
 
 ## Content

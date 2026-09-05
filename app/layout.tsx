@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Baloo_Bhaijaan_2, IBM_Plex_Sans_Arabic } from "next/font/google";
 import { AppShell } from "@/components/AppShell";
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 const baloo = Baloo_Bhaijaan_2({
@@ -15,10 +16,37 @@ const plex = IBM_Plex_Sans_Arabic({
   weight: ["400", "500", "600"],
 });
 
+const OG_IMAGE = {
+  url: "/og.png",
+  width: 1200,
+  height: 630,
+  alt: "ونس — ألعاب وأنشطة قصيرة للزوجين",
+};
+
 export const metadata: Metadata = {
-  title: { default: "ونس", template: "%s · ونس" },
-  description: "ألعاب وأنشطة قصيرة للزوجين، على هاتف واحد وبلا تسجيل.",
-  appleWebApp: { capable: true, statusBarStyle: "default", title: "ونس" },
+  metadataBase: new URL(SITE_URL),
+  title: { default: `${SITE_NAME} — ألعاب للزوجين`, template: `%s · ${SITE_NAME}` },
+  description: SITE_DESCRIPTION,
+  applicationName: SITE_NAME,
+  keywords: ["ألعاب للزوجين", "أسئلة للأزواج", "ونس", "ألعاب عربية", "نشاطات للزوجين"],
+  appleWebApp: { capable: true, statusBarStyle: "default", title: SITE_NAME },
+  formatDetection: { telephone: false },
+  openGraph: {
+    type: "website",
+    locale: "ar",
+    siteName: SITE_NAME,
+    title: `${SITE_NAME} — ألعاب للزوجين`,
+    description: SITE_DESCRIPTION,
+    url: "/",
+    images: [OG_IMAGE],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${SITE_NAME} — ألعاب للزوجين`,
+    description: SITE_DESCRIPTION,
+    images: [OG_IMAGE],
+  },
+  robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
 };
 
 export const viewport: Viewport = {

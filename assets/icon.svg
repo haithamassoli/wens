@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#2a1a33"/>
+  <g transform="rotate(-13 256 264)">
+    <rect x="150" y="126" width="212" height="278" rx="34" fill="#8f7aa3"/>
+  </g>
+  <g transform="rotate(7 256 264)">
+    <rect x="144" y="116" width="224" height="288" rx="36" fill="#faf7fc"/>
+    <text x="256" y="288" text-anchor="middle" direction="rtl"
+      font-family="Baloo Bhaijaan 2, Noto Kufi Arabic, Geeza Pro, Tahoma, sans-serif"
+      font-weight="800" font-size="116" fill="#2a1a33">ونس</text>
+    <g transform="translate(256 344) scale(1.9) translate(-12 -12)">
+      <path fill="#f0a23b" d="M12 21.35 10.55 20.03C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35Z"/>
+    </g>
+  </g>
+</svg>

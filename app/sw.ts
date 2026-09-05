@@ -17,6 +17,10 @@ const serwist = new Serwist({
   clientsClaim: true,
   navigationPreload: true,
   runtimeCaching: defaultCache,
+  fallbacks: {
+    // A failed page load shows /offline instead of the browser's error page.
+    entries: [{ url: "/offline", matcher: ({ request }) => request.destination === "document" }],
+  },
 });
 
 serwist.addEventListeners();

@@ -8,7 +8,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: PageProps<"/play/[gameId]">) {
   const { gameId } = await params;
-  return { title: gameById(gameId)?.name ?? "لعب" };
+  return { title: gameById(gameId)?.name ?? "لعب", robots: { index: false, follow: true } };
 }
 
 export default async function Page({ params }: PageProps<"/play/[gameId]">) {

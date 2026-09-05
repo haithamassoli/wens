@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#f3eef7"/>
+  <circle cx="1120" cy="-40" r="220" fill="#e6dcee"/>
+  <circle cx="60" cy="660" r="190" fill="#e6dcee"/>
+
+  <!-- fanned deck -->
+  <g transform="translate(300 315)">
+    <g transform="rotate(-16)"><rect x="-135" y="-180" width="270" height="360" rx="34" fill="#cbb8dc"/></g>
+    <g transform="rotate(-6)"><rect x="-135" y="-180" width="270" height="360" rx="34" fill="#f0a23b"/></g>
+    <g transform="rotate(6)">
+      <rect x="-135" y="-180" width="270" height="360" rx="34" fill="#ffffff" stroke="#d9cfe3" stroke-width="4"/>
+      <text x="0" y="30" text-anchor="middle" direction="rtl"
+        font-family="Baloo Bhaijaan 2, Noto Kufi Arabic, Geeza Pro, Tahoma, sans-serif"
+        font-weight="800" font-size="128" fill="#2a1a33">ونس</text>
+      <g transform="translate(0 100) scale(2.2) translate(-12 -12)">
+        <path fill="#d9647a" d="M12 21.35 10.55 20.03C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35Z"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- copy (RTL, right aligned) -->
+  <g direction="rtl" text-anchor="start">
+    <text x="1100" y="250" font-family="Baloo Bhaijaan 2, Noto Kufi Arabic, Geeza Pro, Tahoma, sans-serif"
+      font-weight="800" font-size="104" fill="#2a1a33">ونس</text>
+    <text x="1100" y="330" font-family="IBM Plex Sans Arabic, Noto Kufi Arabic, Geeza Pro, Tahoma, sans-serif"
+      font-size="42" fill="#6b5a75">ألعاب وأنشطة قصيرة للزوجين</text>
+    <text x="1100" y="392" font-family="IBM Plex Sans Arabic, Noto Kufi Arabic, Geeza Pro, Tahoma, sans-serif"
+      font-size="42" fill="#6b5a75">على هاتف واحد وبلا تسجيل</text>
+    <rect x="1020" y="430" width="80" height="8" rx="4" fill="#f0a23b"/>
+  </g>
+  <rect y="618" width="1200" height="12" fill="#f0a23b"/>
+</svg>

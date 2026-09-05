@@ -10,7 +10,8 @@
     "format": "biome format --write .",
     "check": "biome check --write .",
     "prepare": "lefthook install",
-    "validate:content": "node scripts/validate-content.mjs"
+    "validate:content": "node scripts/validate-content.mjs",
+    "gen:assets": "node scripts/gen-assets.mjs"
   },
   "dependencies": {
     "convex": "^1.45.0",

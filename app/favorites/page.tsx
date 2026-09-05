@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { PageHeader } from "@/components/PageHeader";
 import { FavoritesScreen } from "./FavoritesScreen";
 
-export const metadata: Metadata = { title: "المفضّلة" };
+export const metadata: Metadata = { title: "المفضّلة", robots: { index: false, follow: true } };
 
 export default function FavoritesPage() {
   return (
