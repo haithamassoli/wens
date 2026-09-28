@@ -149,6 +149,10 @@ const CARDS_BY_GAME: Record<GameId, AnyCard[]> = {
   G34: G34_CARDS,
   G35: G35_CARDS,
   G36: G36_CARDS,
+  // Canvas games (G37–G39) carry no card bank of their own.
+  G37: [],
+  G38: [],
+  G39: [],
 };
 
 const CARDS_BY_ID = new Map<string, AnyCard>(

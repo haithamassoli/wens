@@ -37,6 +37,9 @@ import { G33Play } from "./G33Play";
 import { G34Play } from "./G34Play";
 import { G35Play } from "./G35Play";
 import { G36Play } from "./G36Play";
+import { G37Play } from "./G37Play";
+import { G38Play } from "./G38Play";
+import { G39Play } from "./G39Play";
 
 // ponytail: static switch; move to next/dynamic per game if the initial bundle grows past budget.
 export function PlayScreen({ game }: { game: GameMeta }) {
@@ -113,5 +116,11 @@ export function PlayScreen({ game }: { game: GameMeta }) {
       return <G35Play game={game} />;
     case "G36":
       return <G36Play game={game} />;
+    case "G37":
+      return <G37Play game={game} />;
+    case "G38":
+      return <G38Play game={game} />;
+    case "G39":
+      return <G39Play game={game} />;
   }
 }

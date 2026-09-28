@@ -37,7 +37,8 @@ Tests: `node --test lib/engine/*.test.ts` (Node 26 strips types natively; no run
   `{answerer, predictor}`); G09 `timer: {durationMs, startedAt, pausedAt, pausedTotalMs} | null` with
   `remainingMs(state, now)`; G25 `pool`, `shown`, `selectedId`, `done`, `exhausted` (SPIN on an
   exhausted pool sets the flag and waits — filters are never relaxed; `RESET_POOL`/`RESHUFFLE` clear `shown`).
-- `index.ts` exports everything plus `DEFINITIONS` keyed by `GameId`.
+- `index.ts` exports everything plus `DEFINITIONS` keyed by `GameId` (except the canvas games G37–G39,
+  whose pure physics lives in `arcade.ts`).
 - Tests use inline fixtures (`fixtures.ts`) and never read `content/*.json`.
 
 ## R1+ games (G05–G36)

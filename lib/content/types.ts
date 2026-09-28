@@ -35,7 +35,10 @@ export type GameId =
   | "G33"
   | "G34"
   | "G35"
-  | "G36";
+  | "G36"
+  | "G37"
+  | "G38"
+  | "G39";
 export type CardStatus = "draft" | "review" | "published" | "archived";
 
 export interface BaseCard {
