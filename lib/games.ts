@@ -1,8 +1,8 @@
 import type { GameId } from "./content/types";
 
 export type Mood = "talk" | "laugh" | "challenge" | "activity";
-/** Catalogue sections (ideas doc §1): talk G01–G08, laugh G09–G16, think G17–G24, outings G25–G30, useful G31–G34, faith G35–G36. */
-export type Category = "talk" | "laugh" | "think" | "outings" | "useful" | "faith";
+/** Catalogue sections (ideas doc §1): talk G01–G08, laugh G09–G16, think G17–G24, outings G25–G30, useful G31–G34, faith G35–G36; play G37–G39 are the interactive 2D canvas games. */
+export type Category = "talk" | "play" | "laugh" | "think" | "outings" | "useful" | "faith";
 
 export interface GameMeta {
   id: GameId;
@@ -783,6 +783,69 @@ export const GAMES: readonly GameMeta[] = [
     hue: "#475569",
     category: "faith",
   },
+  {
+    id: "G37",
+    slug: "heart-hockey",
+    name: "هوكي القلوب",
+    tagline: "هاتف على الطاولة، وقلب يطير بينكما",
+    why: "مباراة سريعة وجهاً لوجه تشعل الحماس، ومن يستقبل هدفاً يجيب عن سؤال خفيف؛ فتجمع بين الضحك والكلام.",
+    steps: [
+      "ضعا الهاتف مسطّحاً بينكما، كلٌّ من طرف",
+      "حرّك دائرتك بإصبعك وادفع القلب نحو المرمى",
+      "من يستقبل هدفاً يجيب عن سؤال، والفوز لمن يسجّل خمسة",
+    ],
+    minutes: 5,
+    rounds: [],
+    depth: "light",
+    moods: ["challenge", "laugh"],
+    requiresTools: false,
+    requiresMovement: false,
+    devices: 1,
+    hue: "#E11D48",
+    category: "play",
+  },
+  {
+    id: "G38",
+    slug: "our-thread",
+    name: "خيط الونس",
+    tagline: "إصبعان، خيط واحد، ونجوم تتساقط",
+    why: "لعبة تعاونية لا خاسر فيها بينكما: كلٌّ منكما يمسك طرفاً من الخيط، وإن ابتعدتما كثيراً انقطع. تنجحان حين تتحرّكان معاً.",
+    steps: [
+      "ضع كلٌّ منكما إصبعاً على دائرة",
+      "حرّكا الخيط لتجمعا النجوم وتتجنّبا الأشواك",
+      "اقتربا لتعبرا بين شوكتين، ولا تبتعدا فينقطع الخيط",
+    ],
+    minutes: 5,
+    rounds: [],
+    depth: "light",
+    moods: ["challenge"],
+    requiresTools: false,
+    requiresMovement: false,
+    devices: 1,
+    hue: "#C026D3",
+    category: "play",
+  },
+  {
+    id: "G39",
+    slug: "our-sky",
+    name: "سماؤنا",
+    tagline: "كل ذكرى كوكبة، ترسمانها نجمة نجمة",
+    why: "لحظة هادئة آخر اليوم: تختاران ذكرى أو حلماً وترسمانه معاً بين النجوم. تبقى الكوكبات في سمائكما على هذا الجهاز، وتكبر السماء مع الأيام.",
+    steps: [
+      "اختارا ذكرى أو حلماً",
+      "تناوبا على لمس النجوم، ومع كل نجمة تفصيل من الحكاية",
+      "سمّيا الكوكبة لتبقى في سمائكما",
+    ],
+    minutes: 10,
+    rounds: [],
+    depth: "light",
+    moods: ["talk"],
+    requiresTools: false,
+    requiresMovement: false,
+    devices: 1,
+    hue: "#4F46E5",
+    category: "play",
+  },
 ] as const;
 
 export const gameBySlug = (slug: string) => GAMES.find((g) => g.slug === slug);
@@ -797,6 +860,7 @@ export const MOOD_LABEL: Record<Mood, string> = {
 
 export const CATEGORY_LABEL: Record<Category, string> = {
   talk: "حديث وتعارف",
+  play: "ألعاب تفاعلية",
   laugh: "ضحك وحركة",
   think: "تفكير وتعاون",
   outings: "خروجات وذكريات",

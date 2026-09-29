@@ -116,4 +116,5 @@ export const DEFINITIONS = {
   G34,
   G35,
   G36,
-} satisfies Record<GameId, AnyGameDefinition>;
+  // G37–G39 are canvas games with no card deck; their loop lives in app/play and arcade.ts.
+} satisfies Record<Exclude<GameId, "G37" | "G38" | "G39">, AnyGameDefinition>;
